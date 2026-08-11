@@ -4,6 +4,7 @@ from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
 import logging
+import asyncio
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Optional
@@ -12,6 +13,11 @@ from datetime import datetime, timezone
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
+
+try:
+    import resend
+except ImportError:
+    resend = None
 
 mongo_url = os.environ.get('MONGO_URL')
 client = AsyncIOMotorClient(mongo_url)
@@ -80,7 +86,47 @@ async def create_enquiry(input: EnquiryCreate):
     
     await db.enquiries.insert_one(doc)
     logging.info(f"New B2B Enquiry saved: {enquiry_id} from {input.company_name} ({input.country})")
+    if resend and os.environ.get("RESEND_API_KEY") and os.environ.get("OWNER_NOTIFY_EMAIL"):
+        asyncio.create_task(send_enquiry_alert(doc))
     return EnquiryResponse(**doc)
+
+async def send_enquiry_alert(doc):
+    try:
+        resend.api_key = os.environ["RESEND_API_KEY"]
+        rows = "".join(
+            f'<tr><td style="padding:8px 12px;color:#767169;font-size:13px;border-bottom:1px solid #eee;">{k}</td>'
+            f'<td style="padding:8px 12px;font-size:13px;border-bottom:1px solid #eee;"><b>{v}</b></td></tr>'
+            for k, v in [
+                ("Enquiry Type", doc["enquiry_type"]),
+                ("Company", doc["company_name"]),
+                ("Contact Person", doc["contact_person"]),
+                ("Business Email", doc["business_email"]),
+                ("Phone / WhatsApp", doc["phone_whatsapp"]),
+                ("Country", doc["country"]),
+                ("Business Type", doc["business_type"]),
+                ("Product Interest", doc["product_interest"]),
+                ("Message", doc.get("message") or "—"),
+                ("Reference ID", doc["id"]),
+                ("Received (UTC)", doc["timestamp"]),
+            ]
+        )
+        html = (
+            '<div style="font-family:Georgia,serif;max-width:560px;margin:0 auto;border:1px solid #E8E2D5;border-radius:12px;overflow:hidden;">'
+            '<div style="background:#4A5D4E;color:#fff;padding:20px 24px;">'
+            '<h2 style="margin:0;font-size:20px;">Morvan Essence — New B2B Enquiry</h2></div>'
+            f'<table style="width:100%;border-collapse:collapse;background:#fff;">{rows}</table>'
+            '<div style="padding:14px 24px;background:#F9F8F5;color:#767169;font-size:12px;">Reply directly to the buyer\'s email to continue the conversation.</div></div>'
+        )
+        params = {
+            "from": os.environ.get("SENDER_EMAIL", "onboarding@resend.dev"),
+            "to": [os.environ["OWNER_NOTIFY_EMAIL"]],
+            "subject": f"New B2B Enquiry — {doc['company_name']} ({doc['enquiry_type']})",
+            "html": html,
+        }
+        await asyncio.to_thread(resend.Emails.send, params)
+        logging.info(f"Enquiry alert email sent for {doc['id']}")
+    except Exception as e:
+        logging.error(f"Enquiry alert email failed for {doc.get('id')}: {e}")
 
 @api_router.get("/enquiries", response_model=List[EnquiryResponse])
 async def get_enquiries():
