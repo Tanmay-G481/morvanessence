@@ -1,0 +1,293 @@
+{
+  "language": "Langue",
+  "topbar": "Partenaire d'export B2B basé en Inde, à Vrindavan • Conçu pour les importateurs, grossistes et marques privées",
+  "nav": {
+    "brandTag": "Vrindavan • Export mondial",
+    "story": "Notre histoire",
+    "products": "Produits",
+    "fragrances": "Bibliothèque de parfums",
+    "privateLabel": "Marque privée / OEM",
+    "export": "Approvisionnement mondial",
+    "quality": "Qualité",
+    "blog": "Journal",
+    "requestSample": "Demander un échantillon",
+    "requestQuote": "Demander un devis"
+  },
+  "hero": {
+    "badge": "Héritage de Vrindavan • Export B2B mondial",
+    "title": "Encens indien authentique, inspiré de Vrindavan — Créé pour le monde.",
+    "subtitle": "Nous collaborons avec des importateurs, grossistes, distributeurs, détaillants et marques privées internationaux à la recherche de produits d'encens et de dhoop fabriqués avec soin en Inde.",
+    "ctaSample": "Demander un kit d'échantillons export",
+    "ctaDistributor": "Devenir distributeur",
+    "m1v": "Inde",
+    "m1l": "Source & base d'export",
+    "m2v": "3,5\" – 9\"",
+    "m2l": "Formats de précision",
+    "m3v": "Naturel",
+    "m3l": "Orientation ingrédients",
+    "m4v": "OEM / ODM",
+    "m4l": "Prêt marque privée"
+  },
+  "story": {
+    "badge": "Racines à Vrindavan • Ailes vers le monde",
+    "title": "Enracinés dans l'héritage sacré de Vrindavan",
+    "p1": "Vrindavan est depuis des siècles le berceau spirituel des parfums divins, des herbes sacrées et de l'art de la résine botanique pure. Morvan Essence est née de cette tradition intemporelle — traduisant un savoir-faire artisanal ancestral en produits de bien-être impeccables, de qualité export, pour les marchés mondiaux.",
+    "p2": "Nous associons le savoir-faire indien à des spécifications documentées, un emballage soigné et un dialogue d'exportation façonné autour des besoins des détaillants internationaux et des marques de bien-être.",
+    "card1t": "Artisanat d'art",
+    "card1d": "Développé autour de poudres de bois sélectionnées, de racines parfumées, de résines et de profils de parfums d'inspiration botanique.",
+    "card2t": "Normes d'export mondiales",
+    "card2d": "L'emballage et la documentation peuvent être discutés selon votre marché, le format du produit et vos exigences d'expédition.",
+    "quote": "« Un parfum sacré est un pont entre le terrestre et le divin. »",
+    "quoteBy": "— Note d'héritage Morvan Essence"
+  },
+  "products": {
+    "badge": "Catalogue export",
+    "title": "Notre gamme de produits premium",
+    "subtitle": "Disponibles en tailles de précision (3,5, 6 et 9 pouces), adaptées aux rayons de vente, studios de bien-être et rituels sacrés du monde entier.",
+    "sizeLabel": "Tailles disponibles :",
+    "burnLabel": "Durée de combustion :",
+    "packLabel": "Emballage :",
+    "cta": "Demander échantillon & prix",
+    "items": [
+      {
+        "badge": "Best-seller B2B",
+        "title": "Bâtons d'encens biologiques",
+        "desc": "Encens à âme en bambou à combustion propre et faible fumée, fabriqué avec des huiles essentielles pures et des liants naturels en résine botanique.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "30 – 60 min",
+        "pack": "Tubes hexagonaux, sachets souples, carton en vrac"
+      },
+      {
+        "badge": "Luxe sans âme",
+        "title": "Bâtons de dhoop biologiques",
+        "desc": "Encens botanique solide sans âme, moulé à partir d'herbes parfumées, de résines naturelles et de poudres de bois aromatiques pour une pureté de parfum intense.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "45 – 75 min",
+        "pack": "Boîtes kraft écologiques avec porte-encens en céramique inclus"
+      },
+      {
+        "badge": "Tradition védique",
+        "title": "Encens & dhoop de bouse de vache",
+        "desc": "Formulation purifiante traditionnelle combinant des éléments Panchagavya, des herbes médicinales et du camphre naturel pour la purification de l'air et le nettoyage spirituel.",
+        "sizes": "3,5″, 6″ & cônes",
+        "burn": "Guide d'utilisation spécifique disponible",
+        "burnLabelOverride": "Action purifiante :",
+        "pack": "Cartons maîtres export (100 unités / boîte)"
+      }
+    ]
+  },
+  "fragrances": {
+    "badge": "Spectre sensoriel",
+    "title": "Collection de parfums exquise",
+    "subtitle": "Mélanges sur mesure créés par des maîtres parfumeurs pour les marchés mondiaux du bien-être, de la méditation, du spa et de l'aromathérapie.",
+    "sampleCta": "Demander un échantillon de ce parfum",
+    "items": [
+      { "name": "Santal royal", "note": "Profond, boisé, crémeux, méditatif", "profile": "Idéal pour les studios de méditation et de yoga haut de gamme" },
+      { "name": "Rose de Vrindavan", "note": "Rose de Damas veloutée & rosée du matin", "profile": "Idéal pour la distribution sélective & le parfum d'intérieur" },
+      { "name": "Mogra & jasmin blanc", "note": "Fleur nocturne enivrante", "profile": "Idéal pour la relaxation spa & l'ambiance" },
+      { "name": "Oud & résine d'ambre", "note": "Riche, fumé, résineux, opulent", "profile": "Idéal pour les coffrets cadeaux premium & les hôtels haut de gamme" },
+      { "name": "Guggal & loban sacrés", "note": "Balsamique, purifiant, ancrant", "profile": "Idéal pour le nettoyage rituel & les centres de bien-être" },
+      { "name": "Sauge blanche & lavande", "note": "Herbacé, apaisant, purifiant", "profile": "Idéal pour les boutiques holistiques & lifestyle modernes" },
+      { "name": "Citronnelle & lemongrass", "note": "Zesté, rafraîchissant, revigorant", "profile": "Idéal pour la vie en plein air & la fraîcheur naturelle" },
+      { "name": "Nag Champa héritage", "note": "Fleur de champaka traditionnelle & miel", "profile": "Idéal pour la distribution export classique" }
+    ]
+  },
+  "privateLabel": {
+    "badge": "Partenariat OEM & marque privée",
+    "title": "Créez votre propre marque mondiale d'encens avec Morvan Essence",
+    "desc": "Nous permettons aux grossistes internationaux, chaînes de distribution et entrepreneurs du bien-être de lancer des gammes d'encens et de dhoop sur mesure sous leur propre identité de marque. Des formulations personnalisées et longueurs (3,5″ à 9″) jusqu'à l'emballage de luxe à votre marque et l'intégration de codes-barres.",
+    "points": [
+      "Conception de boîtes sur mesure, gaufrage, dorure & étiquetage multilingue",
+      "Quantités minimales de commande (MOQ) adaptées aux marques émergentes et établies",
+      "Création de parfums exclusifs par des maîtres parfumeurs",
+      "Assurance qualité stricte, tests par lot et logistique d'export sécurisée"
+    ],
+    "cta": "Démarrer une demande de marque privée",
+    "fastTitle": "Voie rapide pour demande de marque privée",
+    "f1l": "Nom de l'entreprise / marque",
+    "f1p": "ex. Lotus Wellness Co., USA",
+    "f2l": "E-mail professionnel",
+    "f2p": "contact@brand.com",
+    "f3l": "Volume annuel estimé",
+    "f3p": "ex. 50 000 unités / an",
+    "fastCta": "Demander une consultation OEM"
+  },
+  "exportSec": {
+    "badge": "Logistique mondiale",
+    "title": "Chaîne d'approvisionnement export internationale fluide",
+    "subtitle": "De notre centre de fabrication en Inde à vos entrepôts en Amérique du Nord, en Europe, au Moyen-Orient et en Asie.",
+    "steps": [
+      { "title": "Demande & kit d'échantillons", "desc": "Recevez des assortiments d'échantillons sur mesure en tailles 3,5\", 6\" et 9\" avec des bandelettes de parfum personnalisées." },
+      { "title": "Formulation sur mesure", "desc": "Finalisez les notes de parfum, les supports d'emballage, l'image de marque privée et les spécifications des cartons." },
+      { "title": "Conformité & production", "desc": "Contrôles qualité stricts, scellage des cartons maîtres résistant à l'humidité et documentation d'export complète." },
+      { "title": "Livraison fret mondial", "desc": "Expéditions FOB / CIF par voie maritime ou aérienne avec suivi fiable jusqu'à votre port de destination." }
+    ]
+  },
+  "quality": {
+    "badge": "Normes sans compromis",
+    "title": "Assurance qualité & conformité export",
+    "desc": "Les spécifications produits, les détails des parfums, les exigences d'emballage et la documentation disponible peuvent être examinés avec les acheteurs lors de l'échantillonnage et du devis.",
+    "cta": "Demander le dossier qualité / MSDS",
+    "cards": [
+      { "title": "Spécifications produits", "desc": "Discutez des formats, profils de parfum, caractéristiques de combustion et emballage avant l'échantillonnage." },
+      { "title": "Examen de la documentation", "desc": "La documentation produit et expédition disponible peut être examinée selon les exigences de votre marché." },
+      { "title": "Options d'emballage", "desc": "Explorez les formats d'emballage retail, vrac et marque privée adaptés à votre canal." },
+      { "title": "Dialogue qualité", "desc": "Alignez vos attentes qualité, spécifications et processus d'approbation avant la production." }
+    ]
+  },
+  "why": {
+    "badge": "L'avantage B2B",
+    "title": "Pourquoi les importateurs mondiaux choisissent Morvan Essence",
+    "cards": [
+      { "title": "Prix directs fabricant", "desc": "Travaillez directement avec un partenaire d'export basé en Inde pour discuter de l'adéquation produit, de l'emballage, de la planification des commandes et des exigences commerciales." },
+      { "title": "MOQ flexible & échelle", "desc": "Que vous soyez une marque de bien-être boutique ayant besoin de lots pilotes ou un détaillant national nécessitant des conteneurs, nos lignes de production s'adaptent parfaitement." },
+      { "title": "Bureau export dédié", "desc": "Construisez un flux d'export clair autour de l'échantillonnage, des approbations, de la documentation, de la planification de production et de la coordination des expéditions." }
+    ]
+  },
+  "blog": {
+    "badge": "Analyses & journal",
+    "title": "Le Journal Morvan",
+    "subtitle": "Histoires de Vrindavan, culture du parfum et conseils pratiques pour les acheteurs d'encens du monde entier.",
+    "readMore": "Lire l'article",
+    "back": "Retour au journal",
+    "minRead": "min de lecture",
+    "articles": [
+      {
+        "slug": "vrindavan-fragrance-heritage",
+        "title": "L'héritage olfactif de Vrindavan : là où l'encens est un art de vivre",
+        "excerpt": "Depuis des siècles, la ville aux temples de Vrindavan parfume ses matinées de santal, de rose et de résines sacrées. Découvrez comment cette tradition vivante façonne chaque produit que nous exportons.",
+        "category": "Héritage",
+        "readTime": "5",
+        "content": [
+          "À Vrindavan, le parfum n'est pas un luxe — il fait partie du rythme de la vie quotidienne. Bien avant le lever du soleil, les ruelles étroites de cette ancienne ville aux temples de l'Uttar Pradesh commencent à se remplir de la fumée douce du santal, de la rose et de la résine de guggal. Les fidèles portent l'encens aux temples, les vendeuses de fleurs tissent des guirlandes de mogra, et l'air lui-même semble se souvenir de cinq mille ans de rituels.",
+          "C'est dans ce paysage qu'est née Morvan Essence. Nos fondateurs ont grandi en regardant des artisans rouler l'encens à la main comme le faisaient leurs grands-parents : une pâte de poudre de bois, de résines naturelles et de plantes roulée sur une âme en bambou, puis séchée lentement au soleil indien. Rien n'a changé dans l'artisanat essentiel — et c'est précisément cette continuité qui rend l'encens de Vrindavan si prisé des acheteurs de bien-être dans le monde.",
+          "Ce qui a changé, c'est la rigueur que nous y apportons. Le savoir traditionnel des formulations s'accompagne désormais de spécifications documentées, de registres de lots cohérents, d'un emballage soigné et d'un processus d'export pensé pour les distributeurs internationaux. Le résultat : un produit qui porte l'âme de Vrindavan tout en répondant aux attentes pratiques du commerce mondial.",
+          "Pour les importateurs et les marques privées, cet héritage est bien plus qu'une histoire sur une boîte. C'est un véritable point de différence en rayon : un encens à l'origine traçable, fabriqué dans une ville dont le nom même est synonyme de dévotion et de parfum. Lorsque vos clients allument un bâton Morvan Essence, ils participent à l'une des plus anciennes traditions aromatiques au monde.",
+          "Nous vous invitons à en faire l'expérience. Nos kits d'échantillons export comprennent des bandelettes parfumées de toute notre collection signature — du Santal royal à la Rose de Vrindavan — afin que votre équipe évalue le caractère du véritable artisanat de Vrindavan avant votre première commande."
+        ]
+      },
+      {
+        "slug": "incense-vs-dhoop-guide",
+        "title": "Bâtons d'encens ou bâtons de dhoop : guide de l'acheteur pour importateurs",
+        "excerpt": "Âme en bambou ou sans âme ? Durée de combustion, diffusion du parfum, emballage et positionnement en rayon — comment choisir le bon format pour votre marché.",
+        "category": "Guide acheteur",
+        "readTime": "6",
+        "content": [
+          "Si vous construisez une gamme d'encens pour la distribution ou le bien-être, l'une des premières décisions sera le format : bâtons d'encens traditionnels à âme en bambou, ou bâtons de dhoop sans âme ? Les deux viennent de la même tradition indienne, mais ils se comportent différemment, se vendent différemment et conviennent à des segments de clientèle différents.",
+          "Les bâtons d'encens — le format à âme en bambou bien connu — sont la norme mondiale. Une fine tige de bambou est enrobée d'une pâte parfumée de poudres de bois, de résines et d'huiles. Ils s'allument facilement, brûlent uniformément (généralement 30 à 60 minutes dans nos formats 3,5 à 9 pouces) et produisent une diffusion de parfum modérée et régulière. Pour les supermarchés, les boutiques de cadeaux et les acheteurs novices, les bâtons à âme en bambou sont le choix le plus sûr et le plus polyvalent.",
+          "Les bâtons de dhoop sont sans âme : des cylindres solides de matière aromatique pure, sans bambou à l'intérieur. Comme le bâton entier est un composé parfumé, ils offrent un arôme plus dense et plus intense, et sont souvent perçus comme un produit plus haut de gamme et traditionnel. Les durées de combustion sont plus longues — 45 à 75 minutes — et la fumée plus riche convient aux studios de méditation, spas et usages rituels. Le dhoop est aussi le format de prédilection des formulations traditionnelles comme le guggal, le loban et le dhoop de pooja à base de bouse de vache.",
+          "D'un point de vue achat, trois facteurs comptent. D'abord, votre canal : la distribution grand public démarre généralement avec les bâtons d'encens, tandis que les boutiques de bien-être spécialisées peuvent porter les deux. Ensuite, le positionnement prix : le dhoop commande une prime et fonctionne magnifiquement en coffrets cadeaux. Enfin, la logistique : les deux formats s'expédient bien en cartons maîtres résistants à l'humidité, mais le dhoop bénéficie d'un emballage intérieur plus robuste pour protéger les bâtons sans âme pendant le transport.",
+          "Chez Morvan Essence, nous fabriquons les deux formats en tailles 3,5, 6 et 9 pouces, avec la même bibliothèque de parfums disponible dans chacun. Notre recommandation pour les nouveaux importateurs : ouvrez avec deux ou trois parfums best-sellers en bâtons à âme en bambou, puis introduisez le dhoop comme seconde ligne premium. Demandez un kit d'échantillons et comparez la combustion côte à côte — la différence est immédiatement évidente."
+        ]
+      },
+      {
+        "slug": "cow-dung-dhoop-wellness",
+        "title": "Le dhoop de bouse de vache expliqué : une purification ancestrale pour le marché moderne du bien-être",
+        "excerpt": "Vénéré dans la tradition védique et de plus en plus recherché par les acheteurs de bien-être, le dhoop à base de bouse de vache est l'un des produits aromatiques les plus singuliers de l'Inde. Voici ce que les importateurs doivent savoir.",
+        "category": "Culture produit",
+        "readTime": "5",
+        "content": [
+          "Pour de nombreux acheteurs occidentaux, l'idée d'un encens fabriqué avec de la bouse de vache surprend. En Inde, pourtant, c'est l'une des plus anciennes et respectées matières de purification. Depuis des millénaires, la bouse séchée des vaches indigènes desi est brûlée dans les maisons et les temples dans le cadre de la tradition Panchagavya — appréciée pour la fumée propre, terreuse et doucement herbacée qu'elle produit.",
+          "Le dhoop de bouse de vache moderne est un produit raffiné, loin de ses origines rustiques. La bouse est collectée, séchée au soleil et transformée en une base fine, puis mélangée à des herbes médicinales, du camphre naturel, de la résine de guggal et des poudres de bois aromatiques. Les bâtons et cônes finis brûlent avec un parfum chaud et ancrant que de nombreux clients décrivent comme apaisant et clarifiant — sans aucun rapport avec ce que la liste des ingrédients bruts pourrait suggérer.",
+          "Pourquoi gagne-t-il du terrain à l'international ? Trois raisons. D'abord, l'appétit du marché du bien-être pour les produits authentiques enracinés dans la tradition n'a jamais été aussi fort. Ensuite, le dhoop de bouse de vache s'inscrit dans l'intérêt croissant pour les parfums d'intérieur naturels et peu transformés. Enfin, il offre aux distributeurs un produit véritablement différencié — avec une histoire captivante qu'aucun désodorisant synthétique ne peut égaler.",
+          "Pour les importateurs, le positionnement compte. Le dhoop de bouse de vache performe au mieux lorsqu'il est présenté avec honnêteté et élégance : comme un encens de purification védique traditionnel, fabriqué à partir d'ingrédients naturels, avec son héritage expliqué sur l'emballage. Il trouve un public tout acquis dans les communautés de yoga et de méditation, les boutiques ayurvédiques et la distribution éco-responsable.",
+          "Morvan Essence produit de l'encens et du dhoop de bouse de vache en bâtons de 3,5 et 6 pouces ainsi qu'en cônes, conditionnés en cartons maîtres de qualité export. Un guide d'utilisation pour votre marché peut être discuté lors de l'échantillonnage, et l'emballage en marque privée peut présenter la tradition dans le ton qui convient à votre marque. Demandez un échantillon lors de votre prochaine demande — c'est le produit dont les acheteurs se souviennent."
+        ]
+      },
+      {
+        "slug": "sourcing-incense-from-india",
+        "title": "Comment s'approvisionner en encens en Inde : guide pratique pour importateurs",
+        "excerpt": "Échantillonnage, MOQ, marque privée, documentation et fret — un aperçu étape par étape du fonctionnement réel d'un programme d'importation d'encens réussi.",
+        "category": "Conseils export",
+        "readTime": "6",
+        "content": [
+          "L'Inde produit la majorité de l'encens mondial, et pour de bonnes raisons : un accès inégalé aux matières premières, un savoir-faire de formulation transmis depuis des générations et une économie de production très compétitive. Mais pour un importateur débutant, le chemin de la demande au conteneur peut sembler opaque. Ce guide parcourt le processus tel que nous le menons avec nos propres acheteurs.",
+          "Première étape : échantillonnez avant de vous engager. Tout fabricant crédible doit proposer un kit d'échantillons couvrant les formats (3,5, 6 et 9 pouces) et les parfums. Évaluez la durée de combustion, la qualité des cendres, la diffusion du parfum à froid et à chaud, et la finition de l'emballage. C'est aussi le moment de tester la communication du fournisseur — la rapidité de réponse pendant l'échantillonnage annonce tout ce qui suivra.",
+          "Deuxième étape : alignez-vous sur la spécification et le MOQ. Définissez vos parfums, la taille des bâtons, le format d'emballage (tubes hexagonaux, sachets souples, boîtes kraft) et votre souhait de marque privée. Les MOQ dans l'encens indien sont généralement flexibles ; chez Morvan Essence, nous les adaptons aussi bien aux marques émergentes qu'aux distributeurs à l'échelle du conteneur, donc les commandes pilotes sont un démarrage réaliste.",
+          "Troisième étape : documentation et conformité. Selon votre marché, vous aurez peut-être besoin de spécifications produits, de fiches MSDS, de certificats d'origine et de documents de fumigation ou phytosanitaires. Discutez-en lors du devis, pas après la production — la documentation disponible doit être examinée et validée avant que le premier carton ne soit scellé.",
+          "Quatrième étape : production et fret. Les délais de production standard sont de quelques semaines selon la taille de la commande et la personnalisation. Les expéditions partent en FOB ou CIF par voie maritime pour les volumes, ou par fret aérien pour les lancements urgents, avec des cartons maîtres résistants à l'humidité qui protègent le produit en transit. Un bureau export dédié qui coordonne les validations, la production et les documents d'expédition vous fera gagner des semaines sur une année de commandes.",
+          "Les fabricants qui méritent un partenariat sont ceux qui rendent ce processus sans surprise — devis clairs, délais honnêtes, communication réactive et échantillons conformes à l'expédition. C'est le standard que nous nous imposons chez Morvan Essence, et nous serions ravis de le prouver avec votre premier kit d'échantillons."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Bureau partenariat direct",
+    "title": "Contactez notre équipe export internationale",
+    "desc": "Prêt à enrichir votre catalogue bien-être avec l'encens et le dhoop authentiques de Vrindavan ? Soumettez votre demande ci-dessous ou contactez directement nos directeurs export.",
+    "note": "Soumettez le formulaire avec votre marché, votre intérêt produit et votre volume estimé. Les liens de contact export officiels seront ajoutés ici dès qu'ils seront fournis par l'équipe Morvan Essence.",
+    "formTitle": "Formulaire de demande B2B & échantillon",
+    "enquiryType": "Type de demande",
+    "businessType": "Type d'entreprise",
+    "companyName": "Nom de l'entreprise *",
+    "companyPh": "Nom de votre entreprise",
+    "contactPerson": "Personne à contacter *",
+    "contactPh": "Nom complet & fonction",
+    "email": "E-mail professionnel *",
+    "emailPh": "name@company.com",
+    "phone": "Téléphone / WhatsApp *",
+    "phonePh": "+1 (555) 000-0000",
+    "country": "Pays / Destination *",
+    "countryPh": "ex. États-Unis, Allemagne, Émirats",
+    "product": "Intérêt produit / parfum",
+    "productPh": "ex. bâtons santal 9 pouces",
+    "message": "Message / exigences spécifiques",
+    "messagePh": "Indiquez le volume prévu, les préférences d'emballage ou le port de livraison...",
+    "submit": "Envoyer la demande B2B — Réponse rapide",
+    "submitting": "Envoi de la demande...",
+    "optSample": "Demander un kit d'échantillons",
+    "optQuote": "Demander un devis",
+    "optDistributor": "Devenir distributeur",
+    "optPrivate": "Demande marque privée / OEM",
+    "bizImporter": "Importateur",
+    "bizWholesaler": "Grossiste",
+    "bizDistributor": "Distributeur",
+    "bizRetailer": "Détaillant / chaîne",
+    "bizPrivate": "Marque privée",
+    "toastRequired": "Veuillez remplir tous les champs de contact obligatoires.",
+    "toastSuccess": "Demande envoyée avec succès ! Notre bureau export répondra sous 24 heures.",
+    "toastRef": "Référence",
+    "toastFail": "Échec de l'envoi. Veuillez vérifier votre connexion réseau."
+  },
+  "modal": {
+    "titleSample": "Demander un kit d'échantillons export",
+    "titleQuote": "Demander un devis B2B",
+    "titleDistributor": "Demande de partenariat distributeur",
+    "titlePrivate": "Consultation marque privée / OEM",
+    "desc": "Veuillez renseigner les détails de votre entreprise. Notre bureau export de Vrindavan examinera et enverra les détails sous 24 heures.",
+    "company": "Nom de l'entreprise *",
+    "companyPh": "Nom de l'entreprise",
+    "contact": "Personne à contacter *",
+    "contactPh": "Votre nom & fonction",
+    "email": "E-mail professionnel *",
+    "phone": "Téléphone / WhatsApp *",
+    "country": "Pays *",
+    "countryPh": "Pays",
+    "product": "Produit / parfum",
+    "productPh": "Intérêt produit",
+    "message": "Message / notes",
+    "messagePh": "Volumes requis, port d'expédition ou demandes d'étiquetage personnalisé...",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours..."
+  },
+  "footer": {
+    "desc": "Marque d'export d'encens et de dhoop indiens authentiques, inspirée de l'héritage spirituel de Vrindavan. Créée pour les importateurs, grossistes et marques privées du monde entier.",
+    "catTitle": "Catalogue",
+    "cat1": "Bâtons d'encens (3,5″-9″)",
+    "cat2": "Bâtons de dhoop (sans âme)",
+    "cat3": "Encens de bouse de vache",
+    "cat4": "Bibliothèque de parfums",
+    "servTitle": "Services B2B",
+    "serv1": "Marque privée & OEM",
+    "serv2": "Logistique d'approvisionnement mondial",
+    "serv3": "Dossier qualité & MSDS",
+    "serv4": "Demander un kit d'échantillons",
+    "hqTitle": "Siège export",
+    "hq1": "Partenaire d'export basé en Inde, enraciné à Vrindavan.",
+    "hq2": "Utilisez le formulaire de demande pour démarrer une conversation acheteur.",
+    "rights": "Morvan Essence Export Pvt. Ltd. Tous droits réservés.",
+    "terms": "Conditions générales d'export",
+    "msds": "Politique MSDS & conformité",
+    "privacy": "Politique de confidentialité"
+  }
+}

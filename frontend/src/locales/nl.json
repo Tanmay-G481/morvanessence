@@ -1,0 +1,293 @@
+{
+  "language": "Taal",
+  "topbar": "In India gevestigde B2B-exportpartner uit Vrindavan • Gebouwd voor importeurs, groothandels en private-labelmerken",
+  "nav": {
+    "brandTag": "Vrindavan • Wereldwijde export",
+    "story": "Ons verhaal",
+    "products": "Producten",
+    "fragrances": "Geurenbibliotheek",
+    "privateLabel": "Private label / OEM",
+    "export": "Wereldwijde levering",
+    "quality": "Kwaliteit",
+    "blog": "Journaal",
+    "requestSample": "Vraag een sample",
+    "requestQuote": "Vraag een offerte"
+  },
+  "hero": {
+    "badge": "Vrindavan-erfgoed • Wereldwijde B2B-export",
+    "title": "Authentieke Indiase wierook, geïnspireerd door Vrindavan — gemaakt voor de wereld.",
+    "subtitle": "Wij werken samen met internationale importeurs, groothandels, distributeurs, retailers en private-labelmerken die zorgvuldig gemaakte wierook- en dhoopproducten uit India zoeken.",
+    "ctaSample": "Vraag een export-samplekit aan",
+    "ctaDistributor": "Word distributeur",
+    "m1v": "India",
+    "m1l": "Bron & exportbasis",
+    "m2v": "3,5\" – 9\"",
+    "m2l": "Precieze formaten",
+    "m3v": "Natuurlijk",
+    "m3l": "Ingrediëntenrichting",
+    "m4v": "OEM / ODM",
+    "m4l": "Klaar voor private label"
+  },
+  "story": {
+    "badge": "Wortels in Vrindavan • Vleugels naar de wereld",
+    "title": "Geworteld in het heilige erfgoed van Vrindavan",
+    "p1": "Vrindavan is al eeuwenlang de spirituele bakermat van goddelijke geuren, heilige kruiden en pure botanische harskunst. Morvan Essence is voortgekomen uit deze tijdloze traditie — we vertalen eeuwenoude ambachtelijke wijsheid naar onberispelijke wellnessproducten van exportkwaliteit voor wereldmarkten.",
+    "p2": "Wij combineren Indiase ambachtelijke kennis met gedocumenteerde specificaties, doordachte verpakkingen en een exportdialoog die is toegesneden op de behoeften van internationale retailers en wellnessmerken.",
+    "card1t": "Ambachtelijk vakmanschap",
+    "card1d": "Ontwikkeld rond geselecteerde houtpoeders, geurige wortels, harsen en botanisch geïnspireerde geurprofielen.",
+    "card2t": "Wereldwijde exportnormen",
+    "card2d": "Verpakking en documentatie kunnen worden afgestemd op uw markt, productformaat en verzendvereisten.",
+    "quote": "„Een heilige geur is een brug tussen het aardse en het goddelijke.”",
+    "quoteBy": "— Morvan Essence erfgoednotitie"
+  },
+  "products": {
+    "badge": "Exportcatalogus",
+    "title": "Onze premium productlijn",
+    "subtitle": "Verkrijgbaar in precieze formaten (3,5, 6 en 9 inch), afgestemd op winkelschappen, wellnessstudio's en heilige rituelen over de hele wereld.",
+    "sizeLabel": "Beschikbare formaten:",
+    "burnLabel": "Brandtijd:",
+    "packLabel": "Verpakking:",
+    "cta": "Vraag sample & prijzen aan",
+    "items": [
+      {
+        "badge": "B2B-bestseller",
+        "title": "Biologische wierookstokjes",
+        "desc": "Schoon brandende, rookarme wierook met bamboekern, gemaakt met pure essentiële oliën en natuurlijke botanische harshinders.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "30 – 60 min",
+        "pack": "Zeshoekige tubes, pillow packs, bulkdozen"
+      },
+      {
+        "badge": "Kernloze luxe",
+        "title": "Biologische dhoopstokjes",
+        "desc": "Kernloze, massieve botanische wierook, gevormd uit geurige kruiden, natuurlijke harsen en aromatische houtpoeders voor intense geurzuiverheid.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "45 – 75 min",
+        "pack": "Eco-kraft dozen incl. keramische houder"
+      },
+      {
+        "badge": "Vedische traditie",
+        "title": "Koeienmest-wierook & dhoop",
+        "desc": "Traditionele zuiverende formulering met Panchagavya-elementen, medicinale kruiden en natuurlijke kamfer voor luchtzuivering en spirituele reiniging.",
+        "sizes": "3,5″, 6″ & kegels",
+        "burn": "Productspecifieke gebruiksrichtlijnen beschikbaar",
+        "burnLabelOverride": "Zuiverende werking:",
+        "pack": "Export-masterdozen (100 stuks / doos)"
+      }
+    ]
+  },
+  "fragrances": {
+    "badge": "Sensorisch spectrum",
+    "title": "Voortreffelijke geurencollectie",
+    "subtitle": "Op maat gemengd door meesterparfumeurs voor wereldwijde wellness-, meditatie-, spa- en aromatherapiemarkten.",
+    "sampleCta": "Vraag een sample van deze geur aan",
+    "items": [
+      { "name": "Koninklijk sandelhout", "note": "Diep, houtachtig, romig, meditatief", "profile": "Ideaal voor luxe meditatie- & yogastudio's" },
+      { "name": "Vrindavan-roos", "note": "Fluwelen damascusroos & ochtenddauw", "profile": "Ideaal voor boetiekretail & huisgeuren" },
+      { "name": "Mogra & witte jasmijn", "note": "Bedwelmende nachtelijke bloesem", "profile": "Ideaal voor spa-ontspanning & sfeer" },
+      { "name": "Oud & amberhars", "note": "Rijk, rokerig, harsachtig, weelderig", "profile": "Ideaal voor premium geschenksets & high-end hotels" },
+      { "name": "Heilige guggal & loban", "note": "Balsemachtig, zuiverend, aardend", "profile": "Ideaal voor rituele reiniging & wellnesscentra" },
+      { "name": "Witte salie & lavendel", "note": "Kruidachtig, kalmerend, zuiverend", "profile": "Ideaal voor moderne holistische & lifestylewinkels" },
+      { "name": "Citroengras & citronella", "note": "Pittig, verfrissend, opwekkend", "profile": "Ideaal voor buitenleven & natuurlijke frisheid" },
+      { "name": "Nag Champa erfgoed", "note": "Traditionele champakabloem & honing", "profile": "Ideaal voor klassieke exportdistributie" }
+    ]
+  },
+  "privateLabel": {
+    "badge": "OEM- & private-labelpartnerschap",
+    "title": "Bouw uw eigen wereldwijde wierookmerk met Morvan Essence",
+    "desc": "Wij stellen internationale groothandels, retailketens en wellnessondernemers in staat om op maat gemaakte wierook- en dhoopproductlijnen te lanceren onder hun eigen merkidentiteit. Van aangepaste formuleringen en lengtes (3,5″ tot 9″) tot luxe merkverpakkingen en barcode-integratie.",
+    "points": [
+      "Op maat gemaakt dozenontwerp, embossing, foliedruk & meertalige etikettering",
+      "Lage minimale bestelhoeveelheden (MOQ's) voor opkomende en gevestigde merken",
+      "Exclusieve geurcreaties door meesterparfumeurs",
+      "Strikte kwaliteitsborging, batchtests en veilige exportlogistiek"
+    ],
+    "cta": "Start private-labelaanvraag",
+    "fastTitle": "Private-labelaanvraag via het snelspoor",
+    "f1l": "Bedrijfs- / merknaam",
+    "f1p": "bijv. Lotus Wellness Co., USA",
+    "f2l": "Zakelijk e-mailadres",
+    "f2p": "contact@brand.com",
+    "f3l": "Geschat jaarvolume",
+    "f3p": "bijv. 50.000 stuks / jaar",
+    "fastCta": "Vraag OEM-consult aan"
+  },
+  "exportSec": {
+    "badge": "Wereldwijde logistiek",
+    "title": "Naadloze internationale exportketen",
+    "subtitle": "Van onze productielocatie in India tot uw magazijnen in Noord-Amerika, Europa, het Midden-Oosten en Azië.",
+    "steps": [
+      { "title": "Aanvraag & samplekit", "desc": "Ontvang op maat samengestelde sampleassortimenten in 3,5\", 6\" en 9\" met aangepaste geurstrips." },
+      { "title": "Aangepaste formulering", "desc": "Bepaal geurnoten, verpakkingsmaterialen, private-labelbranding en dozenspecificaties." },
+      { "title": "Compliance & productie", "desc": "Strikte kwaliteitscontroles, vochtbestendige verzegeling van masterdozen en volledige exportdocumentatie." },
+      { "title": "Wereldwijde vrachtlevering", "desc": "FOB-/CIF-zendingen via zee- of luchtvracht met betrouwbare tracking tot uw bestemmingshaven." }
+    ]
+  },
+  "quality": {
+    "badge": "Compromisloze normen",
+    "title": "Kwaliteitsborging & exportcompliance",
+    "desc": "Productspecificaties, geurdetails, verpakkingsvereisten en beschikbare documentatie kunnen met kopers worden besproken tijdens sampling en offerte.",
+    "cta": "Vraag kwaliteitsdossier / MSDS aan",
+    "cards": [
+      { "title": "Productspecificaties", "desc": "Bespreek formaten, geurprofielen, brandeigenschappen en verpakking vóór sampling." },
+      { "title": "Documentatiebeoordeling", "desc": "Beschikbare product- en verzenddocumentatie kan worden beoordeeld op uw marktvereisten." },
+      { "title": "Verpakkingsopties", "desc": "Ontdek retail-, bulk- en private-labelverpakkingsformaten die passen bij uw kanaal." },
+      { "title": "Kwaliteitsgesprek", "desc": "Stem vóór productie uw kwaliteitsverwachtingen, specificaties en goedkeuringsproces af." }
+    ]
+  },
+  "why": {
+    "badge": "Het B2B-voordeel",
+    "title": "Waarom wereldwijde importeurs voor Morvan Essence kiezen",
+    "cards": [
+      { "title": "Directe fabrikantsprijzen", "desc": "Werk rechtstreeks samen met een in India gevestigde exportpartner om productfit, verpakking, orderplanning en commerciële vereisten te bespreken." },
+      { "title": "Flexibele MOQ & schaal", "desc": "Of u nu een boetiek-wellnessmerk bent met proefbatches of een landelijke retailer met containerladingen — onze productielijnen passen zich naadloos aan." },
+      { "title": "Toegewijde exportdesk", "desc": "Bouw een duidelijke exportworkflow rond sampling, goedkeuringen, documentatie, productieplanning en verzendcoördinatie." }
+    ]
+  },
+  "blog": {
+    "badge": "Inzichten & journaal",
+    "title": "Het Morvan Journaal",
+    "subtitle": "Verhalen uit Vrindavan, geureducatie en praktische begeleiding voor wereldwijde wierookkopers.",
+    "readMore": "Lees artikel",
+    "back": "Terug naar het journaal",
+    "minRead": "min leestijd",
+    "articles": [
+      {
+        "slug": "vrindavan-fragrance-heritage",
+        "title": "Het geurerfgoed van Vrindavan: waar wierook een levenswijze is",
+        "excerpt": "Al eeuwenlang parfumeert de tempelstad Vrindavan haar ochtenden met sandelhout, roos en heilige harsen. Ontdek hoe deze levende traditie elk product dat wij exporteren vormgeeft.",
+        "category": "Erfgoed",
+        "readTime": "5",
+        "content": [
+          "In Vrindavan is geur geen luxe — het is onderdeel van het ritme van het dagelijks leven. Lang voor zonsopgang beginnen de nauwe steegjes van deze oude tempelstad in Uttar Pradesh zich te vullen met de zoete rook van sandelhout, roos en guggalhars. Gelovigen dragen wierook naar de tempels, bloemenverkopers vlechten mogra-slingers, en de lucht zelf lijkt zich vijfduizend jaar ritueel te herinneren.",
+          "Dit is het landschap waarin Morvan Essence is geboren. Onze oprichters groeiden op terwijl ze ambachtslieden wierookstokjes met de hand zagen rollen, zoals hun grootouders dat deden: een pasta van houtpoeder, natuurlijke harsen en botanicals, gerold om een bamboekern en langzaam gedroogd in de Indiase zon. Aan het essentiële ambacht is niets veranderd — en juist die continuïteit maakt Vrindavan-wierook zo geliefd bij wellnesskopers over de hele wereld.",
+          "Wat is veranderd, is de discipline die wij toevoegen. Traditionele formulatiekennis wordt nu gecombineerd met gedocumenteerde specificaties, consistente batchregistraties, doordachte verpakkingen en een exportproces dat is ontworpen voor internationale retailers. Het resultaat is een product dat de ziel van Vrindavan draagt én voldoet aan de praktische verwachtingen van de wereldhandel.",
+          "Voor importeurs en private-labelmerken is dit erfgoed meer dan een verhaal op een doosje. Het is een echt onderscheidend punt in het schap: wierook met een traceerbare herkomst, gemaakt in een stad waarvan de naam synoniem staat voor devotie en geur. Wanneer uw klanten een Morvan Essence-stokje aansteken, nemen ze deel aan een van de oudste geurtradities ter wereld.",
+          "Wij nodigen u uit het zelf te ervaren. Onze export-samplekits bevatten geurstrips uit onze volledige signature-collectie — van Koninklijk sandelhout tot Vrindavan-roos — zodat uw team het karakter van echt Vrindavan-vakmanschap kan beoordelen vóór uw eerste bestelling."
+        ]
+      },
+      {
+        "slug": "incense-vs-dhoop-guide",
+        "title": "Wierookstokjes versus dhoopstokjes: een kopersgids voor importeurs",
+        "excerpt": "Bamboekern of kernloos? Brandtijd, geurverspreiding, verpakking en schappositionering — zo kiest u het juiste formaat voor uw markt.",
+        "category": "Koperseducatie",
+        "readTime": "6",
+        "content": [
+          "Als u een wierookassortiment opbouwt voor retail- of wellnesskanalen, is een van de eerste beslissingen het formaat: traditionele wierookstokjes met bamboekern, of kernloze dhoopstokjes? Beide komen uit dezelfde Indiase traditie, maar ze gedragen zich anders, verkopen anders en passen bij verschillende klantsegmenten.",
+          "Wierookstokjes — het vertrouwde bamboekernformaat — zijn de wereldwijde standaard. Een dunne bamboelat wordt bedekt met een geurige pasta van houtpoeders, harsen en oliën. Ze zijn gemakkelijk aan te steken, branden gelijkmatig (doorgaans 30 tot 60 minuten in onze formaten van 3,5 tot 9 inch) en produceren een gematigde, constante geurverspreiding. Voor supermarkten, cadeauwinkels en nieuwe kopers zijn bamboekernstokjes de veiligste en meest veelzijdige keuze.",
+          "Dhoopstokjes zijn kernloos: massieve cilinders van puur aromatisch materiaal zonder bambus aan de binnenkant. Omdat het hele stokje uit geurmateriaal bestaat, leveren ze een dichter, intenser aroma en worden ze vaak gezien als een premium, traditioneler product. De brandtijden zijn langer — 45 tot 75 minuten — en het rijkere rookprofiel past bij meditatiestudio's, spa's en ritueel gebruik. Dhoop is ook het favoriete formaat voor traditionele formuleringen zoals guggal, loban en pooja-dhoop op basis van koeienmest.",
+          "Vanuit inkoopperspectief zijn er drie factoren. Ten eerste uw kanaal: mainstream retail begint meestal met wierookstokjes, terwijl gespecialiseerde wellnesswinkels beide kunnen voeren. Ten tweede de prijspositionering: dhoop vraagt een premie en werkt prachtig in geschenksets. Ten derde de logistiek: beide formaten verzenden goed in vochtbestendige masterdozen, maar dhoop profiteert van stevigere binnenverpakking om de kernloze stokjes tijdens transport te beschermen.",
+          "Bij Morvan Essence produceren we beide formaten in 3,5, 6 en 9 inch, met dezelfde geurenbibliotheek beschikbaar in elk formaat. Onze aanbeveling voor nieuwe importeurs: begin met twee of drie bestverkopende geuren in bamboekernstokjes en introduceer daarna dhoop als uw premium tweede lijn. Vraag een samplekit aan en vergelijk de verbranding naast elkaar — het verschil is direct duidelijk."
+        ]
+      },
+      {
+        "slug": "cow-dung-dhoop-wellness",
+        "title": "Koeienmest-dhoop uitgelegd: eeuwenoude zuivering voor de moderne wellnessmarkt",
+        "excerpt": "Vereerd in de vedische traditie en steeds gewilder bij wellnesskopers: dhoop op basis van koeienmest is een van India's meest onderscheidende geurproducten. Dit moeten importeurs weten.",
+        "category": "Producteducatie",
+        "readTime": "5",
+        "content": [
+          "Voor veel westerse kopers is het idee van wierook gemaakt met koeienmest verrassend. In India is het echter een van de oudste en meest gerespecteerde zuiveringsmaterialen. Duizenden jaren lang is gedroogde mest van inheemse desi-koeien verbrand in huizen en tempels als onderdeel van de Panchagavya-traditie — gewaardeerd om de schone, aardse, zacht kruidige rook die het produceert.",
+          "Moderne koeienmest-dhoop is een verfijnd product, ver verwijderd van zijn rustieke oorsprong. De mest wordt verzameld, zonnedroogd en verwerkt tot een fijne basis, waarna ze wordt gemengd met medicinale kruiden, natuurlijke kamfer, guggalhars en aromatische houtpoeders. De afgewerkte stokjes en kegels branden met een warme, aardende geur die veel klanten als kalmerend en verhelderend omschrijven — heel anders dan wat de ruwe ingrediëntenlijst zou doen vermoeden.",
+          "Waarom wint het internationaal terrein? Drie redenen. Ten eerste is de honger van de wellnessmarkt naar authentieke, in traditie gewortelde producten groter dan ooit. Ten tweede sluit koeienmest-dhoop aan bij de groeiende interesse in natuurlijke, minimaal bewerkte huisgeuren. Ten derde biedt het retailers een echt onderscheidend product — met een boeiend verhaal waarmee geen synthetische luchtverfrisser kan concurreren.",
+          "Voor importeurs is positionering belangrijk. Koeienmest-dhoop presteert het best wanneer het eerlijk en elegant wordt gepresenteerd: als traditionele vedische zuiveringswierook, gemaakt van natuurlijke ingrediënten, met het erfgoed uitgelegd op de verpakking. Het vindt direct een publiek in yoga- en meditatiegemeenschappen, ayurvedische winkels en milieubewuste retail.",
+          "Morvan Essence produceert koeienmest-wierook en dhoop in stokjes van 3,5 en 6 inch en als kegels, verpakt in masterdozen van exportkwaliteit. Gebruiksrichtlijnen voor uw markt kunnen tijdens de sampling worden besproken, en private-labelverpakkingen kunnen de traditie presenteren in de toon die bij uw merk past. Vraag een sample aan bij uw volgende aanvraag — het is het product dat kopers onthouden."
+        ]
+      },
+      {
+        "slug": "sourcing-incense-from-india",
+        "title": "Wierook uit India inkopen: een praktische gids voor importeurs",
+        "excerpt": "Sampling, MOQ's, private label, documentatie en vracht — een stapsgewijze blik op hoe een succesvol wierook-importprogramma er echt uitziet.",
+        "category": "Exportinzichten",
+        "readTime": "6",
+        "content": [
+          "India produceert het grootste deel van 's werelds wierook, en met goede reden: ongeëvenaarde toegang tot grondstoffen, formulatiekennis die generaties lang is doorgegeven en zeer competitieve productiekosten. Maar voor een eerste importeur kan het pad van aanvraag tot container ondoorzichtig aanvoelen. Deze gids doorloopt het proces zoals wij het met onze eigen kopers voeren.",
+          "Stap één: sample voordat u zich committeert. Elke geloofwaardige fabrikant moet een samplekit aanbieden in alle formaten (3,5, 6 en 9 inch) en geuren. Beoordeel brandtijd, askwaliteit, geurverspreiding koud en warm, en de afwerking van de verpakking. Dit is ook het moment om de communicatie van de leverancier te testen — reactiesnelheid tijdens sampling voorspelt alles wat daarna komt.",
+          "Stap twee: stem specificatie en MOQ af. Bepaal uw geuren, stokjesmaat, verpakkingsformaat (zeshoekige tubes, pillow packs, kraftdozen) en of u private labeling wilt. MOQ's in Indiase wierook zijn doorgaans flexibel; bij Morvan Essence stemmen we ze af op zowel opkomende merken als retailers op containerschaal, dus proeforders zijn een realistische start.",
+          "Stap drie: documentatie en compliance. Afhankelijk van uw markt heeft u mogelijk productspecificaties, MSDS, oorsprongscertificaten en fumigatie- of fytosanitaire documenten nodig. Bespreek deze tijdens de offerte, niet na productie — beschikbare documentatie moet worden beoordeeld en overeengekomen voordat de eerste doos wordt verzegeld.",
+          "Stap vier: productie en vracht. Standaard productie doorlooptijden bedragen enkele weken, afhankelijk van ordergrootte en maatwerk. Zendingen gaan FOB of CIF over zee voor volume, of per luchtvracht voor urgente lanceringen, met vochtbestendige masterdozen die het product tijdens transport beschermen. Een toegewijde exportdesk die goedkeuringen, productie en verzenddocumenten coördineert, bespaart u over een jaar aan orders weken.",
+          "De fabrikanten die een partnerschap waard zijn, zijn degenen die dit proces saai maken — duidelijke offertes, eerlijke tijdlijnen, responsieve communicatie en samples die overeenkomen met de zending. Dat is de standaard die we onszelf bij Morvan Essence opleggen, en we bewijzen het graag met uw eerste samplekit."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Directe partnerschapsdesk",
+    "title": "Neem contact op met ons internationale exportteam",
+    "desc": "Klaar om uw wellnesscatalogus uit te breiden met authentieke Vrindavan-wierook en dhoop? Dien hieronder uw aanvraag in of neem rechtstreeks contact op met onze exportdirecteuren.",
+    "note": "Dien het formulier in met uw markt, productinteresse en verwachte volume. Officiële exportcontactlinks worden hier toegevoegd zodra het Morvan Essence-team ze verstrekt.",
+    "formTitle": "B2B-aanvraag- & sampleformulier",
+    "enquiryType": "Type aanvraag",
+    "businessType": "Type bedrijf",
+    "companyName": "Bedrijfsnaam *",
+    "companyPh": "Uw bedrijfsnaam",
+    "contactPerson": "Contactpersoon *",
+    "contactPh": "Volledige naam & functie",
+    "email": "Zakelijk e-mailadres *",
+    "emailPh": "name@company.com",
+    "phone": "Telefoon / WhatsApp *",
+    "phonePh": "+1 (555) 000-0000",
+    "country": "Land / bestemming *",
+    "countryPh": "bijv. Verenigde Staten, Duitsland, VAE",
+    "product": "Product- / geurinteresse",
+    "productPh": "bijv. sandelhout 9-inch stokjes",
+    "message": "Bericht / specifieke vereisten",
+    "messagePh": "Vermeld verwacht volume, verpakkingsvoorkeuren of leveringshaven...",
+    "submit": "Verstuur B2B-aanvraag — Snelle reactie",
+    "submitting": "Aanvraag wordt verzonden...",
+    "optSample": "Samplekit aanvragen",
+    "optQuote": "Prijsopgave aanvragen",
+    "optDistributor": "Word distributeur",
+    "optPrivate": "Private-label / OEM-aanvraag",
+    "bizImporter": "Importeur",
+    "bizWholesaler": "Groothandel",
+    "bizDistributor": "Distributeur",
+    "bizRetailer": "Retailer / keten",
+    "bizPrivate": "Private-labelmerk",
+    "toastRequired": "Vul alle verplichte contactvelden in.",
+    "toastSuccess": "Aanvraag succesvol verzonden! Onze exportdesk reageert binnen 24 uur.",
+    "toastRef": "Referentie-ID",
+    "toastFail": "Aanvraag verzenden mislukt. Controleer uw netwerkverbinding."
+  },
+  "modal": {
+    "titleSample": "Export-samplekit aanvragen",
+    "titleQuote": "B2B-prijsopgave aanvragen",
+    "titleDistributor": "Aanvraag distributiepartnerschap",
+    "titlePrivate": "Private-label / OEM-consult",
+    "desc": "Vul uw bedrijfsgegevens in. Onze exportdesk in Vrindavan beoordeelt en verstuurt de details binnen 24 uur.",
+    "company": "Bedrijfsnaam *",
+    "companyPh": "Bedrijfsnaam",
+    "contact": "Contactpersoon *",
+    "contactPh": "Uw naam & functie",
+    "email": "Zakelijk e-mailadres *",
+    "phone": "Telefoon / WhatsApp *",
+    "country": "Land *",
+    "countryPh": "Land",
+    "product": "Product / geur",
+    "productPh": "Productinteresse",
+    "message": "Bericht / notities",
+    "messagePh": "Volumevereisten, verzendhaven of wensen voor aangepaste etikettering...",
+    "submit": "Aanvraag verzenden",
+    "submitting": "Verzenden..."
+  },
+  "footer": {
+    "desc": "Authentiek Indiase wierook- en dhoopexportmerk, geïnspireerd door het spirituele erfgoed van Vrindavan. Gemaakt voor internationale importeurs, groothandels en private-labelmerken wereldwijd.",
+    "catTitle": "Catalogus",
+    "cat1": "Wierookstokjes (3,5″-9″)",
+    "cat2": "Dhoopstokjes (kernloos)",
+    "cat3": "Koeienmest-wierook",
+    "cat4": "Geurenbibliotheek",
+    "servTitle": "B2B-diensten",
+    "serv1": "Private label & OEM",
+    "serv2": "Wereldwijde leveringslogistiek",
+    "serv3": "Kwaliteitsdossier & MSDS",
+    "serv4": "Samplekit aanvragen",
+    "hqTitle": "Export-hoofdkantoor",
+    "hq1": "In India gevestigde exportpartner, geworteld in Vrindavan.",
+    "hq2": "Gebruik het aanvraagformulier om een kopersgesprek te starten.",
+    "rights": "Morvan Essence Export Pvt. Ltd. Alle rechten voorbehouden.",
+    "terms": "Exportvoorwaarden",
+    "msds": "MSDS- & compliancebeleid",
+    "privacy": "Privacybeleid"
+  }
+}

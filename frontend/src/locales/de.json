@@ -1,0 +1,293 @@
+{
+  "language": "Sprache",
+  "topbar": "B2B-Exportpartner aus Indien, aus Vrindavan • Für Importeure, Großhändler und Private-Label-Marken",
+  "nav": {
+    "brandTag": "Vrindavan • Globaler Export",
+    "story": "Unsere Geschichte",
+    "products": "Produkte",
+    "fragrances": "Duftbibliothek",
+    "privateLabel": "Private Label / OEM",
+    "export": "Globale Lieferung",
+    "quality": "Qualität",
+    "blog": "Journal",
+    "requestSample": "Muster anfordern",
+    "requestQuote": "Angebot anfordern"
+  },
+  "hero": {
+    "badge": "Vrindavan-Erbe • Globaler B2B-Export",
+    "title": "Authentischer indischer Räucherduft, inspiriert von Vrindavan — gefertigt für die Welt.",
+    "subtitle": "Wir arbeiten mit internationalen Importeuren, Großhändlern, Distributoren, Einzelhändlern und Private-Label-Marken zusammen, die sorgfältig gefertigte Räucher- und Dhoop-Produkte aus Indien suchen.",
+    "ctaSample": "Export-Musterset anfordern",
+    "ctaDistributor": "Distributor werden",
+    "m1v": "Indien",
+    "m1l": "Quelle & Exportbasis",
+    "m2v": "3,5\" – 9\"",
+    "m2l": "Präzisionsformate",
+    "m3v": "Natürlich",
+    "m3l": "Zutatenausrichtung",
+    "m4v": "OEM / ODM",
+    "m4l": "Private-Label bereit"
+  },
+  "story": {
+    "badge": "Wurzeln in Vrindavan • Flügel in die Welt",
+    "title": "Verwurzelt im heiligen Erbe von Vrindavan",
+    "p1": "Vrindavan ist seit Jahrhunderten die spirituelle Wiege göttlicher Düfte, heiliger Kräuter und reiner botanischer Harzkunst. Morvan Essence wurde aus dieser zeitlosen Tradition geboren — sie übersetzt uralte handwerkliche Weisheit in makellose Wellnessprodukte in Exportqualität für globale Märkte.",
+    "p2": "Wir verbinden indisches Handwerkswissen mit dokumentierten Spezifikationen, durchdachter Verpackung und einem Exportdialog, der auf die Bedürfnisse internationaler Einzelhändler und Wellnessmarken zugeschnitten ist.",
+    "card1t": "Handwerkliche Kunstfertigkeit",
+    "card1d": "Entwickelt rund um ausgewählte Holzpulver, duftende Wurzeln, Harze und botanisch inspirierte Duftprofile.",
+    "card2t": "Globale Exportstandards",
+    "card2d": "Verpackung und Dokumentation können je nach Markt, Produktformat und Versandanforderungen besprochen werden.",
+    "quote": "„Ein heiliger Duft ist eine Brücke zwischen dem Irdischen und dem Göttlichen.“",
+    "quoteBy": "— Morvan Essence Heritage-Notiz"
+  },
+  "products": {
+    "badge": "Exportkatalog",
+    "title": "Unsere Premium-Produktlinie",
+    "subtitle": "Erhältlich in Präzisionsgrößen (3,5, 6 und 9 Zoll), maßgeschneidert für Einzelhandelsregale, Wellness-Studios und heilige Rituale weltweit.",
+    "sizeLabel": "Verfügbare Größen:",
+    "burnLabel": "Brenndauer:",
+    "packLabel": "Verpackung:",
+    "cta": "Muster & Preise anfordern",
+    "items": [
+      {
+        "badge": "B2B-Bestseller",
+        "title": "Bio-Räucherstäbchen",
+        "desc": "Sauber brennende, raucharme Räucherstäbchen mit Bambuskern, gefertigt mit reinen ätherischen Ölen und natürlichen botanischen Harzbindemitteln.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "30 – 60 Min.",
+        "pack": "Sechseckige Tuben, Pillow-Packs, Großkartons"
+      },
+      {
+        "badge": "Kernloser Luxus",
+        "title": "Bio-Dhoop-Stäbchen",
+        "desc": "Kernlose, massive botanische Räucherstäbchen, geformt aus duftenden Kräutern, natürlichen Harzen und aromatischen Holzpulvern für intensive Duftreinheit.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "45 – 75 Min.",
+        "pack": "Öko-Kraftboxen inkl. Keramikhalter"
+      },
+      {
+        "badge": "Vedische Tradition",
+        "title": "Kuhmist-Räucherwerk & Dhoop",
+        "desc": "Traditionelle reinigende Rezeptur mit Panchagavya-Elementen, Heilkräutern und natürlichem Kampfer zur Luftreinigung und spirituellen Reinigung.",
+        "sizes": "3,5″, 6″ & Kegel",
+        "burn": "Produktspezifische Anwendungshinweise verfügbar",
+        "burnLabelOverride": "Reinigende Wirkung:",
+        "pack": "Export-Masterkartons (100 Einheiten / Karton)"
+      }
+    ]
+  },
+  "fragrances": {
+    "badge": "Sensorisches Spektrum",
+    "title": "Erlesene Duftkollektion",
+    "subtitle": "Von Meisterparfümeuren maßgeschneidert für globale Wellness-, Meditations-, Spa- und Aromatherapiemärkte.",
+    "sampleCta": "Muster dieses Dufts anfordern",
+    "items": [
+      { "name": "Königliches Sandelholz", "note": "Tief, holzig, cremig, meditativ", "profile": "Ideal für Luxus-Meditations- & Yoga-Studios" },
+      { "name": "Vrindavan-Rose", "note": "Samtige Damaszenerrose & Morgentau", "profile": "Ideal für Boutique-Handel & Raumdüfte" },
+      { "name": "Mogra & weißer Jasmin", "note": "Berauschende nächtliche Blütenpracht", "profile": "Ideal für Spa-Entspannung & Ambiente" },
+      { "name": "Oud & Bernsteinharz", "note": "Reichhaltig, rauchig, harzig, opulent", "profile": "Ideal für Premium-Geschenksets & High-End-Hotels" },
+      { "name": "Heiliger Guggal & Loban", "note": "Balsamisch, reinigend, erdend", "profile": "Ideal für rituelle Reinigung & Wellnesscenter" },
+      { "name": "Weißer Salbei & Lavendel", "note": "Kräuterhaft, beruhigend, reinigend", "profile": "Ideal für moderne ganzheitliche & Lifestyle-Läden" },
+      { "name": "Zitronengras & Zitronella", "note": "Spritzig, erfrischend, belebend", "profile": "Ideal für Outdoor-Living & natürliche Frische" },
+      { "name": "Nag Champa Heritage", "note": "Traditionelle Champaka-Blüte & Honig", "profile": "Ideal für klassischen Exportvertrieb" }
+    ]
+  },
+  "privateLabel": {
+    "badge": "OEM- & Private-Label-Partnerschaft",
+    "title": "Bauen Sie Ihre eigene globale Räucherwarenmarke mit Morvan Essence auf",
+    "desc": "Wir befähigen internationale Großhändler, Handelsketten und Wellness-Unternehmer, maßgeschneiderte Räucher- und Dhoop-Produktlinien unter ihrer eigenen Markenidentität zu lancieren. Von individuellen Rezepturen und Längen (3,5″ bis 9″) bis hin zu luxuriöser Markenverpackung und Barcode-Integration.",
+    "points": [
+      "Individuelles Boxdesign, Prägung, Folienprägung & mehrsprachige Etikettierung",
+      "Niedrige Mindestbestellmengen (MOQs), zugeschnitten auf wachsende und etablierte Marken",
+      "Exklusive Duftkreationen durch Meisterparfümeure",
+      "Strenge Qualitätssicherung, Chargentests und sichere Exportlogistik"
+    ],
+    "cta": "Private-Label-Anfrage starten",
+    "fastTitle": "Private-Label-Anfrage im Schnellverfahren",
+    "f1l": "Firmen- / Markenname",
+    "f1p": "z. B. Lotus Wellness Co., USA",
+    "f2l": "Geschäftliche E-Mail",
+    "f2p": "contact@brand.com",
+    "f3l": "Geschätztes Jahresvolumen",
+    "f3p": "z. B. 50.000 Einheiten / Jahr",
+    "fastCta": "OEM-Beratung anfordern"
+  },
+  "exportSec": {
+    "badge": "Globale Logistik",
+    "title": "Nahtlose internationale Export-Lieferkette",
+    "subtitle": "Von unserem Produktionsstandort in Indien bis zu Ihren Lagern in Nordamerika, Europa, dem Nahen Osten und Asien.",
+    "steps": [
+      { "title": "Anfrage & Musterset", "desc": "Erhalten Sie maßgeschneiderte Mustersortimente in 3,5\", 6\" und 9\" mit individuellen Duftstreifen." },
+      { "title": "Individuelle Rezeptur", "desc": "Finalisieren Sie Duftnoten, Verpackungsmaterialien, Private-Label-Branding und Kartonspezifikationen." },
+      { "title": "Compliance & Produktion", "desc": "Strenge Qualitätskontrollen, feuchtigkeitsresistente Masterkarton-Versiegelung und vollständige Exportdokumentation." },
+      { "title": "Globale Frachtlieferung", "desc": "FOB-/CIF-Sendungen per See- oder Luftfracht mit zuverlässiger Sendungsverfolgung bis zu Ihrem Zielhafen." }
+    ]
+  },
+  "quality": {
+    "badge": "Kompromisslose Standards",
+    "title": "Qualitätssicherung & Export-Compliance",
+    "desc": "Produktspezifikationen, Duftdetails, Verpackungsanforderungen und verfügbare Dokumentation können mit Käufern während der Musterung und Angebotserstellung geprüft werden.",
+    "cta": "Qualitätsdossier / MSDS anfordern",
+    "cards": [
+      { "title": "Produktspezifikationen", "desc": "Besprechen Sie Formate, Duftprofile, Brenneigenschaften und Verpackung vor der Musterung." },
+      { "title": "Dokumentenprüfung", "desc": "Verfügbare Produkt- und Versanddokumente können für Ihre Marktanforderungen geprüft werden." },
+      { "title": "Verpackungsoptionen", "desc": "Entdecken Sie Retail-, Großhandels- und Private-Label-Verpackungsformate für Ihren Kanal." },
+      { "title": "Qualitätsdialog", "desc": "Stimmen Sie vor der Produktion Ihre Qualitätserwartungen, Spezifikationen und den Freigabeprozess ab." }
+    ]
+  },
+  "why": {
+    "badge": "Der B2B-Vorteil",
+    "title": "Warum globale Importeure Morvan Essence wählen",
+    "cards": [
+      { "title": "Direkte Herstellerpreise", "desc": "Arbeiten Sie direkt mit einem indischen Exportpartner, um Produktpassung, Verpackung, Bestellplanung und kommerzielle Anforderungen zu besprechen." },
+      { "title": "Flexible MOQ & Skalierung", "desc": "Ob Boutique-Wellnessmarke mit Pilotchargen oder landesweiter Einzelhändler mit Containerladungen — unsere Produktionslinien passen sich nahtlos an." },
+      { "title": "Dedizierter Exportdesk", "desc": "Aufbau eines klaren Export-Workflows rund um Musterung, Freigaben, Dokumentation, Produktionsplanung und Versandkoordination." }
+    ]
+  },
+  "blog": {
+    "badge": "Einblicke & Journal",
+    "title": "Das Morvan Journal",
+    "subtitle": "Geschichten aus Vrindavan, Duftwissen und praktische Orientierung für globale Räucherwarenkäufer.",
+    "readMore": "Artikel lesen",
+    "back": "Zurück zum Journal",
+    "minRead": "Min. Lesezeit",
+    "articles": [
+      {
+        "slug": "vrindavan-fragrance-heritage",
+        "title": "Das Dufterbe von Vrindavan: Wo Räucherwerk eine Lebensart ist",
+        "excerpt": "Seit Jahrhunderten parfümiert die Tempelstadt Vrindavan ihre Morgen mit Sandelholz, Rose und heiligen Harzen. Entdecken Sie, wie diese lebendige Tradition jedes unserer Exportprodukte prägt.",
+        "category": "Erbe",
+        "readTime": "5",
+        "content": [
+          "In Vrindavan ist Duft kein Luxus — er ist Teil des Rhythmus des täglichen Lebens. Lange vor Sonnenaufgang beginnen sich die engen Gassen dieser alten Tempelstadt in Uttar Pradesh mit dem süßen Rauch von Sandelholz, Rose und Guggalharz zu füllen. Gläubige tragen Räucherwerk zu den Tempeln, Blumenverkäufer winden Mogra-Girlanden, und die Luft selbst scheint sich an fünftausend Jahre Ritual zu erinnern.",
+          "Dies ist die Landschaft, in der Morvan Essence geboren wurde. Unsere Gründer wuchsen damit auf, Kunsthandwerkern dabei zuzusehen, wie sie Räucherstäbchen von Hand rollten, so wie es ihre Großeltern taten: eine Paste aus Holzpulver, natürlichen Harzen und Botanicals, auf einen Bambuskern gerollt und langsam in der indischen Sonne getrocknet. Am wesentlichen Handwerk hat sich nichts geändert — und genau diese Kontinuität macht Vrindavan-Räucherwerk bei Wellnesskäufern weltweit so begehrt.",
+          "Was sich geändert hat, ist die Disziplin, die wir einbringen. Traditionelles Rezepturwissen wird heute mit dokumentierten Spezifikationen, konsistenten Chargenaufzeichnungen, durchdachter Verpackung und einem Exportprozess für internationale Einzelhändler kombiniert. Das Ergebnis ist ein Produkt, das die Seele Vrindavans trägt und gleichzeitig die praktischen Erwartungen des Welthandels erfüllt.",
+          "Für Importeure und Private-Label-Marken ist dieses Erbe mehr als eine Geschichte auf einer Schachtel. Es ist ein echter Unterscheidungsfaktor im Regal: Räucherwerk mit rückverfolgbarer Herkunft, hergestellt in einer Stadt, deren Name synonym für Hingabe und Duft steht. Wenn Ihre Kunden ein Morvan-Essence-Stäbchen anzünden, nehmen sie an einer der ältesten Dufttraditionen der Welt teil.",
+          "Wir laden Sie ein, es selbst zu erleben. Unsere Export-Mustersets enthalten Duftstreifen aus unserer gesamten Signature-Kollektion — von Königlichem Sandelholz bis zur Vrindavan-Rose — damit Ihr Team den Charakter echter Vrindavan-Handwerkskunst vor Ihrer ersten Bestellung beurteilen kann."
+        ]
+      },
+      {
+        "slug": "incense-vs-dhoop-guide",
+        "title": "Räucherstäbchen vs. Dhoop-Stäbchen: Ein Käuferleitfaden für Importeure",
+        "excerpt": "Bambuskern oder kernlos? Brenndauer, Duftabgabe, Verpackung und Regalpositionierung — so wählen Sie das richtige Format für Ihren Markt.",
+        "category": "Käuferwissen",
+        "readTime": "6",
+        "content": [
+          "Wenn Sie ein Räucherwarensortiment für den Einzelhandel oder Wellnesskanäle aufbauen, ist eine der ersten Entscheidungen das Format: traditionelle Räucherstäbchen mit Bambuskern oder kernlose Dhoop-Stäbchen? Beide stammen aus derselben indischen Tradition, verhalten sich aber unterschiedlich, verkaufen sich unterschiedlich und passen zu unterschiedlichen Kundensegmenten.",
+          "Räucherstäbchen — das vertraute Bambuskern-Format — sind der globale Standard. Eine dünne Bambussplinte wird mit einer duftenden Paste aus Holzpulvern, Harzen und Ölen beschichtet. Sie lassen sich leicht anzünden, brennen gleichmäßig (in unseren 3,5- bis 9-Zoll-Formaten typischerweise 30 bis 60 Minuten) und erzeugen eine moderate, stetige Duftabgabe. Für Supermärkte, Geschenkläden und Erstkäufer sind Bambuskern-Stäbchen die sicherste und vielseitigste Wahl.",
+          "Dhoop-Stäbchen sind kernlos: massive Zylinder aus reinem aromatischem Material ohne Bambus im Inneren. Da das gesamte Stäbchen aus Duftmasse besteht, liefern sie ein dichteres, intensiveres Aroma und gelten oft als hochwertigeres, traditionelleres Produkt. Die Brenndauer ist länger — 45 bis 75 Minuten — und das reichhaltigere Rauchprofil eignet sich für Meditationsstudios, Spas und rituelle Anwendungen. Dhoop ist zudem das Format der Wahl für traditionelle Rezepturen wie Guggal, Loban und kuhmistbasiertes Pooja-Dhoop.",
+          "Aus Käufersicht sollten Sie drei Faktoren bedenken. Erstens Ihren Kanal: Der Massenhandel startet meist mit Räucherstäbchen, während spezialisierte Wellnessläden beides führen können. Zweitens die Preispositionierung: Dhoop erzielt einen Aufpreis und funktioniert hervorragend in Geschenksets. Drittens die Logistik: Beide Formate lassen sich gut in feuchtigkeitsresistenten Masterkartons versenden, aber Dhoop profitiert von robusterer Innenverpackung zum Schutz der kernlosen Stäbchen im Transport.",
+          "Bei Morvan Essence fertigen wir beide Formate in den Größen 3,5, 6 und 9 Zoll, wobei dieselbe Duftbibliothek in jedem Format verfügbar ist. Unsere Empfehlung für neue Importeure: Starten Sie mit zwei bis drei Bestseller-Düften in Bambuskern-Stäbchen und führen Sie dann Dhoop als Ihre Premium-Zweitlinie ein. Fordern Sie ein Musterset an und vergleichen Sie den Abbrand Seite an Seite — der Unterschied ist sofort erkennbar."
+        ]
+      },
+      {
+        "slug": "cow-dung-dhoop-wellness",
+        "title": "Kuhmist-Dhoop erklärt: Uralte Reinigung für den modernen Wellnessmarkt",
+        "excerpt": "In der vedischen Tradition verehrt und bei Wellnesskäufern zunehmend gefragt: Kuhmist-Dhoop gehört zu Indiens charakteristischsten Duftprodukten. Was Importeure wissen sollten.",
+        "category": "Produktwissen",
+        "readTime": "5",
+        "content": [
+          "Für viele westliche Käufer ist die Vorstellung von Räucherwerk aus Kuhmist überraschend. In Indien jedoch ist es eines der ältesten und angesehensten Reinigungsmaterialien überhaupt. Seit Jahrtausenden wird getrockneter Mist einheimischer Desi-Kühe in Häusern und Tempeln als Teil der Panchagavya-Tradition verbrannt — geschätzt für den sauberen, erdigen, sanft kräuterigen Rauch, den er erzeugt.",
+          "Modernes Kuhmist-Dhoop ist ein raffiniertes Produkt, weit entfernt von seinen rustikalen Ursprüngen. Der Mist wird gesammelt, sonnengetrocknet und zu einer feinen Basis verarbeitet, dann mit Heilkräutern, natürlichem Kampfer, Guggalharz und aromatischen Holzpulvern vermischt. Die fertigen Stäbchen und Kegel brennen mit einem warmen, erdenden Duft, den viele Kunden als beruhigend und klärend beschreiben — ganz anders, als die rohe Zutatenliste vermuten lässt.",
+          "Warum gewinnt es international an Zugkraft? Drei Gründe. Erstens ist der Appetit des Wellnessmarktes auf authentische, traditionsverwurzelte Produkte so groß wie nie. Zweitens passt Kuhmist-Dhoop zum wachsenden Interesse an natürlichen, minimal verarbeiteten Raumdüften. Drittens bietet es Einzelhändlern ein wirklich differenziertes Produkt — mit einer überzeugenden Geschichte, der kein synthetischer Lufterfrischer das Wasser reichen kann.",
+          "Für Importeure ist die Positionierung entscheidend. Kuhmist-Dhoop funktioniert am besten, wenn es ehrlich und elegant präsentiert wird: als traditionelles vedisches Reinigungsräucherwerk aus natürlichen Zutaten, mit auf der Verpackung erklärtem Erbe. Es findet bereitwillige Zielgruppen in Yoga- und Meditationsgemeinschaften, Ayurveda-Läden und umweltbewusstem Einzelhandel.",
+          "Morvan Essence produziert Kuhmist-Räucherwerk und Dhoop als 3,5- und 6-Zoll-Stäbchen sowie Kegel, verpackt in Masterkartons in Exportqualität. Anwendungshinweise für Ihren Markt können während der Musterung besprochen werden, und Private-Label-Verpackungen können die Tradition im Ton Ihrer Marke präsentieren. Fragen Sie bei Ihrer nächsten Anfrage nach einer Probe — es ist das Produkt, das Käufer im Gedächtnis behalten."
+        ]
+      },
+      {
+        "slug": "sourcing-incense-from-india",
+        "title": "Räucherwaren aus Indien beschaffen: Ein praktischer Leitfaden für Importeure",
+        "excerpt": "Musterung, MOQs, Private Label, Dokumentation und Fracht — ein Schritt-für-Schritt-Blick darauf, wie ein erfolgreiches Räucherwaren-Importprogramm tatsächlich funktioniert.",
+        "category": "Exporteinblicke",
+        "readTime": "6",
+        "content": [
+          "Indien produziert den Großteil des weltweiten Räucherwerks — aus gutem Grund: unübertroffener Zugang zu Rohstoffen, über Generationen weitergegebenes Rezepturwissen und hochgradig wettbewerbsfähige Produktionskosten. Doch für Erstimporteure kann der Weg von der Anfrage zum Container undurchsichtig wirken. Dieser Leitfaden durchläuft den Prozess so, wie wir ihn mit unseren eigenen Käufern führen.",
+          "Schritt eins: Muster, bevor Sie sich festlegen. Jeder glaubwürdige Hersteller sollte ein Musterset über Formate (3,5, 6 und 9 Zoll) und Düfte hinweg anbieten. Bewerten Sie Brenndauer, Aschequalität, Duftabgabe kalt und heiß sowie die Verpackungsverarbeitung. Dies ist auch der Moment, die Kommunikation des Lieferanten zu testen — die Reaktionsgeschwindigkeit während der Musterung sagt alles Folgende voraus.",
+          "Schritt zwei: Spezifikation und MOQ abstimmen. Legen Sie Ihre Düfte, Stäbchengröße, Verpackungsformat (Sechsecktuben, Pillow-Packs, Kraftboxen) fest und ob Sie Private Labeling wünschen. MOQs im indischen Räucherwarenbereich sind typischerweise flexibel; bei Morvan Essence passen wir sie sowohl für wachsende Marken als auch für Einzelhändler im Containermaßstab an — Pilotbestellungen sind also ein realistischer Einstieg.",
+          "Schritt drei: Dokumentation und Compliance. Je nach Markt benötigen Sie möglicherweise Produktspezifikationen, MSDS, Ursprungszeugnisse sowie Begasungs- oder Pflanzengesundheitsdokumente. Besprechen Sie dies während der Angebotsphase, nicht nach der Produktion — verfügbare Dokumente sollten geprüft und vereinbart werden, bevor der erste Karton versiegelt wird.",
+          "Schritt vier: Produktion und Fracht. Standard-Produktionszeiten liegen je nach Bestellmenge und Individualisierung bei einigen Wochen. Sendungen laufen FOB oder CIF per Seefracht für Volumen oder per Luftfracht für eilige Launches, wobei feuchtigkeitsresistente Masterkartons das Produkt im Transit schützen. Ein dedizierter Exportdesk, der Freigaben, Produktion und Versandpapiere koordiniert, spart Ihnen über ein Jahr an Bestellungen Wochen ein.",
+          "Die Hersteller, mit denen sich eine Partnerschaft lohnt, sind die, die diesen Prozess unspektakulär machen — klare Angebote, ehrliche Zeitpläne, reaktionsschnelle Kommunikation und Muster, die zur Lieferung passen. Das ist der Standard, den wir uns bei Morvan Essence selbst setzen, und wir würden ihn gern mit Ihrem ersten Musterset beweisen."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Direkter Partnerschaftsdesk",
+    "title": "Kontaktieren Sie unser internationales Exportteam",
+    "desc": "Bereit, Ihren Wellnesskatalog mit authentischem Vrindavan-Räucherwerk und Dhoop zu erweitern? Senden Sie Ihre Anfrage unten oder wenden Sie sich direkt an unsere Exportleitung.",
+    "note": "Senden Sie das Formular mit Ihrem Markt, Produktinteresse und erwartetem Volumen. Offizielle Export-Kontaktlinks werden hier ergänzt, sobald sie vom Morvan-Essence-Team bereitgestellt werden.",
+    "formTitle": "B2B-Anfrage- & Musterformular",
+    "enquiryType": "Anfragetyp",
+    "businessType": "Unternehmensart",
+    "companyName": "Firmenname *",
+    "companyPh": "Ihr Firmenname",
+    "contactPerson": "Ansprechpartner *",
+    "contactPh": "Vollständiger Name & Position",
+    "email": "Geschäftliche E-Mail *",
+    "emailPh": "name@company.com",
+    "phone": "Telefon / WhatsApp *",
+    "phonePh": "+1 (555) 000-0000",
+    "country": "Land / Ziel *",
+    "countryPh": "z. B. USA, Deutschland, VAE",
+    "product": "Produkt- / Duftinteresse",
+    "productPh": "z. B. Sandelholz 9-Zoll-Stäbchen",
+    "message": "Nachricht / Besondere Anforderungen",
+    "messagePh": "Erwartetes Volumen, Verpackungswünsche oder Lieferhafen angeben...",
+    "submit": "B2B-Anfrage senden — Schnelle Antwort",
+    "submitting": "Anfrage wird gesendet...",
+    "optSample": "Musterset anfordern",
+    "optQuote": "Preisangebot anfordern",
+    "optDistributor": "Distributor werden",
+    "optPrivate": "Private-Label- / OEM-Anfrage",
+    "bizImporter": "Importeur",
+    "bizWholesaler": "Großhändler",
+    "bizDistributor": "Distributor",
+    "bizRetailer": "Einzelhändler / Kette",
+    "bizPrivate": "Private-Label-Marke",
+    "toastRequired": "Bitte füllen Sie alle Pflicht-Kontaktfelder aus.",
+    "toastSuccess": "Anfrage erfolgreich gesendet! Unser Exportdesk antwortet innerhalb von 24 Stunden.",
+    "toastRef": "Referenz-ID",
+    "toastFail": "Anfrage konnte nicht gesendet werden. Bitte prüfen Sie Ihre Netzwerkverbindung."
+  },
+  "modal": {
+    "titleSample": "Export-Musterset anfordern",
+    "titleQuote": "B2B-Preisangebot anfordern",
+    "titleDistributor": "Distributionspartnerschafts-Anfrage",
+    "titlePrivate": "Private-Label- / OEM-Beratung",
+    "desc": "Bitte geben Sie Ihre Unternehmensdaten ein. Unser Vrindavan-Exportdesk prüft und versendet die Details innerhalb von 24 Stunden.",
+    "company": "Firmenname *",
+    "companyPh": "Firmenname",
+    "contact": "Ansprechpartner *",
+    "contactPh": "Ihr Name & Position",
+    "email": "Geschäftliche E-Mail *",
+    "phone": "Telefon / WhatsApp *",
+    "country": "Land *",
+    "countryPh": "Land",
+    "product": "Produkt / Duft",
+    "productPh": "Produktinteresse",
+    "message": "Nachricht / Notizen",
+    "messagePh": "Mengenanforderungen, Versandhafen oder Wünsche zur individuellen Etikettierung...",
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet..."
+  },
+  "footer": {
+    "desc": "Authentische indische Räucher- und Dhoop-Exportmarke, inspiriert vom spirituellen Erbe Vrindavans. Gefertigt für internationale Importeure, Großhändler und Private-Label-Marken weltweit.",
+    "catTitle": "Katalog",
+    "cat1": "Räucherstäbchen (3,5″-9″)",
+    "cat2": "Dhoop-Stäbchen (kernlos)",
+    "cat3": "Kuhmist-Räucherwerk",
+    "cat4": "Duftbibliothek",
+    "servTitle": "B2B-Services",
+    "serv1": "Private Label & OEM",
+    "serv2": "Globale Lieferlogistik",
+    "serv3": "Qualitätsdossier & MSDS",
+    "serv4": "Musterset anfordern",
+    "hqTitle": "Export-Hauptsitz",
+    "hq1": "Indischer Exportpartner, verwurzelt in Vrindavan.",
+    "hq2": "Nutzen Sie das Anfrageformular, um ein Käufergespräch zu beginnen.",
+    "rights": "Morvan Essence Export Pvt. Ltd. Alle Rechte vorbehalten.",
+    "terms": "Export-AGB",
+    "msds": "MSDS- & Compliance-Richtlinie",
+    "privacy": "Datenschutzrichtlinie"
+  }
+}

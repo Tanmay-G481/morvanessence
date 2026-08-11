@@ -1,0 +1,293 @@
+{
+  "language": "Idioma",
+  "topbar": "Socio exportador B2B con sede en India, desde Vrindavan • Creado para importadores, mayoristas y marcas privadas",
+  "nav": {
+    "brandTag": "Vrindavan • Exportación global",
+    "story": "Nuestra historia",
+    "products": "Productos",
+    "fragrances": "Biblioteca de fragancias",
+    "privateLabel": "Marca privada / OEM",
+    "export": "Suministro global",
+    "quality": "Calidad",
+    "blog": "Revista",
+    "requestSample": "Solicitar muestra",
+    "requestQuote": "Solicitar cotización"
+  },
+  "hero": {
+    "badge": "Herencia de Vrindavan • Exportación B2B global",
+    "title": "Incienso indio auténtico, inspirado en Vrindavan — creado para el mundo.",
+    "subtitle": "Colaboramos con importadores, mayoristas, distribuidores, minoristas y marcas privadas internacionales que buscan productos de incienso y dhoop cuidadosamente elaborados en India.",
+    "ctaSample": "Solicitar kit de muestras de exportación",
+    "ctaDistributor": "Conviértase en distribuidor",
+    "m1v": "India",
+    "m1l": "Origen y base de exportación",
+    "m2v": "3,5\" – 9\"",
+    "m2l": "Formatos de precisión",
+    "m3v": "Natural",
+    "m3l": "Orientación de ingredientes",
+    "m4v": "OEM / ODM",
+    "m4l": "Listo para marca privada"
+  },
+  "story": {
+    "badge": "Raíces en Vrindavan • Alas hacia el mundo",
+    "title": "Arraigados en la herencia sagrada de Vrindavan",
+    "p1": "Vrindavan ha sido durante siglos la cuna espiritual de las fragancias divinas, las hierbas sagradas y el arte puro de la resina botánica. Morvan Essence nació de esta tradición atemporal: traducir la antigua sabiduría artesanal en productos de bienestar impecables, de calidad de exportación, para los mercados globales.",
+    "p2": "Combinamos el conocimiento artesanal indio con especificaciones documentadas, un embalaje cuidado y un diálogo de exportación diseñado en torno a las necesidades de los minoristas internacionales y las marcas de bienestar.",
+    "card1t": "Artesanía tradicional",
+    "card1d": "Desarrollada en torno a polvos de madera seleccionados, raíces aromáticas, resinas y perfiles de fragancia de inspiración botánica.",
+    "card2t": "Estándares de exportación global",
+    "card2d": "El embalaje y la documentación pueden acordarse según su mercado, el formato del producto y los requisitos de envío.",
+    "quote": "«Una fragancia sagrada es un puente entre lo terrenal y lo divino.»",
+    "quoteBy": "— Nota de herencia Morvan Essence"
+  },
+  "products": {
+    "badge": "Catálogo de exportación",
+    "title": "Nuestra línea de productos premium",
+    "subtitle": "Disponibles en tamaños de precisión (3,5, 6 y 9 pulgadas), adaptados a estanterías minoristas, estudios de bienestar y rituales sagrados en todo el mundo.",
+    "sizeLabel": "Tamaños disponibles:",
+    "burnLabel": "Tiempo de combustión:",
+    "packLabel": "Embalaje:",
+    "cta": "Solicitar muestra y precios",
+    "items": [
+      {
+        "badge": "Más vendido B2B",
+        "title": "Varillas de incienso orgánico",
+        "desc": "Incienso de combustión limpia y bajo humo con núcleo de bambú, elaborado con aceites esenciales puros y aglutinantes naturales de resina botánica.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "30 – 60 min",
+        "pack": "Tubos hexagonales, pillow packs, cartón a granel"
+      },
+      {
+        "badge": "Lujo sin núcleo",
+        "title": "Varillas de dhoop orgánico",
+        "desc": "Incienso botánico sólido sin núcleo, moldeado con hierbas aromáticas, resinas naturales y polvos de madera aromáticos para una pureza de fragancia intensa.",
+        "sizes": "3,5″, 6″, 9″",
+        "burn": "45 – 75 min",
+        "pack": "Cajas eco-kraft con soporte de cerámica incluido"
+      },
+      {
+        "badge": "Tradición védica",
+        "title": "Incienso y dhoop de estiércol de vaca",
+        "desc": "Formulación purificadora tradicional que combina elementos Panchagavya, hierbas medicinales y alcanfor natural para la purificación del aire y la limpieza espiritual.",
+        "sizes": "3,5″, 6″ y conos",
+        "burn": "Guía de uso específica del producto disponible",
+        "burnLabelOverride": "Acción purificadora:",
+        "pack": "Cajas maestras de exportación (100 unidades / caja)"
+      }
+    ]
+  },
+  "fragrances": {
+    "badge": "Espectro sensorial",
+    "title": "Exquisita colección de fragancias",
+    "subtitle": "Mezclas personalizadas por maestros perfumistas para los mercados globales de bienestar, meditación, spa y aromaterapia.",
+    "sampleCta": "Solicitar muestra de esta fragancia",
+    "items": [
+      { "name": "Sándalo real", "note": "Profundo, amaderado, cremoso, meditativo", "profile": "Ideal para estudios de meditación y yoga de lujo" },
+      { "name": "Rosa de Vrindavan", "note": "Rosa damascena aterciopelada y rocío matinal", "profile": "Ideal para retail boutique y fragancias para el hogar" },
+      { "name": "Mogra y jazmín blanco", "note": "Flor nocturna embriagadora", "profile": "Ideal para relajación spa y ambientación" },
+      { "name": "Oud y resina de ámbar", "note": "Rico, ahumado, resinoso, opulento", "profile": "Ideal para sets de regalo premium y hoteles de alta gama" },
+      { "name": "Guggal y loban sagrados", "note": "Balsámico, purificador, enraizante", "profile": "Ideal para limpieza ritual y centros de bienestar" },
+      { "name": "Salvia blanca y lavanda", "note": "Herbáceo, calmante, purificador", "profile": "Ideal para tiendas holísticas y de estilo de vida modernas" },
+      { "name": "Limoncillo y citronela", "note": "Chispeante, refrescante, vigorizante", "profile": "Ideal para vida al aire libre y frescura natural" },
+      { "name": "Nag Champa herencia", "note": "Flor de champaka tradicional y miel", "profile": "Ideal para distribución clásica de exportación" }
+    ]
+  },
+  "privateLabel": {
+    "badge": "Alianza OEM y marca privada",
+    "title": "Cree su propia marca global de incienso con Morvan Essence",
+    "desc": "Capacitamos a mayoristas internacionales, cadenas minoristas y emprendedores del bienestar para lanzar líneas de incienso y dhoop a medida bajo su propia identidad de marca. Desde formulaciones personalizadas y longitudes (3,5″ a 9″) hasta embalaje de lujo con su marca e integración de códigos de barras.",
+    "points": [
+      "Diseño de cajas personalizado, repujado, estampado en foil y etiquetado multilingüe",
+      "Cantidades mínimas de pedido (MOQ) adaptadas a marcas emergentes y establecidas",
+      "Creación de fragancias exclusivas por maestros perfumistas",
+      "Estricto control de calidad, pruebas por lote y logística de exportación segura"
+    ],
+    "cta": "Iniciar consulta de marca privada",
+    "fastTitle": "Vía rápida para consulta de marca privada",
+    "f1l": "Nombre de empresa / marca",
+    "f1p": "ej. Lotus Wellness Co., USA",
+    "f2l": "Correo empresarial",
+    "f2p": "contact@brand.com",
+    "f3l": "Volumen anual estimado",
+    "f3p": "ej. 50.000 unidades / año",
+    "fastCta": "Solicitar consultoría OEM"
+  },
+  "exportSec": {
+    "badge": "Logística global",
+    "title": "Cadena de suministro de exportación internacional sin fisuras",
+    "subtitle": "Desde nuestro centro de fabricación en India hasta sus almacenes en Norteamérica, Europa, Oriente Medio y Asia.",
+    "steps": [
+      { "title": "Consulta y kit de muestras", "desc": "Reciba surtidos de muestras a medida en tamaños de 3,5\", 6\" y 9\" con tiras de fragancia personalizadas." },
+      { "title": "Formulación personalizada", "desc": "Defina notas de fragancia, materiales de embalaje, marca privada y especificaciones de cartón." },
+      { "title": "Cumplimiento y producción", "desc": "Controles de calidad estrictos, sellado de cajas maestras resistente a la humedad y documentación de exportación completa." },
+      { "title": "Entrega de flete global", "desc": "Envíos FOB / CIF por vía marítima o aérea con seguimiento fiable hasta su puerto de destino." }
+    ]
+  },
+  "quality": {
+    "badge": "Estándares sin concesiones",
+    "title": "Garantía de calidad y cumplimiento de exportación",
+    "desc": "Las especificaciones del producto, los detalles de fragancia, los requisitos de embalaje y la documentación disponible pueden revisarse con los compradores durante el muestreo y la cotización.",
+    "cta": "Solicitar dossier de calidad / MSDS",
+    "cards": [
+      { "title": "Especificaciones del producto", "desc": "Analice formatos, perfiles de fragancia, características de combustión y embalaje antes del muestreo." },
+      { "title": "Revisión de documentación", "desc": "La documentación de producto y envío disponible puede revisarse según los requisitos de su mercado." },
+      { "title": "Opciones de embalaje", "desc": "Explore formatos de embalaje minorista, a granel y de marca privada adecuados a su canal." },
+      { "title": "Diálogo de calidad", "desc": "Alinee sus expectativas de calidad, especificaciones y proceso de aprobación antes de la producción." }
+    ]
+  },
+  "why": {
+    "badge": "La ventaja B2B",
+    "title": "Por qué los importadores globales eligen Morvan Essence",
+    "cards": [
+      { "title": "Precios directos de fabricante", "desc": "Trabaje directamente con un socio exportador con sede en India para analizar el ajuste del producto, el embalaje, la planificación de pedidos y los requisitos comerciales." },
+      { "title": "MOQ flexible y escala", "desc": "Ya sea una marca boutique de bienestar que necesita lotes piloto o un minorista nacional que requiere contenedores completos, nuestras líneas de producción se adaptan sin problemas." },
+      { "title": "Mesa de exportación dedicada", "desc": "Construya un flujo de exportación claro en torno a muestreo, aprobaciones, documentación, planificación de producción y coordinación de envíos." }
+    ]
+  },
+  "blog": {
+    "badge": "Análisis y revista",
+    "title": "La Revista Morvan",
+    "subtitle": "Historias de Vrindavan, cultura de la fragancia y orientación práctica para compradores de incienso de todo el mundo.",
+    "readMore": "Leer artículo",
+    "back": "Volver a la revista",
+    "minRead": "min de lectura",
+    "articles": [
+      {
+        "slug": "vrindavan-fragrance-heritage",
+        "title": "La herencia aromática de Vrindavan: donde el incienso es una forma de vida",
+        "excerpt": "Durante siglos, la ciudad de los templos de Vrindavan ha perfumado sus mañanas con sándalo, rosa y resinas sagradas. Descubra cómo esta tradición viva da forma a cada producto que exportamos.",
+        "category": "Herencia",
+        "readTime": "5",
+        "content": [
+          "En Vrindavan, la fragancia no es un lujo: forma parte del ritmo de la vida diaria. Mucho antes del amanecer, los estrechos callejones de esta antigua ciudad de templos en Uttar Pradesh comienzan a llenarse del dulce humo del sándalo, la rosa y la resina de guggal. Los devotos llevan incienso a los templos, las floristas tejen guirnaldas de mogra, y el aire mismo parece recordar cinco mil años de rituales.",
+          "Este es el paisaje en el que nació Morvan Essence. Nuestros fundadores crecieron viendo a los artesanos enrollar varillas de incienso a mano como lo hacían sus abuelos: una pasta de polvo de madera, resinas naturales y botánicos enrollada sobre un núcleo de bambú y secada lentamente bajo el sol de la India. Nada ha cambiado en el oficio esencial, y esa continuidad es precisamente lo que hace que el incienso de Vrindavan sea tan apreciado por los compradores de bienestar de todo el mundo.",
+          "Lo que ha cambiado es la disciplina que aportamos. El conocimiento tradicional de las formulaciones se combina ahora con especificaciones documentadas, registros de lotes consistentes, un embalaje cuidado y un proceso de exportación diseñado para minoristas internacionales. El resultado es un producto que lleva el alma de Vrindavan y cumple las expectativas prácticas del comercio global.",
+          "Para importadores y marcas privadas, esta herencia es mucho más que una historia en una caja. Es un verdadero punto de diferencia en la estantería: incienso con un origen trazable, hecho en una ciudad cuyo nombre es sinónimo de devoción y fragancia. Cuando sus clientes encienden una varilla Morvan Essence, participan en una de las tradiciones aromáticas más antiguas del planeta.",
+          "Le invitamos a experimentarlo usted mismo. Nuestros kits de muestras de exportación incluyen tiras de fragancia de toda nuestra colección insignia, del Sándalo real a la Rosa de Vrindavan, para que su equipo evalúe el carácter de la auténtica artesanía de Vrindavan antes de su primer pedido."
+        ]
+      },
+      {
+        "slug": "incense-vs-dhoop-guide",
+        "title": "Varillas de incienso vs. varillas de dhoop: guía del comprador para importadores",
+        "excerpt": "¿Núcleo de bambú o sin núcleo? Tiempo de combustión, difusión de fragancia, embalaje y posicionamiento en estantería: así se elige el formato adecuado para su mercado.",
+        "category": "Educación del comprador",
+        "readTime": "6",
+        "content": [
+          "Si está creando una línea de incienso para canales minoristas o de bienestar, una de las primeras decisiones será el formato: ¿varillas de incienso tradicionales con núcleo de bambú o varillas de dhoop sin núcleo? Ambas proceden de la misma tradición india, pero se comportan de forma diferente, se venden de forma diferente y se adaptan a segmentos de clientes distintos.",
+          "Las varillas de incienso —el conocido formato de núcleo de bambú— son el estándar mundial. Una fina astilla de bambú se recubre con una pasta aromática de polvos de madera, resinas y aceites. Se encienden con facilidad, arden uniformemente (normalmente entre 30 y 60 minutos en nuestros formatos de 3,5 a 9 pulgadas) y producen una difusión de fragancia moderada y constante. Para supermercados, tiendas de regalos y compradores primerizos, las varillas con núcleo de bambú son la opción más segura y versátil.",
+          "Las varillas de dhoop no tienen núcleo: son cilindros sólidos de material aromático puro, sin bambú en su interior. Como toda la varilla es compuesto aromático, ofrecen un aroma más denso e intenso, y suelen percibirse como un producto más premium y tradicional. Los tiempos de combustión son más largos —de 45 a 75 minutos— y el perfil de humo más rico conviene a estudios de meditación, spas y uso ritual. El dhoop es además el formato preferido para formulaciones tradicionales como el guggal, el loban y el dhoop de pooja a base de estiércol de vaca.",
+          "Desde la perspectiva de compra, considere tres factores. Primero, su canal: el retail convencional suele liderar con varillas de incienso, mientras que las tiendas de bienestar especializadas pueden ofrecer ambos. Segundo, el posicionamiento de precio: el dhoop exige una prima y funciona magníficamente en sets de regalo. Tercero, la logística: ambos formatos se envían bien en cajas maestras resistentes a la humedad, pero el dhoop se beneficia de un embalaje interior más robusto para proteger las varillas sin núcleo durante el transporte.",
+          "En Morvan Essence fabricamos ambos formatos en tamaños de 3,5, 6 y 9 pulgadas, con la misma biblioteca de fragancias disponible en cada uno. Nuestra recomendación para nuevos importadores: comience con dos o tres fragancias superventas en varillas de núcleo de bambú y luego introduzca el dhoop como su segunda línea premium. Solicite un kit de muestras y compare la combustión una al lado de la otra: la diferencia es evidente de inmediato."
+        ]
+      },
+      {
+        "slug": "cow-dung-dhoop-wellness",
+        "title": "El dhoop de estiércol de vaca explicado: purificación ancestral para el mercado moderno del bienestar",
+        "excerpt": "Venerado en la tradición védica y cada vez más buscado por los compradores de bienestar, el dhoop a base de estiércol de vaca es uno de los productos aromáticos más singulares de la India. Esto es lo que los importadores deben saber.",
+        "category": "Educación de producto",
+        "readTime": "5",
+        "content": [
+          "Para muchos compradores occidentales, la idea de un incienso hecho con estiércol de vaca resulta sorprendente. En la India, sin embargo, es uno de los materiales de purificación más antiguos y respetados. Durante miles de años, el estiércol seco de las vacas desi autóctonas se ha quemado en hogares y templos como parte de la tradición Panchagavya, valorado por el humo limpio, terroso y suavemente herbal que produce.",
+          "El dhoop de estiércol de vaca moderno es un producto refinado, muy alejado de sus orígenes rústicos. El estiércol se recoge, se seca al sol y se procesa hasta obtener una base fina, que luego se mezcla con hierbas medicinales, alcanfor natural, resina de guggal y polvos de madera aromáticos. Las varillas y conos terminados arden con una fragancia cálida y enraizante que muchos clientes describen como calmante y clarificante; nada que ver con lo que la lista de ingredientes en bruto podría sugerir.",
+          "¿Por qué gana terreno internacionalmente? Tres razones. Primero, el apetito del mercado del bienestar por productos auténticos con raíces en la tradición es más fuerte que nunca. Segundo, el dhoop de estiércol de vaca se alinea con el creciente interés por las fragancias para el hogar naturales y mínimamente procesadas. Tercero, ofrece a los minoristas un producto genuinamente diferenciado, con una historia convincente que ningún ambientador sintético puede igualar.",
+          "Para los importadores, el posicionamiento importa. El dhoop de estiércol de vaca rinde mejor cuando se presenta con honestidad y elegancia: como un incienso de purificación védica tradicional, elaborado con ingredientes naturales, con su herencia explicada en el embalaje. Encuentra público receptivo en comunidades de yoga y meditación, tiendas ayurvédicas y retail eco-consciente.",
+          "Morvan Essence produce incienso y dhoop de estiércol de vaca en varillas de 3,5 y 6 pulgadas, así como en conos, envasados en cajas maestras de calidad de exportación. La guía de uso para su mercado puede acordarse durante el muestreo, y el embalaje de marca privada puede presentar la tradición con el tono que convenga a su marca. Pida una muestra en su próxima consulta: es el producto que los compradores recuerdan."
+        ]
+      },
+      {
+        "slug": "sourcing-incense-from-india",
+        "title": "Cómo abastecerse de incienso en la India: una guía práctica para importadores",
+        "excerpt": "Muestreo, MOQ, marca privada, documentación y flete: una mirada paso a paso a cómo funciona realmente un programa exitoso de importación de incienso.",
+        "category": "Perspectivas de exportación",
+        "readTime": "6",
+        "content": [
+          "La India produce la mayor parte del incienso del mundo, y con razón: acceso inigualable a materias primas, conocimiento de formulación transmitido por generaciones y una economía de producción altamente competitiva. Pero para un importador primerizo, el camino de la consulta al contenedor puede parecer opaco. Esta guía recorre el proceso tal como lo gestionamos con nuestros propios compradores.",
+          "Primer paso: pruebe antes de comprometerse. Cualquier fabricante creíble debe ofrecer un kit de muestras en todos los formatos (3,5, 6 y 9 pulgadas) y fragancias. Evalúe el tiempo de combustión, la calidad de la ceniza, la difusión de la fragancia en frío y en caliente, y el acabado del embalaje. También es el momento de poner a prueba la comunicación del proveedor: la velocidad de respuesta durante el muestreo lo predice todo lo que vendrá después.",
+          "Segundo paso: alinee la especificación y el MOQ. Defina sus fragancias, el tamaño de las varillas, el formato de embalaje (tubos hexagonales, pillow packs, cajas kraft) y si desea marca privada. Los MOQ en el incienso indio suelen ser flexibles; en Morvan Essence los adaptamos tanto a marcas emergentes como a minoristas a escala de contenedor, por lo que los pedidos piloto son una forma realista de empezar.",
+          "Tercer paso: documentación y cumplimiento. Según su mercado, puede necesitar especificaciones del producto, MSDS, certificados de origen y documentos de fumigación o fitosanitarios. Discútalos durante la cotización, no después de la producción: la documentación disponible debe revisarse y acordarse antes de que se selle la primera caja.",
+          "Cuarto paso: producción y flete. Los plazos de producción estándar son de unas semanas según el tamaño del pedido y la personalización. Los envíos se realizan FOB o CIF por vía marítima para volúmenes, o por flete aéreo para lanzamientos urgentes, con cajas maestras resistentes a la humedad que protegen el producto en tránsito. Una mesa de exportación dedicada que coordine aprobaciones, producción y documentos de envío le ahorrará semanas a lo largo de un año de pedidos.",
+          "Los fabricantes con los que vale la pena asociarse son los que hacen este proceso aburrido: cotizaciones claras, plazos honestos, comunicación receptiva y muestras que coinciden con el envío. Ese es el estándar que nos exigimos en Morvan Essence, y estaremos encantados de demostrarlo con su primer kit de muestras."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Mesa de alianzas directas",
+    "title": "Conecte con nuestro equipo de exportación internacional",
+    "desc": "¿Listo para ampliar su catálogo de bienestar con incienso y dhoop auténticos de Vrindavan? Envíe su consulta a continuación o contacte directamente con nuestros directores de exportación.",
+    "note": "Envíe el formulario con su mercado, interés de producto y volumen previsto. Los enlaces de contacto oficiales de exportación se añadirán aquí cuando el equipo de Morvan Essence los proporcione.",
+    "formTitle": "Formulario de consulta B2B y solicitud de muestras",
+    "enquiryType": "Tipo de consulta",
+    "businessType": "Tipo de negocio",
+    "companyName": "Nombre de la empresa *",
+    "companyPh": "Nombre de su empresa",
+    "contactPerson": "Persona de contacto *",
+    "contactPh": "Nombre completo y cargo",
+    "email": "Correo empresarial *",
+    "emailPh": "name@company.com",
+    "phone": "Teléfono / WhatsApp *",
+    "phonePh": "+1 (555) 000-0000",
+    "country": "País / Destino *",
+    "countryPh": "ej. Estados Unidos, Alemania, EAU",
+    "product": "Interés en producto / fragancia",
+    "productPh": "ej. varillas de sándalo de 9 pulgadas",
+    "message": "Mensaje / requisitos específicos",
+    "messagePh": "Indique el volumen previsto, preferencias de embalaje o puerto de entrega...",
+    "submit": "Enviar consulta B2B — Respuesta rápida",
+    "submitting": "Enviando consulta...",
+    "optSample": "Solicitar kit de muestras",
+    "optQuote": "Solicitar cotización",
+    "optDistributor": "Conviértase en distribuidor",
+    "optPrivate": "Consulta de marca privada / OEM",
+    "bizImporter": "Importador",
+    "bizWholesaler": "Mayorista",
+    "bizDistributor": "Distribuidor",
+    "bizRetailer": "Minorista / cadena",
+    "bizPrivate": "Marca privada",
+    "toastRequired": "Complete todos los campos de contacto obligatorios.",
+    "toastSuccess": "¡Consulta enviada con éxito! Nuestra mesa de exportación responderá en 24 horas.",
+    "toastRef": "ID de referencia",
+    "toastFail": "Error al enviar la consulta. Compruebe su conexión de red."
+  },
+  "modal": {
+    "titleSample": "Solicitar kit de muestras de exportación",
+    "titleQuote": "Solicitar cotización B2B",
+    "titleDistributor": "Consulta de alianza de distribución",
+    "titlePrivate": "Consultoría de marca privada / OEM",
+    "desc": "Complete los datos de su empresa. Nuestra mesa de exportación en Vrindavan revisará y enviará los detalles en 24 horas.",
+    "company": "Nombre de la empresa *",
+    "companyPh": "Nombre de la empresa",
+    "contact": "Persona de contacto *",
+    "contactPh": "Su nombre y cargo",
+    "email": "Correo empresarial *",
+    "phone": "Teléfono / WhatsApp *",
+    "country": "País *",
+    "countryPh": "País",
+    "product": "Producto / fragancia",
+    "productPh": "Interés de producto",
+    "message": "Mensaje / notas",
+    "messagePh": "Requisitos de volumen, puerto de envío o solicitudes de etiquetado personalizado...",
+    "submit": "Enviar consulta",
+    "submitting": "Enviando..."
+  },
+  "footer": {
+    "desc": "Marca de exportación de incienso y dhoop indios auténticos, inspirada en la herencia espiritual de Vrindavan. Creada para importadores, mayoristas y marcas privadas de todo el mundo.",
+    "catTitle": "Catálogo",
+    "cat1": "Varillas de incienso (3,5″-9″)",
+    "cat2": "Varillas de dhoop (sin núcleo)",
+    "cat3": "Incienso de estiércol de vaca",
+    "cat4": "Biblioteca de fragancias",
+    "servTitle": "Servicios B2B",
+    "serv1": "Marca privada y OEM",
+    "serv2": "Logística de suministro global",
+    "serv3": "Dossier de calidad y MSDS",
+    "serv4": "Solicitar kit de muestras",
+    "hqTitle": "Sede de exportación",
+    "hq1": "Socio exportador con sede en India, arraigado en Vrindavan.",
+    "hq2": "Use el formulario de consulta para iniciar una conversación de comprador.",
+    "rights": "Morvan Essence Export Pvt. Ltd. Todos los derechos reservados.",
+    "terms": "Términos y condiciones de exportación",
+    "msds": "Política de MSDS y cumplimiento",
+    "privacy": "Política de privacidad"
+  }
+}
