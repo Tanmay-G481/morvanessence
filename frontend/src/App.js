@@ -779,13 +779,13 @@ export default function App() {
                       <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">tanmaygulati78@gmail.com</p>
                     </div>
                   </a>
-                  <a href="https://wa.me/9170603784484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
+                  <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059]/25 transition-colors shrink-0">
                       <Phone className="w-4.5 h-4.5 text-[#C5A059]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.waLabel")}</p>
-                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">+91 70603784484</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">+91 70603 74484</p>
                     </div>
                   </a>
                   <div className="flex items-center gap-4" data-testid="contact-location">
@@ -928,8 +928,8 @@ export default function App() {
               <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
                 <Mail className="w-3.5 h-3.5 text-[#C5A059]" /> tanmaygulati78@gmail.com
               </a>
-              <a href="https://wa.me/9170603784484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
-                <Phone className="w-3.5 h-3.5 text-[#C5A059]" /> +91 70603784484
+              <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
+                <Phone className="w-3.5 h-3.5 text-[#C5A059]" /> +91 70603 74484
               </a>
               <p className="text-sm text-[#E8E2D5]/60">{t("footer.hq2")}</p>
             </div>

@@ -45,7 +45,8 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Per-language SEO: translated title + meta description switch with language; hreflang alternates for all 7 locales and keywords/OG tags added to index.html
 - Branded OG/Twitter share image (`/app/frontend/public/og-image.jpg`, 1200×630) wired as absolute og:image + twitter:image
 - Enquiry email alerts: backend sends a branded HTML notification to OWNER_NOTIFY_EMAIL via Resend on every POST /api/enquiries (non-blocking, fire-and-forget). ACTIVE ONLY after a real RESEND_API_KEY is added to backend/.env (currently empty placeholder — ask user for a Resend key or Emergent-managed Resend activation)
-- WhatsApp number kept exactly as user provided (70603784484 → +91 70603784484, wa.me/9170603784484); user asked to re-confirm digits if wrong
+- WhatsApp number corrected per user confirmation: 7060374484 → +91 70603 74484, wa.me/917060374484
+- Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
 ## Pending / Backlog
 - P0: Swap in official contact details (email, phone/WhatsApp, location) once the user provides them

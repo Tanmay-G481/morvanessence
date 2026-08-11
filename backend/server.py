@@ -125,6 +125,30 @@ async def send_enquiry_alert(doc):
         }
         await asyncio.to_thread(resend.Emails.send, params)
         logging.info(f"Enquiry alert email sent for {doc['id']}")
+
+        confirm_html = (
+            '<div style="font-family:Georgia,serif;max-width:560px;margin:0 auto;border:1px solid #E8E2D5;border-radius:12px;overflow:hidden;">'
+            '<div style="background:#4A5D4E;color:#fff;padding:24px;text-align:center;">'
+            '<div style="width:52px;height:52px;border-radius:50%;background:#C5A059;color:#22201D;font-size:26px;line-height:52px;margin:0 auto 10px;">M</div>'
+            '<h2 style="margin:0;font-size:20px;">Morvan Essence</h2>'
+            '<p style="margin:6px 0 0;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#E8E2D5;">Vrindavan • Global Export</p></div>'
+            '<div style="padding:28px 24px;background:#fff;color:#22201D;font-size:14px;line-height:1.7;">'
+            f'<p>Dear {doc["contact_person"]},</p>'
+            '<p>Thank you for your enquiry. Our export desk has received your request and will respond within 24 hours with samples, pricing, or partnership details as applicable.</p>'
+            f'<p style="background:#F9F8F5;border-left:3px solid #C5A059;padding:12px 16px;margin:16px 0;">'
+            f'<b>Reference ID:</b> {doc["id"][:8]}<br/><b>Enquiry Type:</b> {doc["enquiry_type"]}<br/><b>Product Interest:</b> {doc["product_interest"]}</p>'
+            '<p>For anything urgent, reply to this email or reach us on WhatsApp at <b>+91 70603 74484</b>.</p>'
+            '<p>Warm regards,<br/><b>The Morvan Essence Export Desk</b><br/>Vrindavan, India</p></div>'
+            '<div style="padding:14px 24px;background:#F9F8F5;color:#767169;font-size:11px;text-align:center;">Authentic Indian Incense, Inspired by Vrindavan — Crafted for the World.</div></div>'
+        )
+        confirm_params = {
+            "from": os.environ.get("SENDER_EMAIL", "onboarding@resend.dev"),
+            "to": [doc["business_email"]],
+            "subject": "We received your enquiry — Morvan Essence Export Desk",
+            "html": confirm_html,
+        }
+        await asyncio.to_thread(resend.Emails.send, confirm_params)
+        logging.info(f"Buyer confirmation email sent for {doc['id']} to {doc['business_email']}")
     except Exception as e:
         logging.error(f"Enquiry alert email failed for {doc.get('id')}: {e}")
 
