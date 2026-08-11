@@ -40,6 +40,9 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Arabic renders full RTL (document.dir switch + RTL-aware icons)
 - "Morvan Journal" blog section with 4 complete SEO-friendly articles (Vrindavan heritage, incense vs dhoop buyer guide, cow-dung dhoop education, India sourcing playbook), each fully translated into all 7 languages, with in-app article reader view
 - Verified: EN home, AR RTL home, blog cards, article view in EN + HI, all 7 locale JSONs valid, webpack compiles clean
+- Journal expanded to 6 articles (added: incense sizes guide, private-label launch playbook), all translated into 7 languages
+- Contact details live across contact section + footer (email, WhatsApp with wa.me link, Vrindavan location) with translated labels in all 7 languages
+- Per-language SEO: translated title + meta description switch with language; hreflang alternates for all 7 locales and keywords/OG tags added to index.html
 
 ## Pending / Backlog
 - P0: Swap in official contact details (email, phone/WhatsApp, location) once the user provides them

@@ -1,5 +1,9 @@
 {
   "language": "Idioma",
+  "seo": {
+    "title": "Morvan Essence | Exportación de incienso y dhoop indio auténtico desde Vrindavan",
+    "desc": "Fabricante y exportador premium de varillas de incienso orgánico, dhoop y dhoop de estiércol de vaca desde Vrindavan, India. Muestras B2B, marca privada y OEM para importadores, mayoristas y distribuidores globales."
+  },
   "topbar": "Socio exportador B2B con sede en India, desde Vrindavan • Creado para importadores, mayoristas y marcas privadas",
   "nav": {
     "brandTag": "Vrindavan • Exportación global",
@@ -208,6 +212,33 @@
           "Cuarto paso: producción y flete. Los plazos de producción estándar son de unas semanas según el tamaño del pedido y la personalización. Los envíos se realizan FOB o CIF por vía marítima para volúmenes, o por flete aéreo para lanzamientos urgentes, con cajas maestras resistentes a la humedad que protegen el producto en tránsito. Una mesa de exportación dedicada que coordine aprobaciones, producción y documentos de envío le ahorrará semanas a lo largo de un año de pedidos.",
           "Los fabricantes con los que vale la pena asociarse son los que hacen este proceso aburrido: cotizaciones claras, plazos honestos, comunicación receptiva y muestras que coinciden con el envío. Ese es el estándar que nos exigimos en Morvan Essence, y estaremos encantados de demostrarlo con su primer kit de muestras."
         ]
+      },
+      {
+        "slug": "incense-sizes-guide",
+        "title": "¿3,5, 6 o 9 pulgadas? Cómo elegir el tamaño de incienso adecuado para cada canal",
+        "excerpt": "La longitud de la varilla determina el tiempo de combustión, el precio, el tamaño del embalaje y la ubicación en el lineal. Un análisis práctico de qué tamaño gana en cada entorno de venta.",
+        "category": "Educación del comprador",
+        "readTime": "4",
+        "content": [
+          "Cuando los compradores revisan por primera vez un catálogo de incienso, el tamaño parece un detalle menor. En la práctica, la longitud de la varilla determina el tiempo de combustión, el precio unitario, las dimensiones del embalaje e incluso el lineal en el que acabará su producto. Elegir la mezcla correcta de formatos de 3,5, 6 y 9 pulgadas es una de las palancas silenciosas de una línea de incienso rentable.",
+          "La varilla de 3,5 pulgadas es el formato de descubrimiento. Con un tiempo de combustión de unos 30 minutos, encaja en packs de prueba, sets de regalo, amenities de hotel y travel retail. Su precio más bajo facilita el sí de los clientes nuevos, y el embalaje compacto mantiene amigables los costes de envío. Muchos importadores usan los surtidos de 3,5 pulgadas como puerta de entrada a su marca.",
+          "La varilla de 6 pulgadas es el caballo de batalla del retail: el formato que la mayoría de los consumidores imagina al pensar en incienso. Ofrece el mejor equilibrio entre tiempo de combustión y valor, encaja en el embalaje estándar de lineal y tiene presencia aromática suficiente para el uso doméstico diario. Si solo va a tener un tamaño, que sea este. La varilla de 9 pulgadas, en cambio, es la declaración premium: una combustión larga y meditativa de una hora o más que atrae a estudios de yoga, templos, spas y compradores rituales que equiparan longitud con lujo.",
+          "Nuestro consejo para importadores: ancle su gama en la línea de 6 pulgadas, acompáñela con packs de descubrimiento de 3,5 pulgadas para captar clientes nuevos y reserve las 9 pulgadas para su nivel premium. Los kits de muestras de Morvan Essence incluyen los tres tamaños en las fragancias que elija, para validar combustión, difusión aromática y proporciones de embalaje antes de comprometerse con la producción."
+        ]
+      },
+      {
+        "slug": "private-label-incense-launch",
+        "title": "De la idea al lineal: cómo se construye realmente una línea de incienso de marca privada",
+        "excerpt": "Formulación, embalaje, MOQ y logística: el calendario real detrás del lanzamiento de su propia gama de incienso de marca con un fabricante indio.",
+        "category": "Marca privada",
+        "readTime": "5",
+        "content": [
+          "El incienso de marca privada es una de las formas más accesibles de lanzar una marca de bienestar: la experiencia de fabricación ya existe en la India, y su trabajo es envolverla en una marca que sus clientes amen. Pero ¿qué ocurre realmente entre su primera consulta y la llegada de un contenedor de su producto de marca a su almacén?",
+          "Todo empieza con la fragancia. Normalmente elegirá de la biblioteca de fragancias existente del fabricante —perfiles probados y estables como sándalo, rosa, jazmín o nag champa— o encargará una mezcla personalizada para la exclusividad. El muestreo en esta fase es esencial: evalúe la fragancia en frío sobre la varilla, luego ardiendo, en el tamaño exacto que planea vender.",
+          "Después llega la capa de marca. El formato (3,5, 6 o 9 pulgadas), el número de varillas por paquete y el estilo de embalaje —tubos hexagonales, pillow packs o cajas kraft— se deciden junto con el diseño de la etiqueta, los idiomas y los códigos de barras. Un buen fabricante proporciona las troqueladoras y gestiona la impresión, de modo que su diseño pasa directo a producción. Aquí es donde su producto deja de ser incienso y empieza a ser su marca.",
+          "Luego, el marco comercial: cantidades mínimas de pedido, niveles de precio y plazos de entrega. Los MOQ del incienso de marca privada son más amigables que en la mayoría de las categorías: las tiradas piloto le permiten probar su mercado antes de escalar. La documentación de su mercado de destino, desde las especificaciones del producto hasta los papeles de envío, debe acordarse antes de que comience la producción.",
+          "Por último, producción y flete: unas semanas de fabricación, cajas de exportación protegidas contra la humedad y flete marítimo o aéreo hasta su puerto. De la primera consulta a la primera entrega, un lanzamiento de marca privada bien gestionado suele tardar entre dos y tres meses. En Morvan Essence, nuestra mesa de exportación le acompaña en cada paso: envíe una consulta de marca privada y trazaremos juntos su plan de lanzamiento."
+        ]
       }
     ]
   },
@@ -215,7 +246,11 @@
     "badge": "Mesa de alianzas directas",
     "title": "Conecte con nuestro equipo de exportación internacional",
     "desc": "¿Listo para ampliar su catálogo de bienestar con incienso y dhoop auténticos de Vrindavan? Envíe su consulta a continuación o contacte directamente con nuestros directores de exportación.",
-    "note": "Envíe el formulario con su mercado, interés de producto y volumen previsto. Los enlaces de contacto oficiales de exportación se añadirán aquí cuando el equipo de Morvan Essence los proporcione.",
+    "note": "¿Prefiere una conversación directa? Contacte con nuestra mesa de exportación por correo o WhatsApp — respondemos en 24 horas.",
+    "emailLabel": "Escríbanos",
+    "waLabel": "WhatsApp / Llamada",
+    "locLabel": "Sede central",
+    "locValue": "Vrindavan, India",
     "formTitle": "Formulario de consulta B2B y solicitud de muestras",
     "enquiryType": "Tipo de consulta",
     "businessType": "Tipo de negocio",

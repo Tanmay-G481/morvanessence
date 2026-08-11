@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import "./i18n";
@@ -16,7 +16,10 @@ import {
   X,
   Leaf,
   BookOpen,
-  Clock
+  Clock,
+  Mail,
+  Phone,
+  MapPin
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -73,7 +76,13 @@ const LanguageSwitcher = ({ className }) => {
 };
 
 export default function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    document.title = t("seo.title");
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", t("seo.desc"));
+  }, [t, i18n.language]);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [enquiryModalOpen, setEnquiryModalOpen] = useState(false);
   const [defaultEnquiryType, setDefaultEnquiryType] = useState("sample");
@@ -710,7 +719,7 @@ export default function App() {
             <p className="text-[#767169] text-base">{t("blog.subtitle")}</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((art, idx) => (
               <div
                 key={art.slug}
@@ -758,8 +767,37 @@ export default function App() {
                 <p className="text-white/80 leading-relaxed text-base">{t("contact.desc")}</p>
               </div>
 
-              <div className="pt-4 border-t border-white/15" data-testid="contact-details-note">
+              <div className="pt-6 border-t border-white/15 space-y-5" data-testid="contact-details-block">
                 <p className="text-sm text-white/65 leading-relaxed">{t("contact.note")}</p>
+                <div className="space-y-4">
+                  <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-4 group" data-testid="contact-email-link">
+                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059]/25 transition-colors shrink-0">
+                      <Mail className="w-4.5 h-4.5 text-[#C5A059]" />
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.emailLabel")}</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">tanmaygulati78@gmail.com</p>
+                    </div>
+                  </a>
+                  <a href="https://wa.me/9170603784484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
+                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059]/25 transition-colors shrink-0">
+                      <Phone className="w-4.5 h-4.5 text-[#C5A059]" />
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.waLabel")}</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">+91 70603784484</p>
+                    </div>
+                  </a>
+                  <div className="flex items-center gap-4" data-testid="contact-location">
+                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                      <MapPin className="w-4.5 h-4.5 text-[#C5A059]" />
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.locLabel")}</p>
+                      <p className="text-sm text-white font-medium">{t("contact.locValue")}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -887,6 +925,12 @@ export default function App() {
             <div className="md:col-span-3 space-y-3">
               <p className="text-xs uppercase tracking-[0.2em] font-semibold text-white">{t("footer.hqTitle")}</p>
               <p className="text-sm text-[#E8E2D5]/60">{t("footer.hq1")}</p>
+              <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
+                <Mail className="w-3.5 h-3.5 text-[#C5A059]" /> tanmaygulati78@gmail.com
+              </a>
+              <a href="https://wa.me/9170603784484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
+                <Phone className="w-3.5 h-3.5 text-[#C5A059]" /> +91 70603784484
+              </a>
               <p className="text-sm text-[#E8E2D5]/60">{t("footer.hq2")}</p>
             </div>
           </div>

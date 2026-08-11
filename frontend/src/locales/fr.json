@@ -1,5 +1,9 @@
 {
   "language": "Langue",
+  "seo": {
+    "title": "Morvan Essence | Export d'encens et dhoop indiens authentiques depuis Vrindavan",
+    "desc": "Fabricant et exportateur de bâtons d'encens biologiques, dhoop et dhoop de bouse de vache premium depuis Vrindavan, Inde. Échantillons B2B, marque privée et OEM pour importateurs, grossistes et distributeurs mondiaux."
+  },
   "topbar": "Partenaire d'export B2B basé en Inde, à Vrindavan • Conçu pour les importateurs, grossistes et marques privées",
   "nav": {
     "brandTag": "Vrindavan • Export mondial",
@@ -208,6 +212,33 @@
           "Quatrième étape : production et fret. Les délais de production standard sont de quelques semaines selon la taille de la commande et la personnalisation. Les expéditions partent en FOB ou CIF par voie maritime pour les volumes, ou par fret aérien pour les lancements urgents, avec des cartons maîtres résistants à l'humidité qui protègent le produit en transit. Un bureau export dédié qui coordonne les validations, la production et les documents d'expédition vous fera gagner des semaines sur une année de commandes.",
           "Les fabricants qui méritent un partenariat sont ceux qui rendent ce processus sans surprise — devis clairs, délais honnêtes, communication réactive et échantillons conformes à l'expédition. C'est le standard que nous nous imposons chez Morvan Essence, et nous serions ravis de le prouver avec votre premier kit d'échantillons."
         ]
+      },
+      {
+        "slug": "incense-sizes-guide",
+        "title": "3,5, 6 ou 9 pouces ? Choisir la bonne taille d'encens pour chaque canal",
+        "excerpt": "La longueur du bâton détermine la durée de combustion, le prix, l'emballage et le positionnement en rayon. Analyse pratique du format gagnant selon le canal de vente.",
+        "category": "Guide acheteur",
+        "readTime": "4",
+        "content": [
+          "Quand les acheteurs parcourent un catalogue d'encens pour la première fois, la taille semble un détail mineur. En pratique, la longueur du bâton détermine la durée de combustion, le prix unitaire, les dimensions de l'emballage et même le rayon où aboutira votre produit. Choisir le bon mix de formats 3,5, 6 et 9 pouces est l'un des leviers discrets d'une gamme d'encens rentable.",
+          "Le bâton de 3,5 pouces est le format découverte. Avec une combustion d'environ 30 minutes, il convient aux packs d'essai, coffrets cadeaux, produits d'accueil hôteliers et au travel retail. Son prix accessible facilite le premier achat, et son emballage compact maîtrise les frais de port. Beaucoup d'importateurs utilisent les assortiments 3,5 pouces comme porte d'entrée de leur marque.",
+          "Le bâton de 6 pouces est le cheval de bataille du retail — le format que la plupart des consommateurs visualisent en pensant à l'encens. Il offre le meilleur équilibre entre durée de combustion et valeur, s'adapte aux emballages standards et diffuse assez de parfum pour un usage domestique quotidien. Si vous ne stockez qu'une seule taille, c'est celle-ci. Le bâton de 9 pouces, lui, est la déclaration premium : une combustion longue et méditative d'une heure ou plus qui séduit les studios de yoga, temples, spas et acheteurs rituels qui associent longueur et luxe.",
+          "Notre conseil aux importateurs : ancirez votre gamme sur la ligne 6 pouces, flanquez-la de packs découverte 3,5 pouces pour recruter de nouveaux clients, et réservez le 9 pouces à votre niveau premium. Les kits d'échantillons Morvan Essence incluent les trois tailles dans les parfums de votre choix, pour valider combustion, diffusion et proportions d'emballage avant de vous engager en production."
+        ]
+      },
+      {
+        "slug": "private-label-incense-launch",
+        "title": "De l'idée au rayon : comment se construit réellement une ligne d'encens en marque privée",
+        "excerpt": "Formulation, emballage, MOQ et logistique — le calendrier réel du lancement de votre gamme d'encens de marque avec un fabricant indien.",
+        "category": "Marque privée",
+        "readTime": "5",
+        "content": [
+          "L'encens en marque privée est l'un des moyens les plus accessibles de lancer une marque de bien-être : le savoir-faire de fabrication existe déjà en Inde, et votre rôle est de l'envelopper d'une marque que vos clients adoreront. Mais que se passe-t-il concrètement entre votre première demande et l'arrivée d'un conteneur de votre produit de marque à votre entrepôt ?",
+          "Tout commence par le parfum. Vous choisirez généralement dans la bibliothèque de parfums existante du fabricant — des profils éprouvés et stables comme le santal, la rose, le jasmin ou le nag champa — ou commanderez un mélange sur mesure pour l'exclusivité. L'échantillonnage à cette étape est essentiel : évaluez le parfum à froid sur le bâton, puis en combustion, dans la taille exacte que vous comptez vendre.",
+          "Vient ensuite la couche marque. Le format (3,5, 6 ou 9 pouces), le nombre de bâtons par paquet et le style d'emballage — tubes hexagonaux, sachets souples ou boîtes kraft — se décident avec le design de l'étiquette, les langues et les codes-barres. Un bon fabricant fournit les gabarits et gère l'impression : votre création part directement en production. C'est là que votre produit cesse d'être de l'encens et devient votre marque.",
+          "Puis le cadre commercial : quantités minimales de commande, grilles de prix et délais. Les MOQ de l'encens en marque privée sont plus accessibles que dans la plupart des catégories — les séries pilotes permettent de tester votre marché avant de monter en volume. La documentation de votre marché de destination, des spécifications produit aux documents d'expédition, doit être validée avant le début de la production.",
+          "Enfin, production et fret : quelques semaines de fabrication, des cartons export protégés de l'humidité, et un fret maritime ou aérien jusqu'à votre port. De la première demande à la première livraison, un lancement de marque privée bien mené prend généralement deux à trois mois. Chez Morvan Essence, notre bureau export vous accompagne à chaque étape — envoyez une demande de marque privée et nous construirons votre plan de lancement ensemble."
+        ]
       }
     ]
   },
@@ -215,7 +246,11 @@
     "badge": "Bureau partenariat direct",
     "title": "Contactez notre équipe export internationale",
     "desc": "Prêt à enrichir votre catalogue bien-être avec l'encens et le dhoop authentiques de Vrindavan ? Soumettez votre demande ci-dessous ou contactez directement nos directeurs export.",
-    "note": "Soumettez le formulaire avec votre marché, votre intérêt produit et votre volume estimé. Les liens de contact export officiels seront ajoutés ici dès qu'ils seront fournis par l'équipe Morvan Essence.",
+    "note": "Vous préférez un échange direct ? Contactez notre bureau export par e-mail ou WhatsApp — nous répondons sous 24 heures.",
+    "emailLabel": "Écrivez-nous",
+    "waLabel": "WhatsApp / Appel",
+    "locLabel": "Siège",
+    "locValue": "Vrindavan, Inde",
     "formTitle": "Formulaire de demande B2B & échantillon",
     "enquiryType": "Type de demande",
     "businessType": "Type d'entreprise",

@@ -1,5 +1,9 @@
 {
   "language": "Language",
+  "seo": {
+    "title": "Morvan Essence | Authentic Indian Incense & Dhoop Export from Vrindavan",
+    "desc": "Premium organic incense sticks, dhoop and cow-dung dhoop manufacturer and exporter from Vrindavan, India. B2B samples, private label and OEM for global importers, wholesalers and distributors."
+  },
   "topbar": "India-based B2B export partner from Vrindavan • Built for importers, wholesalers & private-label brands",
   "nav": {
     "brandTag": "Vrindavan • Global Export",
@@ -208,6 +212,33 @@
           "Step four: production and freight. Standard production lead times run a few weeks depending on order size and customization. Shipments move FOB or CIF by sea for volume, or by air freight for urgent launches, with moisture-resistant master cartons protecting product in transit. A dedicated export desk that coordinates approvals, production, and shipping documents will save you weeks across a year of orders.",
           "The manufacturers worth partnering with are the ones who make this process boring — clear quotes, honest timelines, responsive communication, and samples that match the shipment. That is the standard we hold ourselves to at Morvan Essence, and we would be glad to prove it with your first sample kit."
         ]
+      },
+      {
+        "slug": "incense-sizes-guide",
+        "title": "3.5, 6 or 9 Inches? Choosing the Right Incense Size for Every Channel",
+        "excerpt": "Stick length drives burn time, price point, packaging footprint, and shelf placement. A practical breakdown of which size wins in which retail environment.",
+        "category": "Buyer Education",
+        "readTime": "4",
+        "content": [
+          "When buyers first review an incense catalogue, size looks like a minor detail. In practice, stick length determines burn time, unit price, packaging dimensions, and even which shelf your product ends up on. Choosing the right mix of 3.5-inch, 6-inch, and 9-inch formats is one of the quiet levers of a profitable incense range.",
+          "The 3.5-inch stick is the discovery format. With a burn time around 30 minutes, it suits trial packs, gift sets, hotel amenities, and travel retail. Lower price points make it easy for new customers to say yes, and compact packaging keeps shipping costs friendly. Many importers use 3.5-inch assortments as the entry door to their brand.",
+          "The 6-inch stick is the retail workhorse — the format most consumers picture when they think of incense. It offers the best balance of burn time and value, fits standard shelf packaging, and carries enough fragrance presence for daily home use. If you stock only one size, this is it. The 9-inch stick, meanwhile, is the premium statement: a long, meditative burn of an hour or more that appeals to yoga studios, temples, spas, and ritual buyers who equate length with luxury.",
+          "Our advice to importers: anchor your range with the 6-inch core line, flank it with 3.5-inch discovery packs to recruit new customers, and reserve 9-inch for your premium tier. Morvan Essence sample kits include all three sizes across your chosen fragrances, so you can validate burn, aroma throw, and packaging proportions before committing to production."
+        ]
+      },
+      {
+        "slug": "private-label-incense-launch",
+        "title": "From Idea to Shelf: How a Private-Label Incense Line Is Actually Built",
+        "excerpt": "Formulation, packaging, MOQs, and logistics — the real timeline behind launching your own branded incense range with an Indian manufacturer.",
+        "category": "Private Label",
+        "readTime": "5",
+        "content": [
+          "Private-label incense is one of the most accessible ways to launch a wellness brand: the manufacturing expertise already exists in India, and your job is to wrap it in a brand your customers will love. But what actually happens between your first enquiry and a container of your branded product arriving at your warehouse?",
+          "It starts with fragrance. You will typically choose from the manufacturer's existing fragrance library — proven, stable profiles like sandalwood, rose, jasmine, or nag champa — or commission a custom blend for exclusivity. Sampling at this stage is essential: evaluate the fragrance cold on the stick, then burning, in the exact size you plan to sell.",
+          "Next comes the brand layer. Format (3.5, 6, or 9-inch), stick count per pack, and packaging style — hexagonal tubes, pillow packs, or kraft boxes — are decided together with label design, languages, and barcodes. A good manufacturer provides dielines and handles printing, so your artwork goes straight to production. This is where your product stops being incense and starts being your brand.",
+          "Then the commercial frame: minimum order quantities, pricing tiers, and lead times. MOQs for private-label incense are friendlier than most categories — pilot runs let you test your market before scaling. Documentation for your destination market, from product specifications to shipping papers, should be agreed before production begins.",
+          "Finally, production and freight: a few weeks of manufacturing, moisture-protected export cartons, and sea or air freight to your port. From first enquiry to first delivery, a well-run private-label launch typically takes two to three months. At Morvan Essence, our export desk walks you through every step — send a private-label enquiry and we will map out your launch plan together."
+        ]
       }
     ]
   },
@@ -215,7 +246,11 @@
     "badge": "Direct Partnership Desk",
     "title": "Connect with Our International Export Team",
     "desc": "Ready to expand your wellness catalog with authentic Vrindavan incense and dhoop? Submit your enquiry below or reach out directly to our export directors.",
-    "note": "Submit the form with your market, product interest, and expected volume. Official export contact links will be added here once provided by the Morvan Essence team.",
+    "note": "Prefer a direct conversation? Reach our export desk by email or WhatsApp — we respond within 24 hours.",
+    "emailLabel": "Email Us",
+    "waLabel": "WhatsApp / Call",
+    "locLabel": "Head Office",
+    "locValue": "Vrindavan, India",
     "formTitle": "B2B Enquiry & Sample Request Form",
     "enquiryType": "Enquiry Type",
     "businessType": "Business Type",
