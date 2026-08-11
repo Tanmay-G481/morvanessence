@@ -243,6 +243,18 @@
       }
     ]
   },
+  "certs": {
+    "badge": "Vertrouwen & compliance",
+    "title": "Geregistreerd. Gecertificeerd. Klaar voor export.",
+    "subtitle": "Morvan Essence opereert als een volledig geregistreerd Indiase exportbedrijf. Geverifieerde certificaatkopieën worden gedeeld met kopers tijdens onboarding en due diligence.",
+    "note": "Certificaatscans en registratienummers worden op aanvraag gedeeld met geverifieerde zakelijke kopers.",
+    "items": [
+      { "name": "IEC-certificaat", "issuer": "DGFT, Regering van India", "desc": "Import Export Code die Morvan Essence bevoegd maakt om legaal goederen vanuit India naar internationale markten te exporteren." },
+      { "name": "MSME-certificaat", "issuer": "Ministerie van MSME, Regering van India", "desc": "Udyam-geregistreerde productieonderneming, erkend binnen het Indiase MSME-kader." },
+      { "name": "GST-registratie", "issuer": "GST-netwerk, Regering van India", "desc": "Geregistreerde Indiase fiscale entiteit — GSTIN staat op alle commerciële facturen en exportdocumenten." },
+      { "name": "Biologisch kwaliteitscertificaat", "issuer": "Productkwaliteitsborging", "desc": "Kwaliteitsdocumentatie voor onze natuurlijke productlijnen, met productgebonden dossiers per SKU." }
+    ]
+  },
   "contact": {
     "badge": "Directe partnerschapsdesk",
     "title": "Neem contact op met ons internationale exportteam",

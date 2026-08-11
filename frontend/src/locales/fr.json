@@ -243,6 +243,18 @@
       }
     ]
   },
+  "certs": {
+    "badge": "Confiance & conformité",
+    "title": "Enregistrés. Certifiés. Prêts pour l'export.",
+    "subtitle": "Morvan Essence opère comme une entreprise d'exportation indienne pleinement enregistrée. Des copies vérifiées des certificats sont partagées avec les acheteurs lors de l'intégration et des vérifications.",
+    "note": "Les scans des certificats et numéros d'enregistrement sont communiqués sur demande aux acheteurs professionnels vérifiés.",
+    "items": [
+      { "name": "Certificat IEC", "issuer": "DGFT, Gouvernement de l'Inde", "desc": "Import Export Code autorisant Morvan Essence à exporter légalement des marchandises de l'Inde vers les marchés internationaux." },
+      { "name": "Certificat MSME", "issuer": "Ministère des MSME, Gouvernement de l'Inde", "desc": "Entreprise manufacturière enregistrée Udyam, reconnue dans le cadre MSME indien." },
+      { "name": "Enregistrement GST", "issuer": "Réseau GST, Gouvernement de l'Inde", "desc": "Entité fiscale indienne enregistrée — le GSTIN figure sur toutes les factures commerciales et documents d'export." },
+      { "name": "Certificat qualité biologique", "issuer": "Assurance qualité produit", "desc": "Documentation qualité de nos gammes de produits naturels, avec des dossiers par produit disponibles pour chaque SKU." }
+    ]
+  },
   "contact": {
     "badge": "Bureau partenariat direct",
     "title": "Contactez notre équipe export internationale",

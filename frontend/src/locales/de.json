@@ -243,6 +243,18 @@
       }
     ]
   },
+  "certs": {
+    "badge": "Vertrauen & Compliance",
+    "title": "Registriert. Zertifiziert. Exportbereit.",
+    "subtitle": "Morvan Essence operiert als vollständig registriertes indisches Exportunternehmen. Verifizierte Zertifikatskopien werden Käufern beim Onboarding und bei Prüfungen zur Verfügung gestellt.",
+    "note": "Zertifikatsscans und Registrierungsnummern werden auf Anfrage an verifizierte Handelskäufer weitergegeben.",
+    "items": [
+      { "name": "IEC-Zertifikat", "issuer": "DGFT, Regierung von Indien", "desc": "Import Export Code, der Morvan Essence zum legalen Warenexport von Indien in internationale Märkte berechtigt." },
+      { "name": "MSME-Zertifikat", "issuer": "MSME-Ministerium, Regierung von Indien", "desc": "Udyam-registrierter Produktionsbetrieb, anerkannt im indischen MSME-Rahmen." },
+      { "name": "GST-Registrierung", "issuer": "GST-Netzwerk, Regierung von Indien", "desc": "Registriertes indisches Steuerunternehmen — die GSTIN erscheint auf allen Handelsrechnungen und Exportdokumenten." },
+      { "name": "Bio-Qualitätszertifikat", "issuer": "Produktqualitätssicherung", "desc": "Qualitätsdokumentation für unsere natürlichen Produktlinien, mit produktbezogenen Nachweisen pro SKU." }
+    ]
+  },
   "contact": {
     "badge": "Direkter Partnerschaftsdesk",
     "title": "Kontaktieren Sie unser internationales Exportteam",

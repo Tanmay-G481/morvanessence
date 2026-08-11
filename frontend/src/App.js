@@ -20,7 +20,11 @@ import {
   Mail,
   Phone,
   MapPin,
-  MessageCircle
+  MessageCircle,
+  BadgeCheck,
+  Landmark,
+  FileBadge,
+  Leaf as LeafIcon
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -109,6 +113,7 @@ export default function App() {
   const qualityCards = t("quality.cards", { returnObjects: true });
   const whyCards = t("why.cards", { returnObjects: true });
   const articles = t("blog.articles", { returnObjects: true });
+  const certItems = t("certs.items", { returnObjects: true });
 
   const modalTitle =
     defaultEnquiryType === "sample" ? t("modal.titleSample") :
@@ -689,6 +694,35 @@ export default function App() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* BUSINESS CERTIFICATIONS */}
+      <section id="certificates" className="py-24 md:py-32 bg-[#22201D] text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#C5A059]">{t("certs.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-white">{t("certs.title")}</h2>
+            <p className="text-white/70 text-base">{t("certs.subtitle")}</p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {certItems.map((c, idx) => {
+              const Icon = [FileBadge, Landmark, BadgeCheck, LeafIcon][idx];
+              return (
+                <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#C5A059]/25 p-8 backdrop-blur-sm hover:border-[#C5A059]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
+                  <div className="w-12 h-12 rounded-full bg-[#C5A059]/15 flex items-center justify-center mb-5">
+                    <Icon className="w-6 h-6 text-[#C5A059]" />
+                  </div>
+                  <h3 className="font-serif text-xl font-medium text-white mb-1">{c.name}</h3>
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-[#C5A059] font-semibold mb-3">{c.issuer}</p>
+                  <p className="text-sm text-white/70 leading-relaxed flex-1">{c.desc}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          <p className="text-center text-sm text-white/50 mt-10" data-testid="certs-note">{t("certs.note")}</p>
         </div>
       </section>
 
