@@ -1,0 +1,51 @@
+{
+  "project_name": "Morvan Essence B2B Export Portal",
+  "theme": "warm botanical editorial luxury minimal",
+  "archetype": "ORGANIC & EARTHY",
+  "typography": {
+    "headings": {
+      "family": "Cormorant Garamond, serif",
+      "weights": ["400", "600", "700"],
+      "classes": "font-serif tracking-tight"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "weights": ["400", "500", "600"],
+      "classes": "font-sans leading-relaxed"
+    }
+  },
+  "colors": {
+    "background": "#F9F8F5",
+    "foreground": "#22201D",
+    "primary": "#4A5D4E",
+    "primary_hover": "#3C4C3F",
+    "sand": "#E8E2D5",
+    "sandalwood": "#8C6D53",
+    "gold_accent": "#C5A059",
+    "card_bg": "#FFFFFF",
+    "muted": "#767169"
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vrindavan_story": "https://images.unsplash.com/photo-1627769792188-d3f9f59833e5?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "incense_product_1": "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "dhoop_product_2": "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "components": [
+    "Header & Navigation",
+    "Hero Section with B2B CTAs",
+    "Vrindavan Heritage & Story",
+    "Product Categories (Sticks, Dhoop, Cow-Dung variants in 3.5\", 6\", 9\")",
+    "Natural & Organic Approach",
+    "Fragrance Collection Explorer",
+    "Export & Global Supply Logistics",
+    "Private Label & OEM Services",
+    "Quality & Certifications (Careful Wording)",
+    "B2B Sample / Quote / Distributor Enquiry Form with Backend persistence",
+    "Footer"
+  ],
+  "accessibility": {
+    "contrast_target": "WCAG AA compliant",
+    "interactive_focus": "Ring-2 ring-[#4A5D4E]"
+  }
+}
