@@ -19,7 +19,8 @@ import {
   Clock,
   Mail,
   Phone,
-  MapPin
+  MapPin,
+  MessageCircle
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -63,7 +64,7 @@ const LanguageSwitcher = ({ className }) => {
         aria-label={t("language")}
         value={i18n.language}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
-        className="appearance-none bg-transparent text-sm font-medium text-[#22201D]/80 hover:text-[#4A5D4E] cursor-pointer pe-4 focus:outline-none"
+        className="appearance-none bg-transparent text-xs 2xl:text-sm font-medium text-[#22201D]/80 hover:text-[#4A5D4E] cursor-pointer pe-4 focus:outline-none max-w-[80px] 2xl:max-w-none"
         data-testid="language-select"
       >
         {LANGUAGES.map((l) => (
@@ -286,16 +287,16 @@ export default function App() {
 
       {/* NAVIGATION BAR */}
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#F9F8F5]/90 border-b border-[#E8E2D5]">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-3 group shrink-0" data-testid="brand-logo-link">
-            <div className="w-10 h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-serif text-xl tracking-widest shadow-md group-hover:bg-[#3C4C3F] transition-colors">M</div>
+        <div className="max-w-[88rem] mx-auto px-6 h-20 flex items-center justify-between gap-4">
+          <a href="#" className="flex items-center gap-2.5 group shrink-0" data-testid="brand-logo-link">
+            <div className="w-9 h-9 xl:w-10 xl:h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-serif text-lg xl:text-xl tracking-widest shadow-md group-hover:bg-[#3C4C3F] transition-colors">M</div>
             <div>
-              <span className="font-serif text-xl xl:text-2xl tracking-wide font-bold text-[#22201D] whitespace-nowrap">MORVAN ESSENCE</span>
-              <span className="block text-[10px] tracking-[0.25em] uppercase text-[#767169] font-sans">{t("nav.brandTag")}</span>
+              <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#22201D] whitespace-nowrap">MORVAN ESSENCE</span>
+              <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#767169] font-sans">{t("nav.brandTag")}</span>
             </div>
           </a>
 
-          <nav className="hidden lg:flex items-center gap-5 text-[13px] font-medium text-[#22201D]/80">
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-4 2xl:gap-6 text-[11px] xl:text-xs 2xl:text-[13px] font-medium text-[#22201D]/80 whitespace-nowrap">
             <a href="#story" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-story">{t("nav.story")}</a>
             <a href="#products" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-products">{t("nav.products")}</a>
             <a href="#fragrances" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-fragrances">{t("nav.fragrances")}</a>
@@ -304,18 +305,18 @@ export default function App() {
             <a href="#blog" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-blog">{t("nav.blog")}</a>
           </nav>
 
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-3">
             <LanguageSwitcher />
             <Button
               variant="outline"
-              className="border-[#4A5D4E] text-[#4A5D4E] hover:bg-[#4A5D4E] hover:text-white rounded-full px-5 text-sm font-medium transition-all"
+              className="hidden xl:inline-flex border-[#4A5D4E] text-[#4A5D4E] hover:bg-[#4A5D4E] hover:text-white rounded-full px-4 text-xs font-medium transition-all whitespace-nowrap"
               onClick={() => handleOpenEnquiry("sample")}
               data-testid="header-sample-btn"
             >
               {t("nav.requestSample")}
             </Button>
             <Button
-              className="bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white rounded-full px-6 text-sm font-medium shadow-md shadow-[#4A5D4E]/20 transition-all"
+              className="bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white rounded-full px-4 xl:px-6 text-xs xl:text-sm font-medium shadow-md shadow-[#4A5D4E]/20 transition-all whitespace-nowrap"
               onClick={() => handleOpenEnquiry("quote")}
               data-testid="header-quote-btn"
             >
@@ -403,9 +404,10 @@ export default function App() {
                 size="lg"
                 variant="outline"
                 className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 h-14 backdrop-blur-sm transition-all"
-                onClick={() => handleOpenEnquiry("distributor")}
+                onClick={() => window.open(`https://wa.me/917060374484?text=${encodeURIComponent(t("hero.waDistributor"))}`, "_blank")}
                 data-testid="hero-distributor-btn"
               >
+                <MessageCircle className="w-4 h-4 mr-2" />
                 {t("hero.ctaDistributor")}
               </Button>
             </div>

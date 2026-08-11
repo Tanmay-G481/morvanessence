@@ -46,6 +46,8 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Branded OG/Twitter share image (`/app/frontend/public/og-image.jpg`, 1200×630) wired as absolute og:image + twitter:image
 - Enquiry email alerts: backend sends a branded HTML notification to OWNER_NOTIFY_EMAIL via Resend on every POST /api/enquiries (non-blocking, fire-and-forget). ACTIVE ONLY after a real RESEND_API_KEY is added to backend/.env (currently empty placeholder — ask user for a Resend key or Emergent-managed Resend activation)
 - WhatsApp number corrected per user confirmation: 7060374484 → +91 70603 74484, wa.me/917060374484
+- Hero "Become a Distributor" CTA now opens WhatsApp (wa.me/917060374484) with a prefilled distributor enquiry message translated per language (hero.waDistributor key in all 7 locales)
+- Header/nav spacing fixed: widened header container to 88rem, responsive brand sizing, tagline hidden below 2xl, nowrap nav links, compact CTA buttons — verified clean at 1100px/1280px/1920px
 - Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
 ## Pending / Backlog
