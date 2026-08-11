@@ -53,6 +53,17 @@ const BLOG_IMAGES = [
   "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?crop=entropy&cs=srgb&fm=jpg&q=85"
 ];
 
+const FRAGRANCE_IMAGES = [
+  "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=800&q=85",
+  "https://images.unsplash.com/photo-1591886960571-74d43a9d4166?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1615634260167-c8cdede054de?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1590502593747-42a996133562?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?crop=entropy&cs=srgb&fm=jpg&q=85"
+];
+
 const PRODUCT_IMAGES = [
   "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
@@ -562,8 +573,11 @@ export default function App() {
                 data-testid={`fragrance-card-${idx}`}
               >
                 <div>
-                  <div className="w-10 h-10 rounded-full bg-[#EFECE6] flex items-center justify-center text-[#4A5D4E] font-serif font-bold mb-4">
-                    {idx + 1}
+                  <div className="h-32 rounded-xl overflow-hidden mb-4 relative">
+                    <img src={FRAGRANCE_IMAGES[idx % FRAGRANCE_IMAGES.length]} alt={frag.name} className="w-full h-full object-cover" loading="lazy" />
+                    <div className="absolute top-2 left-2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#4A5D4E] font-serif font-bold text-xs shadow-sm">
+                      {idx + 1}
+                    </div>
                   </div>
                   <h3 className="font-serif text-xl font-medium text-[#22201D] mb-1">{frag.name}</h3>
                   <p className="text-xs text-[#C5A059] font-medium mb-3 uppercase tracking-wider">{frag.note}</p>

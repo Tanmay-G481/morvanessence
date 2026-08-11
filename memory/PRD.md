@@ -49,6 +49,7 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Hero "Become a Distributor" CTA now opens WhatsApp (wa.me/917060374484) with a prefilled distributor enquiry message translated per language (hero.waDistributor key in all 7 locales)
 - Header/nav spacing fixed: widened header container to 88rem, responsive brand sizing, tagline hidden below 2xl, nowrap nav links, compact CTA buttons — verified clean at 1100px/1280px/1920px
 - Business Certifications section added after Quality (#certificates): IEC (DGFT), MSME (Udyam), GST Registration, Organic Quality Certificate — dark premium cards with gold accents, translated into all 7 languages; note states scans/registration numbers shared on request (no actual certificate images uploaded yet — user to provide scans for embedding)
+- Each of the 8 fragrance cards now shows a context-matched photo (meditation/sandalwood, roses, jasmine bouquet, amber perfume bottles, spices/resins, lavender field, lemons, honey) with the numbered badge overlaid
 - Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
 ## Pending / Backlog
