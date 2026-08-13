@@ -74,19 +74,19 @@ const LanguageSwitcher = ({ className }) => {
   const { t, i18n } = useTranslation();
   return (
     <div className={`relative flex items-center gap-1.5 ${className || ""}`} data-testid="language-switcher">
-      <Globe className="w-4 h-4 text-[#767169] pointer-events-none" />
+      <Globe className="w-4 h-4 text-[#6E7A60] pointer-events-none" />
       <select
         aria-label={t("language")}
         value={i18n.language}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
-        className="appearance-none bg-transparent text-xs 2xl:text-sm font-medium text-[#22201D]/80 hover:text-[#4A5D4E] cursor-pointer pe-4 focus:outline-none max-w-[80px] 2xl:max-w-none"
+        className="appearance-none bg-transparent text-xs 2xl:text-sm font-medium text-[#33442C]/80 hover:text-[#5F7D53] cursor-pointer pe-4 focus:outline-none max-w-[80px] 2xl:max-w-none"
         data-testid="language-select"
       >
         {LANGUAGES.map((l) => (
           <option key={l.code} value={l.code}>{l.label}</option>
         ))}
       </select>
-      <ChevronRight className="w-3 h-3 text-[#767169] rotate-90 absolute end-0 pointer-events-none" />
+      <ChevronRight className="w-3 h-3 text-[#6E7A60] rotate-90 absolute end-0 pointer-events-none" />
     </div>
   );
 };
@@ -181,15 +181,15 @@ export default function App() {
   if (activeArticle !== null) {
     const art = articles[activeArticle];
     return (
-      <div className="min-h-screen bg-[#F9F8F5] text-[#22201D]">
+      <div className="min-h-screen bg-[#FAF7EF] text-[#33442C]">
         <Toaster position="top-right" richColors />
-        <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#F9F8F5]/90 border-b border-[#E8E2D5]">
+        <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
           <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <button onClick={() => setActiveArticle(null)} className="flex items-center gap-3 group" data-testid="article-brand-link">
-              <div className="w-10 h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-serif text-xl tracking-widest shadow-md">M</div>
+              <div className="w-10 h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-xl tracking-widest shadow-md">M</div>
               <div>
-                <span className="font-serif text-2xl tracking-wide font-bold text-[#22201D]">MORVAN ESSENCE</span>
-                <span className="block text-[10px] tracking-[0.25em] uppercase text-[#767169] font-sans">{t("nav.brandTag")}</span>
+                <span className="font-serif text-2xl tracking-wide font-bold text-[#33442C]">MORVAN ESSENCE</span>
+                <span className="block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
               </div>
             </button>
             <LanguageSwitcher />
@@ -199,7 +199,7 @@ export default function App() {
         <article className="max-w-3xl mx-auto px-6 py-16 md:py-24" data-testid="article-view">
           <button
             onClick={() => setActiveArticle(null)}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-[#4A5D4E] hover:text-[#22201D] mb-8 group"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#5F7D53] hover:text-[#33442C] mb-8 group"
             data-testid="article-back-btn"
           >
             <ArrowLeft className="w-4 h-4 rtl:rotate-180 group-hover:-translate-x-1 transition-transform" />
@@ -208,10 +208,10 @@ export default function App() {
 
           <div className="space-y-4 mb-8">
             <div className="flex items-center gap-3 text-xs uppercase tracking-widest">
-              <span className="text-[#C5A059] font-semibold">{art.category}</span>
-              <span className="text-[#767169] flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {art.readTime} {t("blog.minRead")}</span>
+              <span className="text-[#CDA94E] font-semibold">{art.category}</span>
+              <span className="text-[#6E7A60] flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {art.readTime} {t("blog.minRead")}</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D] leading-tight">{art.title}</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C] leading-tight">{art.title}</h1>
           </div>
 
           <div className="rounded-3xl overflow-hidden mb-10 aspect-[16/9]">
@@ -220,17 +220,17 @@ export default function App() {
 
           <div className="space-y-6">
             {art.content.map((p, i) => (
-              <p key={i} className="text-[#22201D]/80 leading-relaxed text-base sm:text-lg">{p}</p>
+              <p key={i} className="text-[#33442C]/80 leading-relaxed text-base sm:text-lg">{p}</p>
             ))}
           </div>
 
-          <div className="mt-12 p-8 rounded-3xl bg-[#4A5D4E] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+          <div className="mt-12 p-8 rounded-3xl bg-[#5F7D53] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
             <div>
               <h3 className="font-serif text-2xl font-light mb-1">{t("hero.ctaSample")}</h3>
               <p className="text-white/75 text-sm">{t("modal.desc")}</p>
             </div>
             <Button
-              className="bg-[#C5A059] hover:bg-[#b08d48] text-[#22201D] font-semibold rounded-full px-7 h-12 shrink-0"
+              className="bg-[#CDA94E] hover:bg-[#B89840] text-[#33442C] font-semibold rounded-full px-7 h-12 shrink-0"
               onClick={() => handleOpenEnquiry("sample")}
               data-testid="article-cta-btn"
             >
@@ -241,47 +241,47 @@ export default function App() {
         </article>
 
         <Dialog open={enquiryModalOpen} onOpenChange={setEnquiryModalOpen}>
-          <DialogContent className="sm:max-w-[550px] bg-[#F9F8F5] border-[#E8E2D5] text-[#22201D] p-6 sm:p-8">
+          <DialogContent className="sm:max-w-[550px] bg-[#FAF7EF] border-[#E6DFC9] text-[#33442C] p-6 sm:p-8">
             <DialogHeader>
-              <DialogTitle className="font-serif text-2xl text-[#22201D]">{modalTitle}</DialogTitle>
-              <DialogDescription className="text-sm text-[#767169]">{t("modal.desc")}</DialogDescription>
+              <DialogTitle className="font-serif text-2xl text-[#33442C]">{modalTitle}</DialogTitle>
+              <DialogDescription className="text-sm text-[#6E7A60]">{t("modal.desc")}</DialogDescription>
             </DialogHeader>
             <form onSubmit={handleFormSubmit} className="space-y-4 pt-4" data-testid="modal-enquiry-form">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.company")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.company")}</label>
                   <Input placeholder={t("modal.companyPh")} value={formData.company_name} onChange={(e) => setFormData({ ...formData, company_name: e.target.value })} className="bg-white rounded-xl h-11" required />
                 </div>
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.contact")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.contact")}</label>
                   <Input placeholder={t("modal.contactPh")} value={formData.contact_person} onChange={(e) => setFormData({ ...formData, contact_person: e.target.value })} className="bg-white rounded-xl h-11" required />
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.email")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.email")}</label>
                   <Input type="email" placeholder="name@company.com" value={formData.business_email} onChange={(e) => setFormData({ ...formData, business_email: e.target.value })} className="bg-white rounded-xl h-11" required />
                 </div>
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.phone")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.phone")}</label>
                   <Input placeholder="+1 (555) 000-0000" value={formData.phone_whatsapp} onChange={(e) => setFormData({ ...formData, phone_whatsapp: e.target.value })} className="bg-white rounded-xl h-11" required />
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.country")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.country")}</label>
                   <Input placeholder={t("modal.countryPh")} value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} className="bg-white rounded-xl h-11" required />
                 </div>
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.product")}</label>
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.product")}</label>
                   <Input placeholder={t("modal.productPh")} value={formData.product_interest} onChange={(e) => setFormData({ ...formData, product_interest: e.target.value })} className="bg-white rounded-xl h-11" />
                 </div>
               </div>
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.message")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.message")}</label>
                 <Textarea placeholder={t("modal.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="bg-white rounded-xl min-h-[90px]" />
               </div>
-              <Button type="submit" className="w-full bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white h-12 rounded-xl font-semibold" disabled={isSubmitting} data-testid="modal-submit-btn">
+              <Button type="submit" className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-12 rounded-xl font-semibold" disabled={isSubmitting} data-testid="modal-submit-btn">
                 {isSubmitting ? t("modal.submitting") : t("modal.submit")}
               </Button>
             </form>
@@ -292,47 +292,47 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F9F8F5] text-[#22201D] overflow-x-hidden">
+    <div className="min-h-screen bg-[#FAF7EF] text-[#33442C] overflow-x-hidden">
       <Toaster position="top-right" richColors />
 
       {/* TOP NOTIFICATION BAR */}
-      <div className="bg-[#4A5D4E] text-white text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide flex items-center justify-center gap-2">
-        <Sparkles className="w-4 h-4 text-[#C5A059]" />
+      <div className="bg-[#5F7D53] text-white text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide flex items-center justify-center gap-2">
+        <Sparkles className="w-4 h-4 text-[#CDA94E]" />
         <span>{t("topbar")}</span>
       </div>
 
       {/* NAVIGATION BAR */}
-      <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#F9F8F5]/90 border-b border-[#E8E2D5]">
+      <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
         <div className="max-w-[88rem] mx-auto px-6 h-20 flex items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-2.5 group shrink-0" data-testid="brand-logo-link">
-            <div className="w-9 h-9 xl:w-10 xl:h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-serif text-lg xl:text-xl tracking-widest shadow-md group-hover:bg-[#3C4C3F] transition-colors">M</div>
+            <div className="w-9 h-9 xl:w-10 xl:h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-lg xl:text-xl tracking-widest shadow-md group-hover:bg-[#4C6642] transition-colors">M</div>
             <div>
-              <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#22201D] whitespace-nowrap">MORVAN ESSENCE</span>
-              <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#767169] font-sans">{t("nav.brandTag")}</span>
+              <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#33442C] whitespace-nowrap">MORVAN ESSENCE</span>
+              <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
             </div>
           </a>
 
-          <nav className="hidden lg:flex items-center gap-3 xl:gap-4 2xl:gap-6 text-[11px] xl:text-xs 2xl:text-[13px] font-medium text-[#22201D]/80 whitespace-nowrap">
-            <a href="#story" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-story">{t("nav.story")}</a>
-            <a href="#products" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-products">{t("nav.products")}</a>
-            <a href="#fragrances" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-fragrances">{t("nav.fragrances")}</a>
-            <a href="#private-label" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-private-label">{t("nav.privateLabel")}</a>
-            <a href="#export" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-export">{t("nav.export")}</a>
-            <a href="#blog" className="hover:text-[#4A5D4E] transition-colors" data-testid="nav-blog">{t("nav.blog")}</a>
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-4 2xl:gap-6 text-[11px] xl:text-xs 2xl:text-[13px] font-medium text-[#33442C]/80 whitespace-nowrap">
+            <a href="#story" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-story">{t("nav.story")}</a>
+            <a href="#products" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-products">{t("nav.products")}</a>
+            <a href="#fragrances" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-fragrances">{t("nav.fragrances")}</a>
+            <a href="#private-label" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-private-label">{t("nav.privateLabel")}</a>
+            <a href="#export" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-export">{t("nav.export")}</a>
+            <a href="#blog" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-blog">{t("nav.blog")}</a>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
             <LanguageSwitcher />
             <Button
               variant="outline"
-              className="hidden xl:inline-flex border-[#4A5D4E] text-[#4A5D4E] hover:bg-[#4A5D4E] hover:text-white rounded-full px-4 text-xs font-medium transition-all whitespace-nowrap"
+              className="hidden xl:inline-flex border-[#5F7D53] text-[#5F7D53] hover:bg-[#5F7D53] hover:text-white rounded-full px-4 text-xs font-medium transition-all whitespace-nowrap"
               onClick={() => handleOpenEnquiry("sample")}
               data-testid="header-sample-btn"
             >
               {t("nav.requestSample")}
             </Button>
             <Button
-              className="bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white rounded-full px-4 xl:px-6 text-xs xl:text-sm font-medium shadow-md shadow-[#4A5D4E]/20 transition-all whitespace-nowrap"
+              className="bg-[#5F7D53] hover:bg-[#4C6642] text-white rounded-full px-4 xl:px-6 text-xs xl:text-sm font-medium shadow-md shadow-[#5F7D53]/20 transition-all whitespace-nowrap"
               onClick={() => handleOpenEnquiry("quote")}
               data-testid="header-quote-btn"
             >
@@ -340,7 +340,7 @@ export default function App() {
             </Button>
           </div>
 
-          <button className="lg:hidden p-2 text-[#22201D]" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} data-testid="mobile-menu-toggle">
+          <button className="lg:hidden p-2 text-[#33442C]" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} data-testid="mobile-menu-toggle">
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
@@ -351,22 +351,22 @@ export default function App() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-[#F9F8F5] border-b border-[#E8E2D5] px-6 py-6 space-y-4"
+              className="lg:hidden bg-[#FAF7EF] border-b border-[#E6DFC9] px-6 py-6 space-y-4"
             >
               <div className="flex flex-col space-y-3 font-medium text-lg">
-                <a href="#story" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.story")}</a>
-                <a href="#products" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.products")}</a>
-                <a href="#fragrances" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.fragrances")}</a>
-                <a href="#private-label" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.privateLabel")}</a>
-                <a href="#export" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.export")}</a>
-                <a href="#blog" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#4A5D4E]">{t("nav.blog")}</a>
+                <a href="#story" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.story")}</a>
+                <a href="#products" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.products")}</a>
+                <a href="#fragrances" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.fragrances")}</a>
+                <a href="#private-label" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.privateLabel")}</a>
+                <a href="#export" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.export")}</a>
+                <a href="#blog" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.blog")}</a>
               </div>
               <LanguageSwitcher className="pt-2" />
-              <div className="pt-4 border-t border-[#E8E2D5] flex flex-col gap-3">
-                <Button variant="outline" className="w-full border-[#4A5D4E] text-[#4A5D4E] rounded-full" onClick={() => { setMobileMenuOpen(false); handleOpenEnquiry("sample"); }}>
+              <div className="pt-4 border-t border-[#E6DFC9] flex flex-col gap-3">
+                <Button variant="outline" className="w-full border-[#5F7D53] text-[#5F7D53] rounded-full" onClick={() => { setMobileMenuOpen(false); handleOpenEnquiry("sample"); }}>
                   {t("nav.requestSample")}
                 </Button>
-                <Button className="w-full bg-[#4A5D4E] text-white rounded-full" onClick={() => { setMobileMenuOpen(false); handleOpenEnquiry("quote"); }}>
+                <Button className="w-full bg-[#5F7D53] text-white rounded-full" onClick={() => { setMobileMenuOpen(false); handleOpenEnquiry("quote"); }}>
                   {t("nav.requestQuote")}
                 </Button>
               </div>
@@ -376,14 +376,14 @@ export default function App() {
       </header>
 
       {/* HERO SECTION */}
-      <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden bg-[#22201D] text-[#F9F8F5]">
+      <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden bg-[#33442C] text-[#FAF7EF]">
         <div className="absolute inset-0 z-0 opacity-40">
           <img
             src="https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
             alt="Sandalwood incense smoke atmospheric background"
             className="w-full h-full object-cover object-center scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#22201D] via-[#22201D]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#33442C] via-[#33442C]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -393,8 +393,8 @@ export default function App() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl space-y-8"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#4A5D4E]/60 backdrop-blur-md border border-[#C5A059]/40 text-[#E8E2D5] text-xs uppercase tracking-[0.2em]" data-testid="hero-badge">
-              <Leaf className="w-3.5 h-3.5 text-[#C5A059]" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#5F7D53]/60 backdrop-blur-md border border-[#CDA94E]/40 text-[#E6DFC9] text-xs uppercase tracking-[0.2em]" data-testid="hero-badge">
+              <Leaf className="w-3.5 h-3.5 text-[#EAD18F]" />
               <span>{t("hero.badge")}</span>
             </div>
 
@@ -402,14 +402,14 @@ export default function App() {
               {t("hero.title")}
             </h1>
 
-            <p className="text-lg sm:text-xl text-[#E8E2D5]/90 font-light max-w-2xl leading-relaxed">
+            <p className="text-lg sm:text-xl text-[#E6DFC9]/90 font-light max-w-2xl leading-relaxed">
               {t("hero.subtitle")}
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
               <Button
                 size="lg"
-                className="bg-[#C5A059] hover:bg-[#b08d48] text-[#22201D] font-semibold rounded-full px-8 h-14 shadow-lg transition-all"
+                className="bg-[#CDA94E] hover:bg-[#B89840] text-[#33442C] font-semibold rounded-full px-8 h-14 shadow-lg transition-all"
                 onClick={() => handleOpenEnquiry("sample")}
                 data-testid="hero-sample-btn"
               >
@@ -436,8 +436,8 @@ export default function App() {
                 { v: t("hero.m4v"), l: t("hero.m4l") }
               ].map((m, i) => (
                 <div key={i}>
-                  <p className="font-serif text-3xl font-light text-[#C5A059]">{m.v}</p>
-                  <p className="text-xs text-[#E8E2D5]/70 uppercase tracking-wider mt-1">{m.l}</p>
+                  <p className="font-serif text-3xl font-light text-[#EAD18F]">{m.v}</p>
+                  <p className="text-xs text-[#E6DFC9]/70 uppercase tracking-wider mt-1">{m.l}</p>
                 </div>
               ))}
             </div>
@@ -446,7 +446,7 @@ export default function App() {
       </section>
 
       {/* BRAND ETHOS & VRINDAVAN STORY */}
-      <section id="story" className="py-24 md:py-32 bg-[#F9F8F5] relative">
+      <section id="story" className="py-24 md:py-32 bg-[#FAF7EF] relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <motion.div
@@ -456,26 +456,26 @@ export default function App() {
               transition={{ duration: 0.8 }}
               className="lg:col-span-6 space-y-6"
             >
-              <div className="inline-flex items-center gap-2 text-[#4A5D4E] text-xs uppercase tracking-[0.25em] font-semibold">
-                <Globe className="w-4 h-4 text-[#C5A059]" />
+              <div className="inline-flex items-center gap-2 text-[#5F7D53] text-xs uppercase tracking-[0.25em] font-semibold">
+                <Globe className="w-4 h-4 text-[#CDA94E]" />
                 <span>{t("story.badge")}</span>
               </div>
 
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D] leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C] leading-tight">
                 {t("story.title")}
               </h2>
 
-              <p className="text-[#22201D]/80 leading-relaxed text-base sm:text-lg">{t("story.p1")}</p>
-              <p className="text-[#22201D]/70 leading-relaxed text-sm sm:text-base">{t("story.p2")}</p>
+              <p className="text-[#33442C]/80 leading-relaxed text-base sm:text-lg">{t("story.p1")}</p>
+              <p className="text-[#33442C]/70 leading-relaxed text-sm sm:text-base">{t("story.p2")}</p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
-                <div className="p-6 rounded-2xl bg-white border border-[#E8E2D5] shadow-sm">
-                  <h3 className="font-serif text-xl font-medium text-[#22201D] mb-2">{t("story.card1t")}</h3>
-                  <p className="text-sm text-[#767169]">{t("story.card1d")}</p>
+                <div className="p-6 rounded-2xl bg-white border border-[#E6DFC9] shadow-sm">
+                  <h3 className="font-serif text-xl font-medium text-[#33442C] mb-2">{t("story.card1t")}</h3>
+                  <p className="text-sm text-[#6E7A60]">{t("story.card1d")}</p>
                 </div>
-                <div className="p-6 rounded-2xl bg-white border border-[#E8E2D5] shadow-sm">
-                  <h3 className="font-serif text-xl font-medium text-[#22201D] mb-2">{t("story.card2t")}</h3>
-                  <p className="text-sm text-[#767169]">{t("story.card2d")}</p>
+                <div className="p-6 rounded-2xl bg-white border border-[#E6DFC9] shadow-sm">
+                  <h3 className="font-serif text-xl font-medium text-[#33442C] mb-2">{t("story.card2t")}</h3>
+                  <p className="text-sm text-[#6E7A60]">{t("story.card2d")}</p>
                 </div>
               </div>
             </motion.div>
@@ -487,7 +487,7 @@ export default function App() {
               transition={{ duration: 0.8 }}
               className="lg:col-span-6 relative"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E8E2D5] aspect-[4/3]">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E6DFC9] aspect-[4/3]">
                 <img
                   src="https://images.unsplash.com/photo-1627769792188-d3f9f59833e5?crop=entropy&cs=srgb&fm=jpg&q=85"
                   alt="Vrindavan temple ghats and incense ritual atmosphere"
@@ -496,7 +496,7 @@ export default function App() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-8">
                   <div className="text-white">
                     <p className="font-serif text-2xl font-light italic">{t("story.quote")}</p>
-                    <p className="text-xs uppercase tracking-widest text-[#C5A059] mt-2">{t("story.quoteBy")}</p>
+                    <p className="text-xs uppercase tracking-widest text-[#CDA94E] mt-2">{t("story.quoteBy")}</p>
                   </div>
                 </div>
               </div>
@@ -506,45 +506,45 @@ export default function App() {
       </section>
 
       {/* PRODUCTS SECTION */}
-      <section id="products" className="py-24 md:py-32 bg-[#EFECE6] border-y border-[#E8E2D5]">
+      <section id="products" className="py-24 md:py-32 bg-[#F1EDDF] border-y border-[#E6DFC9]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("products.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("products.title")}</h2>
-            <p className="text-[#767169] text-base">{t("products.subtitle")}</p>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("products.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("products.title")}</h2>
+            <p className="text-[#6E7A60] text-base">{t("products.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {productItems.map((p, idx) => (
-              <div key={idx} className="bg-white rounded-3xl p-8 border border-[#E8E2D5] shadow-sm flex flex-col justify-between transition-all hover:shadow-md" data-testid={`product-card-${idx + 1}`}>
+              <div key={idx} className="bg-white rounded-3xl p-8 border border-[#E6DFC9] shadow-sm flex flex-col justify-between transition-all hover:shadow-md" data-testid={`product-card-${idx + 1}`}>
                 <div>
                   <div className="h-60 rounded-2xl overflow-hidden mb-6 relative">
                     <img src={PRODUCT_IMAGES[idx]} alt={p.title} className="w-full h-full object-cover" />
-                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-[#4A5D4E]">
+                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-[#5F7D53]">
                       {p.badge}
                     </div>
                   </div>
-                  <h3 className="font-serif text-2xl font-medium text-[#22201D] mb-2">{p.title}</h3>
-                  <p className="text-[#767169] text-sm mb-6">{p.desc}</p>
+                  <h3 className="font-serif text-2xl font-medium text-[#33442C] mb-2">{p.title}</h3>
+                  <p className="text-[#6E7A60] text-sm mb-6">{p.desc}</p>
 
-                  <div className="space-y-3 mb-6 text-xs text-[#22201D]">
-                    <div className="flex items-center justify-between py-2 border-b border-[#E8E2D5]">
-                      <span className="font-medium text-[#767169]">{t("products.sizeLabel")}</span>
+                  <div className="space-y-3 mb-6 text-xs text-[#33442C]">
+                    <div className="flex items-center justify-between py-2 border-b border-[#E6DFC9]">
+                      <span className="font-medium text-[#6E7A60]">{t("products.sizeLabel")}</span>
                       <span className="font-semibold">{p.sizes}</span>
                     </div>
-                    <div className="flex items-center justify-between py-2 border-b border-[#E8E2D5]">
-                      <span className="font-medium text-[#767169]">{p.burnLabelOverride || t("products.burnLabel")}</span>
+                    <div className="flex items-center justify-between py-2 border-b border-[#E6DFC9]">
+                      <span className="font-medium text-[#6E7A60]">{p.burnLabelOverride || t("products.burnLabel")}</span>
                       <span>{p.burn}</span>
                     </div>
-                    <div className="flex items-center justify-between py-2 border-b border-[#E8E2D5]">
-                      <span className="font-medium text-[#767169]">{t("products.packLabel")}</span>
+                    <div className="flex items-center justify-between py-2 border-b border-[#E6DFC9]">
+                      <span className="font-medium text-[#6E7A60]">{t("products.packLabel")}</span>
                       <span>{p.pack}</span>
                     </div>
                   </div>
                 </div>
 
                 <Button
-                  className="w-full bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white rounded-full h-12"
+                  className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white rounded-full h-12"
                   onClick={() => handleOpenEnquiry("sample", p.title)}
                   data-testid={`product-${idx + 1}-sample-btn`}
                 >
@@ -557,34 +557,34 @@ export default function App() {
       </section>
 
       {/* FRAGRANCE COLLECTION EXPLORER */}
-      <section id="fragrances" className="py-24 md:py-32 bg-[#F9F8F5]">
+      <section id="fragrances" className="py-24 md:py-32 bg-[#FAF7EF]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("fragrances.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("fragrances.title")}</h2>
-            <p className="text-[#767169] text-base">{t("fragrances.subtitle")}</p>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("fragrances.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("fragrances.title")}</h2>
+            <p className="text-[#6E7A60] text-base">{t("fragrances.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {fragranceItems.map((frag, idx) => (
               <div
                 key={idx}
-                className="p-6 rounded-2xl bg-white border border-[#E8E2D5] shadow-sm hover:border-[#4A5D4E] transition-all flex flex-col justify-between"
+                className="p-6 rounded-2xl bg-white border border-[#E6DFC9] shadow-sm hover:border-[#5F7D53] transition-all flex flex-col justify-between"
                 data-testid={`fragrance-card-${idx}`}
               >
                 <div>
                   <div className="h-32 rounded-xl overflow-hidden mb-4 relative">
                     <img src={FRAGRANCE_IMAGES[idx % FRAGRANCE_IMAGES.length]} alt={frag.name} className="w-full h-full object-cover" loading="lazy" />
-                    <div className="absolute top-2 left-2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#4A5D4E] font-serif font-bold text-xs shadow-sm">
+                    <div className="absolute top-2 left-2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#5F7D53] font-serif font-bold text-xs shadow-sm">
                       {idx + 1}
                     </div>
                   </div>
-                  <h3 className="font-serif text-xl font-medium text-[#22201D] mb-1">{frag.name}</h3>
-                  <p className="text-xs text-[#C5A059] font-medium mb-3 uppercase tracking-wider">{frag.note}</p>
-                  <p className="text-sm text-[#767169] mb-6">{frag.profile}</p>
+                  <h3 className="font-serif text-xl font-medium text-[#33442C] mb-1">{frag.name}</h3>
+                  <p className="text-xs text-[#CDA94E] font-medium mb-3 uppercase tracking-wider">{frag.note}</p>
+                  <p className="text-sm text-[#6E7A60] mb-6">{frag.profile}</p>
                 </div>
                 <button
-                  className="text-xs font-semibold text-[#4A5D4E] hover:text-[#22201D] flex items-center gap-1 group"
+                  className="text-xs font-semibold text-[#5F7D53] hover:text-[#33442C] flex items-center gap-1 group"
                   onClick={() => handleOpenEnquiry("sample", frag.name)}
                 >
                   {t("fragrances.sampleCta")} <ChevronRight className="w-3.5 h-3.5 rtl:rotate-180 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform" />
@@ -596,11 +596,11 @@ export default function App() {
       </section>
 
       {/* PRIVATE LABEL / OEM SECTION */}
-      <section id="private-label" className="py-24 md:py-32 bg-[#4A5D4E] text-white">
+      <section id="private-label" className="py-24 md:py-32 bg-[#5F7D53] text-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-6 space-y-6">
-              <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#C5A059]">{t("privateLabel.badge")}</span>
+              <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#EAD18F]">{t("privateLabel.badge")}</span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-white leading-tight">
                 {t("privateLabel.title")}
               </h2>
@@ -609,7 +609,7 @@ export default function App() {
               <div className="space-y-4 pt-2">
                 {plPoints.map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#C5A059] shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[#EAD18F] shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-white/90">{item}</span>
                   </div>
                 ))}
@@ -618,7 +618,7 @@ export default function App() {
               <div className="pt-4">
                 <Button
                   size="lg"
-                  className="bg-[#C5A059] hover:bg-[#b08d48] text-[#22201D] font-semibold rounded-full px-8 h-14"
+                  className="bg-[#CDA94E] hover:bg-[#B89840] text-[#33442C] font-semibold rounded-full px-8 h-14"
                   onClick={() => handleOpenEnquiry("private_label")}
                   data-testid="private-label-enquiry-btn"
                 >
@@ -645,7 +645,7 @@ export default function App() {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full bg-white text-[#22201D] hover:bg-[#E8E2D5] rounded-xl h-12 font-semibold"
+                  className="w-full bg-white text-[#33442C] hover:bg-[#E6DFC9] rounded-xl h-12 font-semibold"
                   data-testid="private-label-form-submit"
                 >
                   {t("privateLabel.fastCta")}
@@ -657,21 +657,21 @@ export default function App() {
       </section>
 
       {/* EXPORT & GLOBAL SUPPLY LOGISTICS */}
-      <section id="export" className="py-24 md:py-32 bg-[#F9F8F5]">
+      <section id="export" className="py-24 md:py-32 bg-[#FAF7EF]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("exportSec.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("exportSec.title")}</h2>
-            <p className="text-[#767169] text-base">{t("exportSec.subtitle")}</p>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("exportSec.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("exportSec.title")}</h2>
+            <p className="text-[#6E7A60] text-base">{t("exportSec.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {exportSteps.map((st, i) => (
-              <div key={i} className="p-8 rounded-3xl bg-white border border-[#E8E2D5] shadow-sm relative flex flex-col justify-between">
+              <div key={i} className="p-8 rounded-3xl bg-white border border-[#E6DFC9] shadow-sm relative flex flex-col justify-between">
                 <div>
-                  <span className="font-serif text-4xl text-[#C5A059] font-light block mb-4">{`0${i + 1}`}</span>
-                  <h3 className="font-serif text-xl font-medium text-[#22201D] mb-2">{st.title}</h3>
-                  <p className="text-sm text-[#767169] leading-relaxed">{st.desc}</p>
+                  <span className="font-serif text-4xl text-[#CDA94E] font-light block mb-4">{`0${i + 1}`}</span>
+                  <h3 className="font-serif text-xl font-medium text-[#33442C] mb-2">{st.title}</h3>
+                  <p className="text-sm text-[#6E7A60] leading-relaxed">{st.desc}</p>
                 </div>
               </div>
             ))}
@@ -680,16 +680,16 @@ export default function App() {
       </section>
 
       {/* QUALITY & CERTIFICATIONS */}
-      <section id="quality" className="py-24 md:py-32 bg-[#EFECE6] border-y border-[#E8E2D5]">
+      <section id="quality" className="py-24 md:py-32 bg-[#F1EDDF] border-y border-[#E6DFC9]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 space-y-6">
-              <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("quality.badge")}</span>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("quality.title")}</h2>
-              <p className="text-[#767169] leading-relaxed">{t("quality.desc")}</p>
+              <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("quality.badge")}</span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("quality.title")}</h2>
+              <p className="text-[#6E7A60] leading-relaxed">{t("quality.desc")}</p>
               <div className="flex items-center gap-4 pt-2">
                 <Button
-                  className="bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white rounded-full px-6 h-12"
+                  className="bg-[#5F7D53] hover:bg-[#4C6642] text-white rounded-full px-6 h-12"
                   onClick={() => handleOpenEnquiry("quote", "Quality Dossier & MSDS")}
                   data-testid="quality-dossier-btn"
                 >
@@ -700,10 +700,10 @@ export default function App() {
 
             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {qualityCards.map((q, idx) => (
-                <div key={idx} className="p-6 rounded-2xl bg-white border border-[#E8E2D5] shadow-sm">
-                  <ShieldCheck className="w-8 h-8 text-[#4A5D4E] mb-3" />
-                  <h3 className="font-serif text-xl font-medium text-[#22201D] mb-2">{q.title}</h3>
-                  <p className="text-sm text-[#767169]">{q.desc}</p>
+                <div key={idx} className="p-6 rounded-2xl bg-white border border-[#E6DFC9] shadow-sm">
+                  <ShieldCheck className="w-8 h-8 text-[#5F7D53] mb-3" />
+                  <h3 className="font-serif text-xl font-medium text-[#33442C] mb-2">{q.title}</h3>
+                  <p className="text-sm text-[#6E7A60]">{q.desc}</p>
                 </div>
               ))}
             </div>
@@ -712,10 +712,10 @@ export default function App() {
       </section>
 
       {/* BUSINESS CERTIFICATIONS */}
-      <section id="certificates" className="py-24 md:py-32 bg-[#22201D] text-white relative overflow-hidden">
+      <section id="certificates" className="py-24 md:py-32 bg-[#33442C] text-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#C5A059]">{t("certs.badge")}</span>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#EAD18F]">{t("certs.badge")}</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-white">{t("certs.title")}</h2>
             <p className="text-white/70 text-base">{t("certs.subtitle")}</p>
           </div>
@@ -724,12 +724,12 @@ export default function App() {
             {certItems.map((c, idx) => {
               const Icon = [FileBadge, Landmark, BadgeCheck, LeafIcon][idx];
               return (
-                <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#C5A059]/25 p-8 backdrop-blur-sm hover:border-[#C5A059]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
-                  <div className="w-12 h-12 rounded-full bg-[#C5A059]/15 flex items-center justify-center mb-5">
-                    <Icon className="w-6 h-6 text-[#C5A059]" />
+                <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#CDA94E]/25 p-8 backdrop-blur-sm hover:border-[#CDA94E]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
+                  <div className="w-12 h-12 rounded-full bg-[#EAD18F]/15 flex items-center justify-center mb-5">
+                    <Icon className="w-6 h-6 text-[#EAD18F]" />
                   </div>
                   <h3 className="font-serif text-xl font-medium text-white mb-1">{c.name}</h3>
-                  <p className="text-[10px] uppercase tracking-[0.18em] text-[#C5A059] font-semibold mb-3">{c.issuer}</p>
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-[#EAD18F] font-semibold mb-3">{c.issuer}</p>
                   <p className="text-sm text-white/70 leading-relaxed flex-1">{c.desc}</p>
                 </div>
               );
@@ -741,19 +741,19 @@ export default function App() {
       </section>
 
       {/* WHY MORVAN ESSENCE B2B */}
-      <section className="py-24 md:py-32 bg-[#F9F8F5]">
+      <section className="py-24 md:py-32 bg-[#FAF7EF]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("why.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("why.title")}</h2>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("why.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("why.title")}</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[Building2, Package, Globe].map((Icon, idx) => (
-              <div key={idx} className="p-8 rounded-3xl bg-white border border-[#E8E2D5] shadow-sm">
-                <Icon className="w-10 h-10 text-[#C5A059] mb-4" />
-                <h3 className="font-serif text-2xl font-medium text-[#22201D] mb-3">{whyCards[idx].title}</h3>
-                <p className="text-[#767169] text-sm leading-relaxed">{whyCards[idx].desc}</p>
+              <div key={idx} className="p-8 rounded-3xl bg-white border border-[#E6DFC9] shadow-sm">
+                <Icon className="w-10 h-10 text-[#CDA94E] mb-4" />
+                <h3 className="font-serif text-2xl font-medium text-[#33442C] mb-3">{whyCards[idx].title}</h3>
+                <p className="text-[#6E7A60] text-sm leading-relaxed">{whyCards[idx].desc}</p>
               </div>
             ))}
           </div>
@@ -761,19 +761,19 @@ export default function App() {
       </section>
 
       {/* BLOG / JOURNAL SECTION */}
-      <section id="blog" className="py-24 md:py-32 bg-[#EFECE6] border-y border-[#E8E2D5]">
+      <section id="blog" className="py-24 md:py-32 bg-[#F1EDDF] border-y border-[#E6DFC9]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#4A5D4E]">{t("blog.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#22201D]">{t("blog.title")}</h2>
-            <p className="text-[#767169] text-base">{t("blog.subtitle")}</p>
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("blog.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("blog.title")}</h2>
+            <p className="text-[#6E7A60] text-base">{t("blog.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((art, idx) => (
               <div
                 key={art.slug}
-                className="bg-white rounded-3xl overflow-hidden border border-[#E8E2D5] shadow-sm hover:shadow-md transition-all flex flex-col"
+                className="bg-white rounded-3xl overflow-hidden border border-[#E6DFC9] shadow-sm hover:shadow-md transition-all flex flex-col"
                 data-testid={`blog-card-${idx}`}
               >
                 <div className="h-44 overflow-hidden">
@@ -782,14 +782,14 @@ export default function App() {
                 <div className="p-6 flex flex-col justify-between flex-1">
                   <div>
                     <div className="flex items-center gap-3 text-[10px] uppercase tracking-widest mb-3">
-                      <span className="text-[#C5A059] font-semibold">{art.category}</span>
-                      <span className="text-[#767169] flex items-center gap-1"><Clock className="w-3 h-3" /> {art.readTime} {t("blog.minRead")}</span>
+                      <span className="text-[#CDA94E] font-semibold">{art.category}</span>
+                      <span className="text-[#6E7A60] flex items-center gap-1"><Clock className="w-3 h-3" /> {art.readTime} {t("blog.minRead")}</span>
                     </div>
-                    <h3 className="font-serif text-lg font-medium text-[#22201D] mb-2 leading-snug">{art.title}</h3>
-                    <p className="text-sm text-[#767169] mb-5 line-clamp-3">{art.excerpt}</p>
+                    <h3 className="font-serif text-lg font-medium text-[#33442C] mb-2 leading-snug">{art.title}</h3>
+                    <p className="text-sm text-[#6E7A60] mb-5 line-clamp-3">{art.excerpt}</p>
                   </div>
                   <button
-                    className="text-xs font-semibold text-[#4A5D4E] hover:text-[#22201D] flex items-center gap-1 group"
+                    className="text-xs font-semibold text-[#5F7D53] hover:text-[#33442C] flex items-center gap-1 group"
                     onClick={() => openArticle(idx)}
                     data-testid={`blog-read-${idx}`}
                   >
@@ -805,12 +805,12 @@ export default function App() {
       </section>
 
       {/* CONTACT / REQUEST A QUOTE SECTION */}
-      <section id="contact" className="py-24 md:py-32 bg-[#22201D] text-white relative">
+      <section id="contact" className="py-24 md:py-32 bg-[#33442C] text-white relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             <div className="lg:col-span-6 space-y-8">
               <div className="space-y-4">
-                <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#C5A059]">{t("contact.badge")}</span>
+                <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#EAD18F]">{t("contact.badge")}</span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-white leading-tight">
                   {t("contact.title")}
                 </h2>
@@ -821,26 +821,26 @@ export default function App() {
                 <p className="text-sm text-white/65 leading-relaxed">{t("contact.note")}</p>
                 <div className="space-y-4">
                   <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-4 group" data-testid="contact-email-link">
-                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059]/25 transition-colors shrink-0">
-                      <Mail className="w-4.5 h-4.5 text-[#C5A059]" />
+                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
+                      <Mail className="w-4.5 h-4.5 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.emailLabel")}</p>
-                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">tanmaygulati78@gmail.com</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">tanmaygulati78@gmail.com</p>
                     </div>
                   </a>
                   <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
-                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059]/25 transition-colors shrink-0">
-                      <Phone className="w-4.5 h-4.5 text-[#C5A059]" />
+                    <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
+                      <Phone className="w-4.5 h-4.5 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.waLabel")}</p>
-                      <p className="text-sm text-white font-medium group-hover:text-[#C5A059] transition-colors">+91 70603 74484</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">+91 70603 74484</p>
                     </div>
                   </a>
                   <div className="flex items-center gap-4" data-testid="contact-location">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-                      <MapPin className="w-4.5 h-4.5 text-[#C5A059]" />
+                      <MapPin className="w-4.5 h-4.5 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.locLabel")}</p>
@@ -851,15 +851,15 @@ export default function App() {
               </div>
             </div>
 
-            <div className="lg:col-span-6 bg-white rounded-3xl p-8 sm:p-10 text-[#22201D] shadow-2xl">
-              <h3 className="font-serif text-2xl font-light text-[#22201D] mb-6">{t("contact.formTitle")}</h3>
+            <div className="lg:col-span-6 bg-white rounded-3xl p-8 sm:p-10 text-[#33442C] shadow-2xl">
+              <h3 className="font-serif text-2xl font-light text-[#33442C] mb-6">{t("contact.formTitle")}</h3>
 
               <form onSubmit={handleFormSubmit} className="space-y-4" data-testid="b2b-enquiry-form">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.enquiryType")}</label>
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.enquiryType")}</label>
                     <select
-                      className="w-full h-12 rounded-xl border border-[#E8E2D5] bg-[#F9F8F5] px-3 text-sm font-medium"
+                      className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium"
                       value={formData.enquiry_type}
                       onChange={(e) => setFormData({ ...formData, enquiry_type: e.target.value })}
                       data-testid="form-enquiry-type"
@@ -871,9 +871,9 @@ export default function App() {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.businessType")}</label>
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.businessType")}</label>
                     <select
-                      className="w-full h-12 rounded-xl border border-[#E8E2D5] bg-[#F9F8F5] px-3 text-sm font-medium"
+                      className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium"
                       value={formData.business_type}
                       onChange={(e) => setFormData({ ...formData, business_type: e.target.value })}
                       data-testid="form-business-type"
@@ -889,45 +889,45 @@ export default function App() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.companyName")}</label>
-                    <Input placeholder={t("contact.companyPh")} value={formData.company_name} onChange={(e) => setFormData({ ...formData, company_name: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" required data-testid="form-company-name" />
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.companyName")}</label>
+                    <Input placeholder={t("contact.companyPh")} value={formData.company_name} onChange={(e) => setFormData({ ...formData, company_name: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" required data-testid="form-company-name" />
                   </div>
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.contactPerson")}</label>
-                    <Input placeholder={t("contact.contactPh")} value={formData.contact_person} onChange={(e) => setFormData({ ...formData, contact_person: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" required data-testid="form-contact-person" />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.email")}</label>
-                    <Input type="email" placeholder={t("contact.emailPh")} value={formData.business_email} onChange={(e) => setFormData({ ...formData, business_email: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" required data-testid="form-business-email" />
-                  </div>
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.phone")}</label>
-                    <Input placeholder={t("contact.phonePh")} value={formData.phone_whatsapp} onChange={(e) => setFormData({ ...formData, phone_whatsapp: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" required data-testid="form-phone" />
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.contactPerson")}</label>
+                    <Input placeholder={t("contact.contactPh")} value={formData.contact_person} onChange={(e) => setFormData({ ...formData, contact_person: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" required data-testid="form-contact-person" />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.country")}</label>
-                    <Input placeholder={t("contact.countryPh")} value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" required data-testid="form-country" />
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.email")}</label>
+                    <Input type="email" placeholder={t("contact.emailPh")} value={formData.business_email} onChange={(e) => setFormData({ ...formData, business_email: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" required data-testid="form-business-email" />
                   </div>
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.product")}</label>
-                    <Input placeholder={t("contact.productPh")} value={formData.product_interest} onChange={(e) => setFormData({ ...formData, product_interest: e.target.value })} className="h-12 rounded-xl bg-[#F9F8F5]" data-testid="form-product-interest" />
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.phone")}</label>
+                    <Input placeholder={t("contact.phonePh")} value={formData.phone_whatsapp} onChange={(e) => setFormData({ ...formData, phone_whatsapp: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" required data-testid="form-phone" />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.country")}</label>
+                    <Input placeholder={t("contact.countryPh")} value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" required data-testid="form-country" />
+                  </div>
+                  <div>
+                    <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.product")}</label>
+                    <Input placeholder={t("contact.productPh")} value={formData.product_interest} onChange={(e) => setFormData({ ...formData, product_interest: e.target.value })} className="h-12 rounded-xl bg-[#FAF7EF]" data-testid="form-product-interest" />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1.5 font-medium">{t("contact.message")}</label>
-                  <Textarea placeholder={t("contact.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="rounded-xl bg-[#F9F8F5] min-h-[100px]" data-testid="form-message" />
+                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.message")}</label>
+                  <Textarea placeholder={t("contact.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="rounded-xl bg-[#FAF7EF] min-h-[100px]" data-testid="form-message" />
                 </div>
 
                 <Button
                   type="submit"
-                  className="w-full bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white h-14 rounded-xl font-semibold shadow-md"
+                  className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-14 rounded-xl font-semibold shadow-md"
                   disabled={isSubmitting}
                   data-testid="form-submit-btn"
                 >
@@ -940,15 +940,15 @@ export default function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-[#1A1816] text-[#E8E2D5]/70 py-16 border-t border-white/10">
+      <footer className="bg-[#2B3A24] text-[#E6DFC9]/70 py-16 border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-serif text-xl tracking-widest">M</div>
+                <div className="w-10 h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-xl tracking-widest">M</div>
                 <span className="font-serif text-2xl tracking-wide font-bold text-white">MORVAN ESSENCE</span>
               </div>
-              <p className="text-sm text-[#E8E2D5]/60 max-w-sm leading-relaxed">{t("footer.desc")}</p>
+              <p className="text-sm text-[#E6DFC9]/60 max-w-sm leading-relaxed">{t("footer.desc")}</p>
               <LanguageSwitcher className="pt-2" />
             </div>
 
@@ -974,18 +974,18 @@ export default function App() {
 
             <div className="md:col-span-3 space-y-3">
               <p className="text-xs uppercase tracking-[0.2em] font-semibold text-white">{t("footer.hqTitle")}</p>
-              <p className="text-sm text-[#E8E2D5]/60">{t("footer.hq1")}</p>
-              <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
-                <Mail className="w-3.5 h-3.5 text-[#C5A059]" /> tanmaygulati78@gmail.com
+              <p className="text-sm text-[#E6DFC9]/60">{t("footer.hq1")}</p>
+              <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
+                <Mail className="w-3.5 h-3.5 text-[#EAD18F]" /> tanmaygulati78@gmail.com
               </a>
-              <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E8E2D5]/70 hover:text-white transition-colors">
-                <Phone className="w-3.5 h-3.5 text-[#C5A059]" /> +91 70603 74484
+              <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
+                <Phone className="w-3.5 h-3.5 text-[#EAD18F]" /> +91 70603 74484
               </a>
-              <p className="text-sm text-[#E8E2D5]/60">{t("footer.hq2")}</p>
+              <p className="text-sm text-[#E6DFC9]/60">{t("footer.hq2")}</p>
             </div>
           </div>
 
-          <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#E8E2D5]/50 gap-4">
+          <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#E6DFC9]/50 gap-4">
             <p>&copy; {new Date().getFullYear()} {t("footer.rights")}</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">{t("footer.terms")}</a>
@@ -998,52 +998,52 @@ export default function App() {
 
       {/* MODAL DIALOG FOR ENQUIRY */}
       <Dialog open={enquiryModalOpen} onOpenChange={setEnquiryModalOpen}>
-        <DialogContent className="sm:max-w-[550px] bg-[#F9F8F5] border-[#E8E2D5] text-[#22201D] p-6 sm:p-8">
+        <DialogContent className="sm:max-w-[550px] bg-[#FAF7EF] border-[#E6DFC9] text-[#33442C] p-6 sm:p-8">
           <DialogHeader>
-            <DialogTitle className="font-serif text-2xl text-[#22201D]">{modalTitle}</DialogTitle>
-            <DialogDescription className="text-sm text-[#767169]">{t("modal.desc")}</DialogDescription>
+            <DialogTitle className="font-serif text-2xl text-[#33442C]">{modalTitle}</DialogTitle>
+            <DialogDescription className="text-sm text-[#6E7A60]">{t("modal.desc")}</DialogDescription>
           </DialogHeader>
 
           <form onSubmit={handleFormSubmit} className="space-y-4 pt-4" data-testid="modal-enquiry-form">
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.company")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.company")}</label>
                 <Input placeholder={t("modal.companyPh")} value={formData.company_name} onChange={(e) => setFormData({ ...formData, company_name: e.target.value })} className="bg-white rounded-xl h-11" required />
               </div>
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.contact")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.contact")}</label>
                 <Input placeholder={t("modal.contactPh")} value={formData.contact_person} onChange={(e) => setFormData({ ...formData, contact_person: e.target.value })} className="bg-white rounded-xl h-11" required />
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.email")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.email")}</label>
                 <Input type="email" placeholder="name@company.com" value={formData.business_email} onChange={(e) => setFormData({ ...formData, business_email: e.target.value })} className="bg-white rounded-xl h-11" required />
               </div>
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.phone")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.phone")}</label>
                 <Input placeholder="+1 (555) 000-0000" value={formData.phone_whatsapp} onChange={(e) => setFormData({ ...formData, phone_whatsapp: e.target.value })} className="bg-white rounded-xl h-11" required />
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.country")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.country")}</label>
                 <Input placeholder={t("modal.countryPh")} value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} className="bg-white rounded-xl h-11" required />
               </div>
               <div>
-                <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.product")}</label>
+                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.product")}</label>
                 <Input placeholder={t("modal.productPh")} value={formData.product_interest} onChange={(e) => setFormData({ ...formData, product_interest: e.target.value })} className="bg-white rounded-xl h-11" />
               </div>
             </div>
 
             <div>
-              <label className="block text-xs uppercase tracking-wider text-[#767169] mb-1 font-medium">{t("modal.message")}</label>
+              <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.message")}</label>
               <Textarea placeholder={t("modal.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="bg-white rounded-xl min-h-[90px]" />
             </div>
 
-            <Button type="submit" className="w-full bg-[#4A5D4E] hover:bg-[#3C4C3F] text-white h-12 rounded-xl font-semibold" disabled={isSubmitting} data-testid="modal-submit-btn">
+            <Button type="submit" className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-12 rounded-xl font-semibold" disabled={isSubmitting} data-testid="modal-submit-btn">
               {isSubmitting ? t("modal.submitting") : t("modal.submit")}
             </Button>
           </form>

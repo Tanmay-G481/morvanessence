@@ -34,7 +34,7 @@
         @apply border-border;
     }
     body {
-        @apply bg-[#F9F8F5] text-[#22201D] font-sans antialiased selection:bg-[#4A5D4E] selection:text-white;
+        @apply bg-[#FAF7EF] text-[#33442C] font-sans antialiased selection:bg-[#5F7D53] selection:text-white;
         font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     }
 
@@ -53,12 +53,12 @@ html {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #F9F8F5;
+    background: #FAF7EF;
 }
 ::-webkit-scrollbar-thumb {
-    background: #D4CEBE;
+    background: #D8D2BC;
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #4A5D4E;
+    background: #5F7D53;
 }
