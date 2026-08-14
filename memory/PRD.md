@@ -60,6 +60,10 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Full "manufacturer" scrub across all 7 locales + meta tags: brand now positioned strictly as exporter / curated sourcing partner ("export partner", "sourcing hub", "export enterprise") — zero "manufacturer" strings remain
 - Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
+## Recent (2026-08-14, later)
+- Journal moved to its own /journal page (react-router-dom v7): removed from home, nav "Journal" routes to /journal with article reader + language switcher (/app/frontend/src/Journal.js)
+- Load-flash fix: static SEO/no-JS fallback hidden instantly for JS visitors via inline script + branded boot splash — no more elements jumping into place on phones; video hardened with image fallback + onError hide
+
 ## Pending / Backlog
 - P0: Swap in official contact details (email, phone/WhatsApp, location) once the user provides them
 - P1: Multi-currency price estimation for bulk shipments

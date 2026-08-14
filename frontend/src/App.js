@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import JournalPage from "./Journal";
 import { useTranslation } from "react-i18next";
 import "./i18n";
 import {
@@ -9,14 +11,11 @@ import {
   ShieldCheck,
   ChevronRight,
   ArrowRight,
-  ArrowLeft,
   CheckCircle2,
   Building2,
   Menu,
   X,
   Leaf,
-  BookOpen,
-  Clock,
   Mail,
   Phone,
   MapPin,
@@ -51,7 +50,7 @@ const LANGUAGES = [
   { code: "nl", label: "Nederlands" }
 ];
 
-const BLOG_IMAGES = [
+export const BLOG_IMAGES = [
   "https://images.unsplash.com/photo-1627769792188-d3f9f59833e5?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
@@ -93,7 +92,7 @@ const PRODUCT_IMAGES = [
   "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85"
 ];
 
-const LanguageSwitcher = ({ className }) => {
+export const LanguageSwitcher = ({ className }) => {
   const { t, i18n } = useTranslation();
   return (
     <div className={`relative flex items-center gap-1.5 ${className || ""}`} data-testid="language-switcher">
@@ -114,7 +113,7 @@ const LanguageSwitcher = ({ className }) => {
   );
 };
 
-export default function App() {
+function HomePage() {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
@@ -125,7 +124,6 @@ export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [enquiryModalOpen, setEnquiryModalOpen] = useState(false);
   const [defaultEnquiryType, setDefaultEnquiryType] = useState("sample");
-  const [activeArticle, setActiveArticle] = useState(null);
 
   const [formData, setFormData] = useState({
     enquiry_type: "sample",
@@ -146,7 +144,6 @@ export default function App() {
   const exportSteps = t("exportSec.steps", { returnObjects: true });
   const qualityCards = t("quality.cards", { returnObjects: true });
   const whyCards = t("why.cards", { returnObjects: true });
-  const articles = t("blog.articles", { returnObjects: true });
   const certItems = t("certs.items", { returnObjects: true });
   const trustItems = t("trust.items", { returnObjects: true });
   const vrinCaps = t("vrin.caps", { returnObjects: true });
@@ -166,10 +163,6 @@ export default function App() {
     setEnquiryModalOpen(true);
   };
 
-  const openArticle = (idx) => {
-    setActiveArticle(idx);
-    window.scrollTo({ top: 0 });
-  };
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -203,119 +196,6 @@ export default function App() {
     }
   };
 
-  if (activeArticle !== null) {
-    const art = articles[activeArticle];
-    return (
-      <div className="min-h-screen bg-[#FAF7EF] text-[#33442C]">
-        <Toaster position="top-right" richColors />
-        <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
-          <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <button onClick={() => setActiveArticle(null)} className="flex items-center gap-3 group" data-testid="article-brand-link">
-              <div className="w-10 h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-xl tracking-widest shadow-md">M</div>
-              <div>
-                <span className="font-serif text-2xl tracking-wide font-bold text-[#33442C]">MORVAN ESSENCE</span>
-                <span className="block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
-              </div>
-            </button>
-            <LanguageSwitcher />
-          </div>
-        </header>
-
-        <article className="max-w-3xl mx-auto px-6 py-16 md:py-24" data-testid="article-view">
-          <button
-            onClick={() => setActiveArticle(null)}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-[#5F7D53] hover:text-[#33442C] mb-8 group"
-            data-testid="article-back-btn"
-          >
-            <ArrowLeft className="w-4 h-4 rtl:rotate-180 group-hover:-translate-x-1 transition-transform" />
-            {t("blog.back")}
-          </button>
-
-          <div className="space-y-4 mb-8">
-            <div className="flex items-center gap-3 text-xs uppercase tracking-widest">
-              <span className="text-[#CDA94E] font-semibold">{art.category}</span>
-              <span className="text-[#6E7A60] flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {art.readTime} {t("blog.minRead")}</span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C] leading-tight">{art.title}</h1>
-          </div>
-
-          <div className="rounded-3xl overflow-hidden mb-10 aspect-[16/9]">
-            <img src={BLOG_IMAGES[activeArticle % BLOG_IMAGES.length]} alt={art.title} className="w-full h-full object-cover" />
-          </div>
-
-          <div className="space-y-6">
-            {art.content.map((p, i) => (
-              <p key={i} className="text-[#33442C]/80 leading-relaxed text-base sm:text-lg">{p}</p>
-            ))}
-          </div>
-
-          <div className="mt-12 p-8 rounded-3xl bg-[#5F7D53] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-            <div>
-              <h3 className="font-serif text-2xl font-light mb-1">{t("hero.ctaSample")}</h3>
-              <p className="text-white/75 text-sm">{t("modal.desc")}</p>
-            </div>
-            <Button
-              className="bg-[#CDA94E] hover:bg-[#B89840] text-[#33442C] font-semibold rounded-full px-7 h-12 shrink-0"
-              onClick={() => handleOpenEnquiry("sample")}
-              data-testid="article-cta-btn"
-            >
-              {t("nav.requestSample")}
-              <ArrowRight className="w-4 h-4 ml-2 rtl:rotate-180" />
-            </Button>
-          </div>
-        </article>
-
-        <Dialog open={enquiryModalOpen} onOpenChange={setEnquiryModalOpen}>
-          <DialogContent className="sm:max-w-[550px] bg-[#FAF7EF] border-[#E6DFC9] text-[#33442C] p-6 sm:p-8">
-            <DialogHeader>
-              <DialogTitle className="font-serif text-2xl text-[#33442C]">{modalTitle}</DialogTitle>
-              <DialogDescription className="text-sm text-[#6E7A60]">{t("modal.desc")}</DialogDescription>
-            </DialogHeader>
-            <form onSubmit={handleFormSubmit} className="space-y-4 pt-4" data-testid="modal-enquiry-form">
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.company")}</label>
-                  <Input placeholder={t("modal.companyPh")} value={formData.company_name} onChange={(e) => setFormData({ ...formData, company_name: e.target.value })} className="bg-white rounded-xl h-11" required />
-                </div>
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.contact")}</label>
-                  <Input placeholder={t("modal.contactPh")} value={formData.contact_person} onChange={(e) => setFormData({ ...formData, contact_person: e.target.value })} className="bg-white rounded-xl h-11" required />
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.email")}</label>
-                  <Input type="email" placeholder="name@company.com" value={formData.business_email} onChange={(e) => setFormData({ ...formData, business_email: e.target.value })} className="bg-white rounded-xl h-11" required />
-                </div>
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.phone")}</label>
-                  <Input placeholder="+1 (555) 000-0000" value={formData.phone_whatsapp} onChange={(e) => setFormData({ ...formData, phone_whatsapp: e.target.value })} className="bg-white rounded-xl h-11" required />
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.country")}</label>
-                  <Input placeholder={t("modal.countryPh")} value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} className="bg-white rounded-xl h-11" required />
-                </div>
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.product")}</label>
-                  <Input placeholder={t("modal.productPh")} value={formData.product_interest} onChange={(e) => setFormData({ ...formData, product_interest: e.target.value })} className="bg-white rounded-xl h-11" />
-                </div>
-              </div>
-              <div>
-                <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1 font-medium">{t("modal.message")}</label>
-                <Textarea placeholder={t("modal.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="bg-white rounded-xl min-h-[90px]" />
-              </div>
-              <Button type="submit" className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-12 rounded-xl font-semibold" disabled={isSubmitting} data-testid="modal-submit-btn">
-                {isSubmitting ? t("modal.submitting") : t("modal.submit")}
-              </Button>
-            </form>
-          </DialogContent>
-        </Dialog>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-[#FAF7EF] text-[#33442C] overflow-x-hidden">
       <Toaster position="top-right" richColors />
@@ -343,7 +223,7 @@ export default function App() {
             <a href="#fragrances" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-fragrances">{t("nav.fragrances")}</a>
             <a href="#private-label" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-private-label">{t("nav.privateLabel")}</a>
             <a href="#export" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-export">{t("nav.export")}</a>
-            <a href="#blog" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-blog">{t("nav.blog")}</a>
+            <Link to="/journal" className="hover:text-[#5F7D53] transition-colors" data-testid="nav-blog">{t("nav.blog")}</Link>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
@@ -384,7 +264,7 @@ export default function App() {
                 <a href="#fragrances" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.fragrances")}</a>
                 <a href="#private-label" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.privateLabel")}</a>
                 <a href="#export" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.export")}</a>
-                <a href="#blog" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.blog")}</a>
+                <Link to="/journal" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#5F7D53]">{t("nav.blog")}</Link>
               </div>
               <LanguageSwitcher className="pt-2" />
               <div className="pt-4 border-t border-[#E6DFC9] flex flex-col gap-3">
@@ -585,14 +465,20 @@ export default function App() {
               className="lg:col-span-5"
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E6DFC9] h-full min-h-[440px]">
+                <img
+                  src="https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
+                  alt="Incense smoke rising in a dark room"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
                 <video
                   src="/videos/incense-vrindavan.mp4"
-                  poster="https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
                   autoPlay
                   muted
                   loop
                   playsInline
-                  preload="auto"
+                  preload="metadata"
+                  onError={(e) => (e.currentTarget.style.display = "none")}
                   className="absolute inset-0 w-full h-full object-cover"
                   data-testid="vrindavan-video"
                 />
@@ -902,50 +788,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* BLOG / JOURNAL SECTION */}
-      <section id="blog" className="py-24 md:py-32 bg-[#F1EDDF] border-y border-[#E6DFC9]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("blog.badge")}</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("blog.title")}</h2>
-            <p className="text-[#6E7A60] text-base">{t("blog.subtitle")}</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((art, idx) => (
-              <div
-                key={art.slug}
-                className="bg-white rounded-3xl overflow-hidden border border-[#E6DFC9] shadow-sm hover:shadow-md transition-all flex flex-col"
-                data-testid={`blog-card-${idx}`}
-              >
-                <div className="h-44 overflow-hidden">
-                  <img src={BLOG_IMAGES[idx % BLOG_IMAGES.length]} alt={art.title} className="w-full h-full object-cover" />
-                </div>
-                <div className="p-6 flex flex-col justify-between flex-1">
-                  <div>
-                    <div className="flex items-center gap-3 text-[10px] uppercase tracking-widest mb-3">
-                      <span className="text-[#CDA94E] font-semibold">{art.category}</span>
-                      <span className="text-[#6E7A60] flex items-center gap-1"><Clock className="w-3 h-3" /> {art.readTime} {t("blog.minRead")}</span>
-                    </div>
-                    <h3 className="font-serif text-lg font-medium text-[#33442C] mb-2 leading-snug">{art.title}</h3>
-                    <p className="text-sm text-[#6E7A60] mb-5 line-clamp-3">{art.excerpt}</p>
-                  </div>
-                  <button
-                    className="text-xs font-semibold text-[#5F7D53] hover:text-[#33442C] flex items-center gap-1 group"
-                    onClick={() => openArticle(idx)}
-                    data-testid={`blog-read-${idx}`}
-                  >
-                    <BookOpen className="w-3.5 h-3.5" />
-                    {t("blog.readMore")}
-                    <ChevronRight className="w-3.5 h-3.5 rtl:rotate-180 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform" />
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CONTACT / REQUEST A QUOTE SECTION */}
       <section id="contact" className="py-24 md:py-32 bg-[#33442C] text-white relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -1210,5 +1052,16 @@ export default function App() {
         </span>
       </a>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/journal" element={<JournalPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

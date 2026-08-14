@@ -39,6 +39,10 @@
         Learn how to configure a non-root public URL by running `npm run build`.
         -->
         <title>Morvan Essence | Authentic Indian Incense & Dhoop Export from Vrindavan</title>
+        <style>
+            #root.js-booting > .static-fallback { display: none !important; }
+            #root.js-booting > .boot-splash { display: flex !important; }
+        </style>
         <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
     </head>
@@ -46,7 +50,11 @@
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root">
             <!-- Static prerendered content: indexed by search engines and visible when JavaScript is disabled. React replaces this at runtime. -->
-            <div style="font-family:Georgia,'Times New Roman',serif;background:#FAF7EF;color:#33442C;min-height:100vh;">
+            <div class="boot-splash" style="display:none;min-height:100vh;background:#33442C;align-items:center;justify-content:center;flex-direction:column;gap:16px;">
+                <div style="width:64px;height:64px;border-radius:50%;background:#5F7D53;color:#fff;font-family:Georgia,serif;font-size:34px;display:flex;align-items:center;justify-content:center;">M</div>
+                <div style="font-family:Georgia,serif;color:#FAF7EF;font-size:20px;letter-spacing:2px;">MORVAN ESSENCE</div>
+            </div>
+            <div class="static-fallback" style="font-family:Georgia,'Times New Roman',serif;background:#FAF7EF;color:#33442C;min-height:100vh;">
                 <div style="background:#5F7D53;color:#fff;text-align:center;padding:10px 16px;font-family:Arial,sans-serif;font-size:13px;">India-based B2B export partner from Vrindavan &bull; Built for importers, wholesalers &amp; private-label brands</div>
                 <header style="max-width:1120px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #E6DFC9;">
                     <div><strong style="font-size:22px;letter-spacing:1px;">MORVAN ESSENCE</strong><br/><span style="font-family:Arial,sans-serif;font-size:11px;letter-spacing:2px;color:#6E7A60;">VRINDAVAN &bull; GLOBAL EXPORT</span></div>
@@ -116,6 +124,9 @@
                 <footer style="border-top:1px solid #E6DFC9;text-align:center;padding:24px;font-family:Arial,sans-serif;font-size:12px;color:#6E7A60;">&copy; 2026 Morvan Essence Export Pvt. Ltd. All rights reserved.</footer>
             </div>
         </div>
+        <script>
+            (function(){var r=document.getElementById('root');if(r){r.classList.add('js-booting');}})();
+        </script>
         <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
