@@ -56,6 +56,8 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Real certificates uploaded by user and embedded (2026-08-14): IEC (ESBPG1962E), Udyam/MSME (UDYAM-UP-54-0117599), GST application acknowledgment (Form REG-02 ARN — GSTIN pending, card labeled honestly), Organic scope cert (GIC/wireQ) — previews in /public/certificates/*.jpg, PDFs linked click-to-view
 - Floating WhatsApp bubble added (fixed bottom, RTL-aware, translated prefilled message via waGeneral key)
 - Static prerendered HTML snapshot embedded in index.html #root (hero, specs, story, products, fragrances, certifications with PDF links, contact with email/WhatsApp) — fixes SEO indexing of JS-only app and shows a readable styled page for buyers with JavaScript disabled; React replaces it at runtime (verified: no duplication)
+- Hero updated (2026-08-14): headline now "Sacred Fragrances from Vrindavan, India — Crafted for the World." (all 7 languages), background is user's own Tulsi + brass diya night photo (/images/tulsi-diya-hero.jpg)
+- Full "manufacturer" scrub across all 7 locales + meta tags: brand now positioned strictly as exporter / curated sourcing partner ("export partner", "sourcing hub", "export enterprise") — zero "manufacturer" strings remain
 - Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
 ## Pending / Backlog

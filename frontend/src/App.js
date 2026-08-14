@@ -402,13 +402,14 @@ export default function App() {
 
       {/* HERO SECTION */}
       <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden bg-[#33442C] text-[#FAF7EF]">
-        <div className="absolute inset-0 z-0 opacity-40">
+        <div className="absolute inset-0 z-0 opacity-55">
           <img
-            src="https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
-            alt="Sandalwood incense smoke atmospheric background"
-            className="w-full h-full object-cover object-center scale-105"
+            src="/images/tulsi-diya-hero.jpg"
+            alt="Sacred Tulsi plant with a glowing brass diya at night in Vrindavan"
+            className="w-full h-full object-cover scale-105"
+            style={{ objectPosition: "center 68%" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#33442C] via-[#33442C]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#33442C] via-[#33442C]/65 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
