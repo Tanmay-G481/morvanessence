@@ -1,5 +1,6 @@
 {
   "language": "Idioma",
+  "waGeneral": "Hola Morvan Essence, tengo una consulta sobre sus productos de incienso y dhoop.",
   "seo": {
     "title": "Morvan Essence | Exportación de incienso y dhoop indio auténtico desde Vrindavan",
     "desc": "Fabricante y exportador premium de varillas de incienso orgánico, dhoop y dhoop de estiércol de vaca desde Vrindavan, India. Muestras B2B, marca privada y OEM para importadores, mayoristas y distribuidores globales."
@@ -249,7 +250,7 @@
     "p1": "Cinco mil templos. Callejones infinitos de caléndulas y humo de sándalo. Vrindavan no es solo donde fabricamos nuestro incienso: es la razón de su existencia.",
     "p2": "Cada fragancia que creamos comienza aquí: en los aartis del amanecer, los mercados de flores y el arte centenario de envolver el aroma en quietud.",
     "videoCap": "Incienso ardiendo — el ritmo diario de Vrindavan",
-    "caps": ["Keshi Ghat en el Yamuna", "Patio del templo Radha Raman", "Prem Mandir, Vrindavan", "Puerta del templo, c. 1860"]
+    "caps": ["Keshi Ghat en el Yamuna", "Patio del templo Radha Raman", "Prem Mandir, Vrindavan", "Puerta del templo, c. 1860", "Arboledas sagradas de Govardhan"]
   },
   "trust": {
     "badge": "Especificaciones y confianza",
@@ -268,12 +269,13 @@
     "badge": "Confianza y cumplimiento",
     "title": "Registrados. Certificados. Listos para exportar.",
     "subtitle": "Morvan Essence opera como una empresa exportadora india plenamente registrada. Las copias verificadas de los certificados se comparten con los compradores durante la incorporación y la debida diligencia.",
-    "note": "Los escaneos de certificados y números de registro se comparten bajo petición con compradores comerciales verificados.",
+    "note": "Haga clic en cualquier certificado para ver el documento oficial. Las copias originales se comparten con compradores verificados durante la incorporación.",
+    "view": "Ver certificado",
     "items": [
       { "name": "Certificado IEC", "issuer": "DGFT, Gobierno de la India", "desc": "Código de Importación y Exportación que autoriza a Morvan Essence a exportar legalmente mercancías de la India a mercados internacionales." },
       { "name": "Certificado MSME", "issuer": "Ministerio de MSME, Gobierno de la India", "desc": "Empresa manufacturera registrada en Udyam, reconocida dentro del marco MSME de la India." },
-      { "name": "Registro GST", "issuer": "Red GST, Gobierno de la India", "desc": "Entidad fiscal india registrada — el GSTIN aparece en todas las facturas comerciales y documentos de exportación." },
-      { "name": "Certificado de calidad orgánica", "issuer": "Garantía de calidad del producto", "desc": "Documentación de calidad de nuestras líneas de productos naturales, con registros por producto disponibles para cada SKU." }
+      { "name": "Registro GST", "issuer": "Red GST, Gobierno de la India", "desc": "Solicitud de GST presentada y oficialmente confirmada (formulario REG-02, ARN disponible) — el GSTIN se compartirá con los compradores tras la aprobación final." },
+      { "name": "Certificado de calidad orgánica", "issuer": "Global Inter Certification (GIC)", "desc": "Alcance certificado que cubre varillas de incienso orgánico, conos y dhoop elaborados con resinas naturales, aceites esenciales, hierbas y flores." }
     ]
   },
   "contact": {

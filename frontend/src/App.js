@@ -24,6 +24,7 @@ import {
   BadgeCheck,
   Landmark,
   FileBadge,
+  ExternalLink,
   Ruler,
   Timer,
   Scale,
@@ -66,6 +67,21 @@ const FRAGRANCE_IMAGES = [
   "https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1590502593747-42a996133562?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?crop=entropy&cs=srgb&fm=jpg&q=85"
+];
+
+const CERT_DOCS = [
+  { img: "/certificates/iec.jpg", pdf: "/certificates/iec.pdf" },
+  { img: "/certificates/udyam.jpg", pdf: "/certificates/udyam.pdf" },
+  { img: "/certificates/gst.jpg", pdf: "/certificates/gst.pdf" },
+  { img: "/certificates/organic.jpg", pdf: "/certificates/organic.pdf" }
+];
+
+const VRINDAVAN_IMAGES = [
+  "/images/vrindavan-keshi-ghat.jpg",
+  "/images/vrindavan-radha-raman.jpg",
+  "/images/vrindavan-prem-mandir.jpg",
+  "/images/vrindavan-1860.jpg",
+  "/images/giriraj-ji.jpg"
 ];
 
 const PRODUCT_IMAGES = [
@@ -601,13 +617,8 @@ export default function App() {
               <p className="text-[#33442C]/75 leading-relaxed text-base md:text-lg max-w-xl">{t("vrin.p2")}</p>
 
               <div className="grid grid-cols-2 gap-4 pt-2">
-                {[
-                  "/images/vrindavan-keshi-ghat.jpg",
-                  "/images/vrindavan-radha-raman.jpg",
-                  "/images/vrindavan-prem-mandir.jpg",
-                  "/images/vrindavan-1860.jpg"
-                ].map((src, i) => (
-                  <div key={i} className="group relative rounded-2xl overflow-hidden shadow-md border border-[#E6DFC9] h-40 md:h-48" data-testid={`vrindavan-img-${i}`}>
+                {VRINDAVAN_IMAGES.map((src, i) => (
+                  <div key={i} className={`group relative rounded-2xl overflow-hidden shadow-md border border-[#E6DFC9] ${i === 4 ? "col-span-2 h-48 md:h-60" : "h-40 md:h-48"}`} data-testid={`vrindavan-img-${i}`}>
                     <img src={src} alt={vrinCaps[i]} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#33442C]/75 via-transparent to-transparent flex items-end p-3">
                       <p className="text-white/90 text-[11px] md:text-xs font-medium tracking-wide">{vrinCaps[i]}</p>
@@ -839,13 +850,25 @@ export default function App() {
             {certItems.map((c, idx) => {
               const Icon = [FileBadge, Landmark, BadgeCheck, LeafIcon][idx];
               return (
-                <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#CDA94E]/25 p-8 backdrop-blur-sm hover:border-[#CDA94E]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
-                  <div className="w-12 h-12 rounded-full bg-[#EAD18F]/15 flex items-center justify-center mb-5">
-                    <Icon className="w-6 h-6 text-[#EAD18F]" />
+                <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#CDA94E]/25 overflow-hidden backdrop-blur-sm hover:border-[#CDA94E]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
+                  <a href={CERT_DOCS[idx].pdf} target="_blank" rel="noopener noreferrer" className="block h-44 overflow-hidden bg-white/95 relative group" data-testid={`cert-preview-${idx}`}>
+                    <img src={CERT_DOCS[idx].img} alt={c.name} loading="lazy" className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                    <div className="absolute inset-0 bg-[#33442C]/0 group-hover:bg-[#33442C]/25 transition-colors flex items-center justify-center">
+                      <span className="opacity-0 group-hover:opacity-100 transition-opacity bg-white text-[#33442C] text-xs font-semibold px-4 py-2 rounded-full shadow-lg flex items-center gap-1.5">
+                        <ExternalLink className="w-3.5 h-3.5" /> {t("certs.view")}
+                      </span>
+                    </div>
+                  </a>
+                  <div className="p-6 flex flex-col flex-1">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-9 h-9 rounded-full bg-[#EAD18F]/15 flex items-center justify-center shrink-0">
+                        <Icon className="w-4.5 h-4.5 text-[#EAD18F]" />
+                      </div>
+                      <h3 className="font-serif text-lg font-medium text-white leading-snug">{c.name}</h3>
+                    </div>
+                    <p className="text-[10px] uppercase tracking-[0.18em] text-[#EAD18F] font-semibold mb-3">{c.issuer}</p>
+                    <p className="text-sm text-white/70 leading-relaxed flex-1">{c.desc}</p>
                   </div>
-                  <h3 className="font-serif text-xl font-medium text-white mb-1">{c.name}</h3>
-                  <p className="text-[10px] uppercase tracking-[0.18em] text-[#EAD18F] font-semibold mb-3">{c.issuer}</p>
-                  <p className="text-sm text-white/70 leading-relaxed flex-1">{c.desc}</p>
                 </div>
               );
             })}
@@ -1164,6 +1187,24 @@ export default function App() {
           </form>
         </DialogContent>
       </Dialog>
+
+      {/* FLOATING WHATSAPP BUTTON */}
+      <a
+        href={`https://wa.me/917060374484?text=${encodeURIComponent(t("waGeneral"))}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 group flex items-center gap-2 rtl:right-auto rtl:left-6"
+        data-testid="floating-whatsapp-btn"
+        aria-label="WhatsApp"
+      >
+        <span className="hidden sm:block opacity-0 group-hover:opacity-100 transition-opacity bg-[#33442C] text-white text-xs font-medium px-3 py-2 rounded-xl shadow-lg whitespace-nowrap">
+          WhatsApp
+        </span>
+        <span className="relative flex items-center justify-center w-14 h-14 rounded-full bg-[#5F7D53] hover:bg-[#4C6642] shadow-xl shadow-[#5F7D53]/40 transition-all hover:scale-105">
+          <span className="absolute inset-0 rounded-full bg-[#5F7D53] animate-ping opacity-20" />
+          <MessageCircle className="w-6 h-6 text-white relative" />
+        </span>
+      </a>
     </div>
   );
 }

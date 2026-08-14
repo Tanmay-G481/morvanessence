@@ -1,5 +1,6 @@
 {
   "language": "Language",
+  "waGeneral": "Hello Morvan Essence, I have an enquiry about your incense and dhoop products.",
   "seo": {
     "title": "Morvan Essence | Authentic Indian Incense & Dhoop Export from Vrindavan",
     "desc": "Premium organic incense sticks, dhoop and cow-dung dhoop manufacturer and exporter from Vrindavan, India. B2B samples, private label and OEM for global importers, wholesalers and distributors."
@@ -249,7 +250,7 @@
     "p1": "Five thousand temples. Endless lanes of marigold and sandalwood smoke. Vrindavan is not just where we make our incense — it is why it exists.",
     "p2": "Every fragrance we craft begins here: in the dawn aartis, the flower markets, and the centuries-old craft of rolling scent into stillness.",
     "videoCap": "Incense burning — the daily rhythm of Vrindavan",
-    "caps": ["Keshi Ghat on the Yamuna", "Radha Raman Temple courtyard", "Prem Mandir, Vrindavan", "Temple gate, c. 1860"]
+    "caps": ["Keshi Ghat on the Yamuna", "Radha Raman Temple courtyard", "Prem Mandir, Vrindavan", "Temple gate, c. 1860", "Sacred groves of Govardhan"]
   },
   "trust": {
     "badge": "Specifications & Trust",
@@ -268,12 +269,13 @@
     "badge": "Trust & Compliance",
     "title": "Registered. Certified. Export-Ready.",
     "subtitle": "Morvan Essence operates as a fully registered Indian export business. Verified certificate copies are shared with buyers during onboarding and due diligence.",
-    "note": "Certificate scans and registration numbers are shared on request with verified trade buyers.",
+    "note": "Click any certificate to view the official document. Original copies are shared with verified trade buyers during onboarding.",
+    "view": "View Certificate",
     "items": [
       { "name": "IEC Certificate", "issuer": "DGFT, Government of India", "desc": "Import Export Code authorising Morvan Essence to legally export goods from India to international markets." },
       { "name": "MSME Certificate", "issuer": "Ministry of MSME, Government of India", "desc": "Udyam-registered manufacturing enterprise, recognised under India's MSME framework." },
-      { "name": "GST Registration", "issuer": "GST Network, Government of India", "desc": "Registered Indian tax entity — GSTIN appears on all commercial invoices and export documents." },
-      { "name": "Organic Quality Certificate", "issuer": "Product Quality Assurance", "desc": "Quality documentation for our natural product lines, with product-level records available per SKU." }
+      { "name": "GST Registration", "issuer": "GST Network, Government of India", "desc": "GST application filed and officially acknowledged (Form REG-02, ARN available) — GSTIN shared with buyers upon final approval." },
+      { "name": "Organic Quality Certificate", "issuer": "Global Inter Certification (GIC)", "desc": "Certified scope covering organic incense sticks, cones and dhoop made from natural resins, essential oils, herbs and flowers." }
     ]
   },
   "contact": {

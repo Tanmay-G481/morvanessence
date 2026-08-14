@@ -1,5 +1,6 @@
 {
   "language": "Sprache",
+  "waGeneral": "Hallo Morvan Essence, ich habe eine Anfrage zu Ihren Räucher- und Dhoop-Produkten.",
   "seo": {
     "title": "Morvan Essence | Authentischer indischer Räucher- & Dhoop-Export aus Vrindavan",
     "desc": "Premium-Hersteller und Exporteur von Bio-Räucherstäbchen, Dhoop und Kuhmist-Dhoop aus Vrindavan, Indien. B2B-Muster, Private Label und OEM für globale Importeure, Großhändler und Distributoren."
@@ -249,7 +250,7 @@
     "p1": "Fünftausend Tempel. Endlose Gassen voller Ringelblumen und Sandelholzrauch. Vrindavan ist nicht nur der Ort, an dem wir unser Räucherwerk herstellen — es ist der Grund seines Bestehens.",
     "p2": "Jeder Duft, den wir kreieren, beginnt hier: bei den Aartis im Morgengrauen, auf den Blumenmärkten und im jahrhundertealten Handwerk, Duft in Stille zu rollen.",
     "videoCap": "Brennendes Räucherstäbchen — der tägliche Rhythmus von Vrindavan",
-    "caps": ["Keshi Ghat an der Yamuna", "Innenhof des Radha-Raman-Tempels", "Prem Mandir, Vrindavan", "Tempeltor, um 1860"]
+    "caps": ["Keshi Ghat an der Yamuna", "Innenhof des Radha-Raman-Tempels", "Prem Mandir, Vrindavan", "Tempeltor, um 1860", "Heilige Haine von Govardhan"]
   },
   "trust": {
     "badge": "Spezifikationen & Vertrauen",
@@ -268,12 +269,13 @@
     "badge": "Vertrauen & Compliance",
     "title": "Registriert. Zertifiziert. Exportbereit.",
     "subtitle": "Morvan Essence operiert als vollständig registriertes indisches Exportunternehmen. Verifizierte Zertifikatskopien werden Käufern beim Onboarding und bei Prüfungen zur Verfügung gestellt.",
-    "note": "Zertifikatsscans und Registrierungsnummern werden auf Anfrage an verifizierte Handelskäufer weitergegeben.",
+    "note": "Klicken Sie auf ein Zertifikat, um das offizielle Dokument zu sehen. Originale werden beim Onboarding mit verifizierten Käufern geteilt.",
+    "view": "Zertifikat ansehen",
     "items": [
       { "name": "IEC-Zertifikat", "issuer": "DGFT, Regierung von Indien", "desc": "Import Export Code, der Morvan Essence zum legalen Warenexport von Indien in internationale Märkte berechtigt." },
       { "name": "MSME-Zertifikat", "issuer": "MSME-Ministerium, Regierung von Indien", "desc": "Udyam-registrierter Produktionsbetrieb, anerkannt im indischen MSME-Rahmen." },
-      { "name": "GST-Registrierung", "issuer": "GST-Netzwerk, Regierung von Indien", "desc": "Registriertes indisches Steuerunternehmen — die GSTIN erscheint auf allen Handelsrechnungen und Exportdokumenten." },
-      { "name": "Bio-Qualitätszertifikat", "issuer": "Produktqualitätssicherung", "desc": "Qualitätsdokumentation für unsere natürlichen Produktlinien, mit produktbezogenen Nachweisen pro SKU." }
+      { "name": "GST-Registrierung", "issuer": "GST-Netzwerk, Regierung von Indien", "desc": "GST-Antrag eingereicht und offiziell bestätigt (Formular REG-02, ARN verfügbar) — die GSTIN wird nach endgültiger Genehmigung mit Käufern geteilt." },
+      { "name": "Bio-Qualitätszertifikat", "issuer": "Global Inter Certification (GIC)", "desc": "Zertifizierter Geltungsbereich für Bio-Räucherstäbchen, -kegel und -dhoop aus natürlichen Harzen, ätherischen Ölen, Kräutern und Blumen." }
     ]
   },
   "contact": {

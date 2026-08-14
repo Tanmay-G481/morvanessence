@@ -1,5 +1,6 @@
 {
   "language": "Taal",
+  "waGeneral": "Hallo Morvan Essence, ik heb een vraag over uw wierook- en dhoopproducten.",
   "seo": {
     "title": "Morvan Essence | Authentieke Indiase wierook- & dhoopexport uit Vrindavan",
     "desc": "Premium fabrikant en exporteur van biologische wierookstokjes, dhoop en koeienmest-dhoop uit Vrindavan, India. B2B-samples, private label en OEM voor wereldwijde importeurs, groothandels en distributeurs."
@@ -249,7 +250,7 @@
     "p1": "Vijfduizend tempels. Eindeloze steegjes vol goudsbloemen en sandelhoutrook. Vrindavan is niet alleen waar we onze wierook maken — het is de reden dat hij bestaat.",
     "p2": "Elke geur die we creëren begint hier: bij de aarti's bij dageraad, de bloemenmarkten en het eeuwenoude ambacht van geur gerold in stilte.",
     "videoCap": "Brandende wierook — het dagelijkse ritme van Vrindavan",
-    "caps": ["Keshi Ghat aan de Yamuna", "Binnenplaats van de Radha Raman-tempel", "Prem Mandir, Vrindavan", "Tempelpoort, ca. 1860"]
+    "caps": ["Keshi Ghat aan de Yamuna", "Binnenplaats van de Radha Raman-tempel", "Prem Mandir, Vrindavan", "Tempelpoort, ca. 1860", "Heilige bossen van Govardhan"]
   },
   "trust": {
     "badge": "Specificaties & vertrouwen",
@@ -268,12 +269,13 @@
     "badge": "Vertrouwen & compliance",
     "title": "Geregistreerd. Gecertificeerd. Klaar voor export.",
     "subtitle": "Morvan Essence opereert als een volledig geregistreerd Indiase exportbedrijf. Geverifieerde certificaatkopieën worden gedeeld met kopers tijdens onboarding en due diligence.",
-    "note": "Certificaatscans en registratienummers worden op aanvraag gedeeld met geverifieerde zakelijke kopers.",
+    "note": "Klik op een certificaat om het officiële document te bekijken. Originele kopieën worden bij onboarding gedeeld met geverifieerde kopers.",
+    "view": "Bekijk certificaat",
     "items": [
       { "name": "IEC-certificaat", "issuer": "DGFT, Regering van India", "desc": "Import Export Code die Morvan Essence bevoegd maakt om legaal goederen vanuit India naar internationale markten te exporteren." },
       { "name": "MSME-certificaat", "issuer": "Ministerie van MSME, Regering van India", "desc": "Udyam-geregistreerde productieonderneming, erkend binnen het Indiase MSME-kader." },
-      { "name": "GST-registratie", "issuer": "GST-netwerk, Regering van India", "desc": "Geregistreerde Indiase fiscale entiteit — GSTIN staat op alle commerciële facturen en exportdocumenten." },
-      { "name": "Biologisch kwaliteitscertificaat", "issuer": "Productkwaliteitsborging", "desc": "Kwaliteitsdocumentatie voor onze natuurlijke productlijnen, met productgebonden dossiers per SKU." }
+      { "name": "GST-registratie", "issuer": "GST-netwerk, Regering van India", "desc": "GST-aanvraag ingediend en officieel bevestigd (formulier REG-02, ARN beschikbaar) — GSTIN wordt na definitieve goedkeuring met kopers gedeeld." },
+      { "name": "Biologisch kwaliteitscertificaat", "issuer": "Global Inter Certification (GIC)", "desc": "Gecertificeerde scope voor biologische wierookstokjes, kegels en dhoop gemaakt van natuurlijke harsen, essentiële oliën, kruiden en bloemen." }
     ]
   },
   "contact": {
