@@ -243,6 +243,19 @@
       }
     ]
   },
+  "trust": {
+    "badge": "Specificaties & vertrouwen",
+    "title": "Alles wat een koper eerst controleert",
+    "certLine": "IEC-geregistreerd • MSME Udyam • GST-geregistreerd • Exportdocumenten beschikbaar",
+    "items": [
+      { "label": "Productformaten", "value": "Precieze maten 3,5″, 6″ & 9″" },
+      { "label": "Brandtijd", "value": "30–75 min schone, gelijkmatige verbranding" },
+      { "label": "Ingrediënten", "value": "Natuurlijke botanicals, harsen & essentiële oliën" },
+      { "label": "Verpakking", "value": "Klaar voor retail, bulk & private label" },
+      { "label": "MOQ & levertijd", "value": "Flexibele MOQ's • 2–3 weken productie" },
+      { "label": "Exportvoorwaarden", "value": "FOB / CIF • zee- & luchtvracht" }
+    ]
+  },
   "certs": {
     "badge": "Vertrouwen & compliance",
     "title": "Geregistreerd. Gecertificeerd. Klaar voor export.",

@@ -243,6 +243,19 @@
       }
     ]
   },
+  "trust": {
+    "badge": "Especificaciones y confianza",
+    "title": "Todo lo que un comprador revisa primero",
+    "certLine": "IEC registrado • MSME Udyam • GST registrado • Documentos de exportación disponibles",
+    "items": [
+      { "label": "Formatos de producto", "value": "Tamaños de precisión 3,5″, 6″ y 9″" },
+      { "label": "Tiempo de combustión", "value": "30–75 min de combustión limpia y uniforme" },
+      { "label": "Ingredientes", "value": "Botánicos, resinas y aceites esenciales naturales" },
+      { "label": "Embalaje", "value": "Listo para retail, granel y marca privada" },
+      { "label": "MOQ y plazos", "value": "MOQ flexibles • producción de 2–3 semanas" },
+      { "label": "Términos de exportación", "value": "FOB / CIF • flete marítimo y aéreo" }
+    ]
+  },
   "certs": {
     "badge": "Confianza y cumplimiento",
     "title": "Registrados. Certificados. Listos para exportar.",

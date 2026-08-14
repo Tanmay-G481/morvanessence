@@ -243,6 +243,19 @@
       }
     ]
   },
+  "trust": {
+    "badge": "Specifications & Trust",
+    "title": "Everything a Buyer Checks First",
+    "certLine": "IEC Registered • MSME Udyam • GST Registered • Export Docs Available",
+    "items": [
+      { "label": "Product Formats", "value": "3.5″, 6″ & 9″ precision sizes" },
+      { "label": "Burn Time", "value": "30–75 min clean, even burn" },
+      { "label": "Ingredients", "value": "Natural botanicals, resins & essential oils" },
+      { "label": "Packaging", "value": "Retail, bulk & private-label ready" },
+      { "label": "MOQ & Lead Time", "value": "Flexible MOQs • 2–3 week production" },
+      { "label": "Export Terms", "value": "FOB / CIF • Sea & air freight" }
+    ]
+  },
   "certs": {
     "badge": "Trust & Compliance",
     "title": "Registered. Certified. Export-Ready.",

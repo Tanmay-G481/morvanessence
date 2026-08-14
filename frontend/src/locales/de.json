@@ -243,6 +243,19 @@
       }
     ]
   },
+  "trust": {
+    "badge": "Spezifikationen & Vertrauen",
+    "title": "Alles, was ein Käufer zuerst prüft",
+    "certLine": "IEC-registriert • MSME Udyam • GST-registriert • Exportdokumente verfügbar",
+    "items": [
+      { "label": "Produktformate", "value": "Präzisionsgrößen 3,5″, 6″ & 9″" },
+      { "label": "Brenndauer", "value": "30–75 Min. sauberer, gleichmäßiger Abbrand" },
+      { "label": "Zutaten", "value": "Natürliche Botanicals, Harze & ätherische Öle" },
+      { "label": "Verpackung", "value": "Retail-, Bulk- & Private-Label-bereit" },
+      { "label": "MOQ & Lieferzeit", "value": "Flexible MOQs • 2–3 Wochen Produktion" },
+      { "label": "Exportbedingungen", "value": "FOB / CIF • See- & Luftfracht" }
+    ]
+  },
   "certs": {
     "badge": "Vertrauen & Compliance",
     "title": "Registriert. Zertifiziert. Exportbereit.",

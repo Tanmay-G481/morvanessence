@@ -51,6 +51,7 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 - Business Certifications section added after Quality (#certificates): IEC (DGFT), MSME (Udyam), GST Registration, Organic Quality Certificate — dark premium cards with gold accents, translated into all 7 languages; note states scans/registration numbers shared on request (no actual certificate images uploaded yet — user to provide scans for embedding)
 - Each of the 8 fragrance cards now shows a context-matched photo (meditation/sandalwood, roses, jasmine bouquet, amber perfume bottles, spices/resins, lavender field, lemons, honey) with the numbered badge overlaid
 - Theme refreshed to a brighter organic palette (user request): ivory #FAF7EF, alt #F1EDDF, borders #E6DFC9, deep green surface #33442C, leaf green primary #5F7D53 (hover #4C6642), gold #CDA94E (dark-surface accents #EAD18F), muted #6E7A60, footer #2B3A24
+- "Specifications & Trust" strip added directly under the hero (#specs): floating white card with 6 buyer-critical specs (formats, burn time, ingredients, packaging, MOQ/lead time, export terms) + registrations pill (IEC/MSME/GST), translated into all 7 languages
 - Buyer auto-reply: branded confirmation email (reference ID, enquiry summary, WhatsApp contact) now sent to the enquirer's business email on every enquiry — also dormant until RESEND_API_KEY is set. Note: Resend free test mode only sends to the account owner's own email; sending to arbitrary buyer emails requires verifying a sending domain in Resend
 
 ## Pending / Backlog

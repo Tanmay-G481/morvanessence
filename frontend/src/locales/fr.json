@@ -243,6 +243,19 @@
       }
     ]
   },
+  "trust": {
+    "badge": "Spécifications & confiance",
+    "title": "Tout ce qu'un acheteur vérifie d'abord",
+    "certLine": "IEC enregistré • MSME Udyam • GST enregistré • Documents d'export disponibles",
+    "items": [
+      { "label": "Formats produits", "value": "Tailles de précision 3,5″, 6″ et 9″" },
+      { "label": "Durée de combustion", "value": "30–75 min de combustion propre et régulière" },
+      { "label": "Ingrédients", "value": "Botanicals, résines & huiles essentielles naturels" },
+      { "label": "Emballage", "value": "Prêt retail, vrac & marque privée" },
+      { "label": "MOQ & délais", "value": "MOQ flexibles • production 2–3 semaines" },
+      { "label": "Conditions d'export", "value": "FOB / CIF • fret maritime & aérien" }
+    ]
+  },
   "certs": {
     "badge": "Confiance & conformité",
     "title": "Enregistrés. Certifiés. Prêts pour l'export.",

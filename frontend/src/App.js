@@ -24,6 +24,10 @@ import {
   BadgeCheck,
   Landmark,
   FileBadge,
+  Ruler,
+  Timer,
+  Scale,
+  Ship,
   Leaf as LeafIcon
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -125,6 +129,7 @@ export default function App() {
   const whyCards = t("why.cards", { returnObjects: true });
   const articles = t("blog.articles", { returnObjects: true });
   const certItems = t("certs.items", { returnObjects: true });
+  const trustItems = t("trust.items", { returnObjects: true });
 
   const modalTitle =
     defaultEnquiryType === "sample" ? t("modal.titleSample") :
@@ -440,6 +445,43 @@ export default function App() {
                   <p className="text-xs text-[#E6DFC9]/70 uppercase tracking-wider mt-1">{m.l}</p>
                 </div>
               ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* TRUST & SPECIFICATIONS STRIP */}
+      <section id="specs" className="relative z-20 -mt-16 md:-mt-20 pb-6">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="bg-white rounded-3xl shadow-xl shadow-[#33442C]/10 border border-[#E6DFC9] p-6 md:p-8"
+            data-testid="trust-strip"
+          >
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-7">
+              <div>
+                <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("trust.badge")}</span>
+                <h2 className="font-serif text-2xl md:text-3xl font-light text-[#33442C]">{t("trust.title")}</h2>
+              </div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#5F7D53]/10 text-[#5F7D53] text-xs font-semibold self-start md:self-auto" data-testid="trust-certline">
+                <ShieldCheck className="w-4 h-4 shrink-0" />
+                <span>{t("trust.certLine")}</span>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              {trustItems.map((it, i) => {
+                const Icon = [Ruler, Timer, Leaf, Package, Scale, Ship][i];
+                return (
+                  <div key={i} className="space-y-1.5" data-testid={`trust-item-${i}`}>
+                    <Icon className="w-5 h-5 text-[#CDA94E]" />
+                    <p className="text-[10px] uppercase tracking-widest text-[#6E7A60] font-semibold">{it.label}</p>
+                    <p className="text-sm font-medium text-[#33442C] leading-snug">{it.value}</p>
+                  </div>
+                );
+              })}
             </div>
           </motion.div>
         </div>
