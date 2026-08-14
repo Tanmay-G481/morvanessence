@@ -81,7 +81,10 @@ const VRINDAVAN_IMAGES = [
   "/images/vrindavan-radha-raman.jpg",
   "/images/vrindavan-prem-mandir.jpg",
   "/images/vrindavan-1860.jpg",
-  "/images/giriraj-ji.jpg"
+  "/images/giriraj-ji.jpg",
+  "/images/vrindavan-shringar.jpg",
+  "/images/vrindavan-darshan.jpg",
+  "/images/vrindavan-kund.jpg"
 ];
 
 const PRODUCT_IMAGES = [
@@ -618,7 +621,7 @@ export default function App() {
 
               <div className="grid grid-cols-2 gap-4 pt-2">
                 {VRINDAVAN_IMAGES.map((src, i) => (
-                  <div key={i} className={`group relative rounded-2xl overflow-hidden shadow-md border border-[#E6DFC9] ${i === 4 ? "col-span-2 h-48 md:h-60" : "h-40 md:h-48"}`} data-testid={`vrindavan-img-${i}`}>
+                  <div key={i} className={`group relative rounded-2xl overflow-hidden shadow-md border border-[#E6DFC9] ${i === 4 || i === 7 ? "col-span-2 h-48 md:h-60" : "h-40 md:h-48"}`} data-testid={`vrindavan-img-${i}`}>
                     <img src={src} alt={vrinCaps[i]} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#33442C]/75 via-transparent to-transparent flex items-end p-3">
                       <p className="text-white/90 text-[11px] md:text-xs font-medium tracking-wide">{vrinCaps[i]}</p>
