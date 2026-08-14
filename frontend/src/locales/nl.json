@@ -243,6 +243,14 @@
       }
     ]
   },
+  "vrin": {
+    "badge": "Heilige oorsprong",
+    "title": "De levende geest van Vrindavan",
+    "p1": "Vijfduizend tempels. Eindeloze steegjes vol goudsbloemen en sandelhoutrook. Vrindavan is niet alleen waar we onze wierook maken — het is de reden dat hij bestaat.",
+    "p2": "Elke geur die we creëren begint hier: bij de aarti's bij dageraad, de bloemenmarkten en het eeuwenoude ambacht van geur gerold in stilte.",
+    "videoCap": "Brandende wierook — het dagelijkse ritme van Vrindavan",
+    "caps": ["Keshi Ghat aan de Yamuna", "Binnenplaats van de Radha Raman-tempel", "Prem Mandir, Vrindavan", "Tempelpoort, ca. 1860"]
+  },
   "trust": {
     "badge": "Specificaties & vertrouwen",
     "title": "Alles wat een koper eerst controleert",

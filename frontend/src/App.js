@@ -130,6 +130,7 @@ export default function App() {
   const articles = t("blog.articles", { returnObjects: true });
   const certItems = t("certs.items", { returnObjects: true });
   const trustItems = t("trust.items", { returnObjects: true });
+  const vrinCaps = t("vrin.caps", { returnObjects: true });
 
   const modalTitle =
     defaultEnquiryType === "sample" ? t("modal.titleSample") :
@@ -541,6 +542,78 @@ export default function App() {
                     <p className="text-xs uppercase tracking-widest text-[#CDA94E] mt-2">{t("story.quoteBy")}</p>
                   </div>
                 </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* VRINDAVAN ROOTS & SPIRITUALITY */}
+      <section id="vrindavan-roots" className="py-24 md:py-32 bg-[#F1EDDF] border-y border-[#E6DFC9] overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto space-y-4 mb-14">
+            <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#5F7D53]">{t("vrin.badge")}</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-[#33442C]">{t("vrin.title")}</h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-stretch">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="lg:col-span-5"
+            >
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#E6DFC9] h-full min-h-[440px]">
+                <video
+                  src="/videos/incense-vrindavan.mp4"
+                  poster="https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="auto"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  data-testid="vrindavan-video"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#33442C]/80 via-transparent to-transparent flex items-end p-6">
+                  <p className="text-white/90 text-sm font-medium flex items-center gap-2">
+                    <Sparkles className="w-4 h-4 text-[#EAD18F]" />
+                    {t("vrin.videoCap")}
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="lg:col-span-7 flex flex-col justify-center space-y-6"
+            >
+              <p className="font-serif text-2xl md:text-3xl font-light text-[#33442C] leading-relaxed">{t("vrin.p1")}</p>
+              <div className="flex items-center gap-3">
+                <div className="h-px w-16 bg-[#CDA94E]" />
+                <Sparkles className="w-4 h-4 text-[#CDA94E]" />
+                <div className="h-px w-16 bg-[#CDA94E]" />
+              </div>
+              <p className="text-[#33442C]/75 leading-relaxed text-base md:text-lg max-w-xl">{t("vrin.p2")}</p>
+
+              <div className="grid grid-cols-2 gap-4 pt-2">
+                {[
+                  "/images/vrindavan-keshi-ghat.jpg",
+                  "/images/vrindavan-radha-raman.jpg",
+                  "/images/vrindavan-prem-mandir.jpg",
+                  "/images/vrindavan-1860.jpg"
+                ].map((src, i) => (
+                  <div key={i} className="group relative rounded-2xl overflow-hidden shadow-md border border-[#E6DFC9] h-40 md:h-48" data-testid={`vrindavan-img-${i}`}>
+                    <img src={src} alt={vrinCaps[i]} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#33442C]/75 via-transparent to-transparent flex items-end p-3">
+                      <p className="text-white/90 text-[11px] md:text-xs font-medium tracking-wide">{vrinCaps[i]}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </motion.div>
           </div>

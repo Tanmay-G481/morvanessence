@@ -243,6 +243,14 @@
       }
     ]
   },
+  "vrin": {
+    "badge": "Origines sacrées",
+    "title": "L'âme vivante de Vrindavan",
+    "p1": "Cinq mille temples. Des ruelles infinies de soucis et de fumée de santal. Vrindavan n'est pas seulement le lieu où nous fabriquons notre encens — c'est la raison de son existence.",
+    "p2": "Chaque parfum que nous créons commence ici : dans les aartis de l'aube, les marchés aux fleurs et l'art séculaire de rouler le parfum dans la quiétude.",
+    "videoCap": "Encens qui brûle — le rythme quotidien de Vrindavan",
+    "caps": ["Keshi Ghat sur la Yamuna", "Cour du temple Radha Raman", "Prem Mandir, Vrindavan", "Porte de temple, v. 1860"]
+  },
   "trust": {
     "badge": "Spécifications & confiance",
     "title": "Tout ce qu'un acheteur vérifie d'abord",

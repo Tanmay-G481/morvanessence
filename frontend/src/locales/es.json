@@ -243,6 +243,14 @@
       }
     ]
   },
+  "vrin": {
+    "badge": "Orígenes sagrados",
+    "title": "El espíritu vivo de Vrindavan",
+    "p1": "Cinco mil templos. Callejones infinitos de caléndulas y humo de sándalo. Vrindavan no es solo donde fabricamos nuestro incienso: es la razón de su existencia.",
+    "p2": "Cada fragancia que creamos comienza aquí: en los aartis del amanecer, los mercados de flores y el arte centenario de envolver el aroma en quietud.",
+    "videoCap": "Incienso ardiendo — el ritmo diario de Vrindavan",
+    "caps": ["Keshi Ghat en el Yamuna", "Patio del templo Radha Raman", "Prem Mandir, Vrindavan", "Puerta del templo, c. 1860"]
+  },
   "trust": {
     "badge": "Especificaciones y confianza",
     "title": "Todo lo que un comprador revisa primero",
