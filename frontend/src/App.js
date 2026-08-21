@@ -210,7 +210,7 @@ function HomePage() {
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
         <div className="max-w-[88rem] mx-auto px-6 h-20 flex items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-2.5 group shrink-0" data-testid="brand-logo-link">
-            <div className="w-9 h-9 xl:w-10 xl:h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-lg xl:text-xl tracking-widest shadow-md group-hover:bg-[#4C6642] transition-colors">M</div>
+            <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 xl:w-11 xl:h-11 rounded-full object-cover shadow-md border border-[#E6DFC9] group-hover:scale-105 transition-transform" />
             <div>
               <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#33442C] whitespace-nowrap">MORVAN ESSENCE</span>
               <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
@@ -929,7 +929,7 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#5F7D53] flex items-center justify-center text-white font-serif text-xl tracking-widest">M</div>
+                <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 rounded-full object-cover border border-white/20" />
                 <span className="font-serif text-2xl tracking-wide font-bold text-white">MORVAN ESSENCE</span>
               </div>
               <p className="text-sm text-[#E6DFC9]/60 max-w-sm leading-relaxed">{t("footer.desc")}</p>

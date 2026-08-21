@@ -63,6 +63,7 @@ Morvan Essence is a premium Indian organic incense and dhoop export brand inspir
 ## Recent (2026-08-14, later)
 - Journal moved to its own /journal page (react-router-dom v7): removed from home, nav "Journal" routes to /journal with article reader + language switcher (/app/frontend/src/Journal.js)
 - Load-flash fix: static SEO/no-JS fallback hidden instantly for JS visitors via inline script + branded boot splash — no more elements jumping into place on phones; video hardened with image fallback + onError hide
+- Brand logo added (user-provided, 2026-08-21): logo-mark.png (emblem) in header, journal header, footer, boot splash; favicon.ico regenerated from emblem; og-image social card rebuilt with real logo + new headline; full lockup at /images/logo-full.jpg
 
 ## Pending / Backlog
 - P0: Swap in official contact details (email, phone/WhatsApp, location) once the user provides them
