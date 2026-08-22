@@ -535,7 +535,7 @@ function HomePage() {
               <div key={idx} className="bg-white rounded-3xl p-8 border border-[#E6DFC9] shadow-sm flex flex-col justify-between transition-all hover:shadow-md" data-testid={`product-card-${idx + 1}`}>
                 <div>
                   <div className="h-60 rounded-2xl overflow-hidden mb-6 relative">
-                    <img src={PRODUCT_IMAGES[idx]} alt={p.title} className="w-full h-full object-cover" />
+                    <img src={PRODUCT_IMAGES[idx]} alt={`${p.title} — Morvan Essence export product`} className="w-full h-full object-cover" />
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-[#5F7D53]">
                       {p.badge}
                     </div>
@@ -590,7 +590,7 @@ function HomePage() {
               >
                 <div>
                   <div className="h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src={FRAGRANCE_IMAGES[idx % FRAGRANCE_IMAGES.length]} alt={frag.name} className="w-full h-full object-cover" loading="lazy" />
+                    <img src={FRAGRANCE_IMAGES[idx % FRAGRANCE_IMAGES.length]} alt={`${frag.name} — incense fragrance from Vrindavan`} className="w-full h-full object-cover" loading="lazy" />
                     <div className="absolute top-2 left-2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#5F7D53] font-serif font-bold text-xs shadow-sm">
                       {idx + 1}
                     </div>
@@ -1061,6 +1061,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/journal" element={<JournalPage />} />
+        <Route path="/journal/:slug" element={<JournalPage />} />
       </Routes>
     </BrowserRouter>
   );

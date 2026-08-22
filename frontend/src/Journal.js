@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { BookOpen, Clock, ChevronRight, ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,14 +7,24 @@ import { Toaster } from "sonner";
 import { LanguageSwitcher, BLOG_IMAGES } from "./App";
 
 export default function JournalPage() {
-  const { t } = useTranslation();
-  const [activeArticle, setActiveArticle] = useState(null);
+  const { t, i18n } = useTranslation();
+  const { slug } = useParams();
+  const navigate = useNavigate();
   const articles = t("blog.articles", { returnObjects: true });
+  const idx = slug ? articles.findIndex((a) => a.slug === slug) : -1;
+  const activeArticle = idx >= 0 ? idx : null;
 
-  const openArticle = (idx) => {
-    setActiveArticle(idx);
+  useEffect(() => {
+    document.title = activeArticle !== null
+      ? `${articles[activeArticle].title} | Morvan Journal — Morvan Essence`
+      : `${t("blog.title")} | Morvan Essence`;
+  }, [activeArticle, articles, t, i18n.language]);
+
+  const openArticle = (i) => {
+    navigate(`/journal/${articles[i].slug}`);
     window.scrollTo({ top: 0 });
   };
+  const goBack = () => navigate("/journal");
 
   return (
     <div className="min-h-screen bg-[#FAF7EF] text-[#33442C]">
@@ -82,7 +92,7 @@ export default function JournalPage() {
       ) : (
         <article className="max-w-3xl mx-auto px-6 py-16 md:py-20" data-testid="article-view">
           <button
-            onClick={() => setActiveArticle(null)}
+            onClick={goBack}
             className="inline-flex items-center gap-2 text-sm font-semibold text-[#5F7D53] hover:text-[#33442C] mb-8 group"
             data-testid="article-back-btn"
           >
