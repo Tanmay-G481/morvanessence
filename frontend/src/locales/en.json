@@ -2,10 +2,10 @@
   "language": "Language",
   "waGeneral": "Hello Morvan Essence, I have an enquiry about your incense and dhoop products.",
   "seo": {
-    "title": "Morvan Essence | Authentic Indian Incense & Dhoop Export from Vrindavan",
-    "desc": "Premium organic incense sticks, dhoop and cow-dung dhoop export partner and exporter from Vrindavan, India. B2B samples, private label and OEM for global importers, wholesalers and distributors."
+    "title": "Morvan Essence | Sacred Fragrances from Vrindavan, India — B2B Export",
+    "desc": "Premium 100% natural incense sticks, dhoop and cow-dung dhoop — curated exporter and brand from Vrindavan, India. B2B samples, private label and OEM for global importers, wholesalers and distributors."
   },
-  "topbar": "India-based B2B export partner from Vrindavan • Built for importers, wholesalers & private-label brands",
+  "topbar": "Sacred Fragrances from Vrindavan, India • Bambooless • 100% Natural • B2B Wholesale Export",
   "nav": {
     "brandTag": "Vrindavan • Global Export",
     "story": "Our Story",
@@ -21,344 +21,335 @@
   "hero": {
     "badge": "Vrindavan Heritage • Global B2B Export",
     "title": "Sacred Fragrances from Vrindavan, India — Crafted for the World.",
-    "subtitle": "We partner with international importers, wholesalers, distributors, retailers, and private-label brands seeking thoughtfully made incense and dhoop products from India.",
-    "ctaSample": "Request an Export Sample Kit",
+    "subtitle": "We partner with international importers, wholesalers, distributors, retailers, and private-label brands seeking 100% natural, bambooless incense and dhoop products from India.",
+    "ctaSample": "Request a Free Sample",
     "ctaDistributor": "WhatsApp Enquiry",
-    "waDistributor": "Hello Morvan Essence, I'm interested in becoming a distributor for your incense and dhoop products. Please share the details.",
+    "waDistributor": "Hello Morvan Essence, I'm interested in wholesale enquiry for your incense and dhoop products. Please share the details.",
     "m1v": "India",
     "m1l": "Source & export base",
-    "m2v": "3.5\" – 9\"",
-    "m2l": "Precision Formats",
+    "m2v": "3\" – 8\"",
+    "m2l": "Available Formats",
     "m3v": "Natural",
-    "m3l": "Ingredient direction",
+    "m3l": "100% Natural Ingredients",
     "m4v": "OEM / ODM",
     "m4l": "Private Label Ready"
   },
   "story": {
     "badge": "Roots in Vrindavan • Wings to the World",
     "title": "Rooted in the Sacred Heritage of Vrindavan",
-    "p1": "Vrindavan has for centuries been the spiritual cradle of divine fragrances, sacred herbs, and pure botanical resin art. Morvan Essence was born from this timeless tradition — translating ancient artisanal wisdom into pristine, export-grade wellness products for global markets.",
-    "p2": "We pair Indian craft knowledge with documented specifications, considered packaging, and an export conversation shaped around the needs of international retailers and wellness brands.",
-    "card1t": "Artisanal Craftsmanship",
-    "card1d": "Developed around selected wood powders, fragrant roots, resins, and botanical-inspired fragrance profiles.",
-    "card2t": "Global Export Standards",
-    "card2d": "Packaging and documentation can be discussed around your market, product format, and shipment requirements.",
-    "quote": "“A sacred fragrance is a bridge between the earthly and the divine.”",
-    "quoteBy": "— Morvan Essence Heritage Note"
+    "p1": "Vrindavan has for centuries been the spiritual heart of India — the birthplace of Lord Krishna and home to five thousand temples. Morvan Essence was founded here, bringing authentic sacred fragrances to wholesale buyers, distributors, and wellness brands across the world.",
+    "p2": "Every product we export carries the intention of this sacred land. We source from IFRA certified fragrance producers and test every product across seven quality parameters before it carries the Morvan Essence name.",
+    "card1t": "100% Natural Ingredients",
+    "card1d": "Bambooless, charcoal free, made with pure essential oil grade fragrances and natural botanical binders. No synthetics.",
+    "card2t": "Export Ready",
+    "card2d": "IEC licensed, GST registered, MSME certified. Certificate of Origin provided every shipment. UK DCTS 0% import duty.",
+    "quote": "\u201cWhere every fragrance carries a prayer from Vrindavan.\u201d",
+    "quoteBy": "— Tanmay Gulati, Founder"
   },
   "products": {
     "badge": "Export Catalogue",
-    "title": "Our Premium Product Lineup",
-    "subtitle": "Available in precision sizes (3.5-inch, 6-inch, and 9-inch) customized for retail shelves, wellness studios, and sacred rituals worldwide.",
+    "title": "Our Product Lineup",
+    "subtitle": "Two collections — Natural and Sacred — across multiple formats and sizes. All prices on request. Free sample available.",
     "sizeLabel": "Available Sizes:",
     "burnLabel": "Burn Time:",
     "packLabel": "Packaging:",
     "cta": "Request Sample & Pricing",
     "items": [
       {
-        "badge": "B2B Best Seller",
-        "title": "Organic Incense Sticks",
-        "desc": "Clean-burning, low-smoke bamboo-core incense crafted with pure essential oils and natural botanical resin binders.",
-        "sizes": "3.5″, 6″, 9″",
-        "burn": "30 – 60 Mins",
-        "pack": "Hexagonal tubes, pillow packs, bulk carton"
+        "badge": "Natural Collection",
+        "title": "Natural Incense Sticks",
+        "desc": "100% natural masala incense sticks with bamboo core. Made with pure essential oils and natural botanical resin binders. Zero charcoal.",
+        "sizes": "8 inch",
+        "burn": "40 – 50 mins",
+        "pack": "Bulk export carton · Retail branded packs available"
       },
       {
-        "badge": "Coreless Luxury",
-        "title": "Organic Dhoop Sticks",
-        "desc": "Coreless, solid botanical incense molded from fragrant herbs, natural resins, and aromatic wood powders for intense fragrance purity.",
-        "sizes": "3.5″, 6″, 9″",
-        "burn": "45 – 75 Mins",
-        "pack": "Eco-kraft boxes with ceramic holder included"
+        "badge": "Natural Collection",
+        "title": "Bambooless Dhoop Sticks",
+        "desc": "Coreless, solid bambooless dhoop sticks made from natural herbs, resins, and essential oil grade fragrances. Pure fragrance — zero bamboo smoke.",
+        "sizes": "3 inch, 4 inch, 6 inch",
+        "burn": "25 – 70 mins",
+        "pack": "Bulk export carton · Retail branded packs available"
       },
       {
-        "badge": "Vedic Tradition",
-        "title": "Cow-Dung Incense & Dhoop",
-        "desc": "Traditional purifying formulation combining Panchagavya elements, medicinal herbs, and natural camphor for air purification and spiritual cleansing.",
-        "sizes": "3.5″, 6″ & Cones",
-        "burn": "Product-specific use guidance available",
-        "burnLabelOverride": "Purifying Action:",
-        "pack": "Export master cartons (100 units / box)"
+        "badge": "Sacred Collection",
+        "title": "Sacred Cow Dung Dhoop",
+        "desc": "Authentic cow dung dhoop sticks made from Vrindavan Gau Mata cow dung with pure essential oil blends. Bambooless. Heat-treated. Biosecurity compliant.",
+        "sizes": "3.5 inch",
+        "burn": "30 – 45 mins",
+        "burnLabelOverride": "Burn Time:",
+        "pack": "Bulk export carton · Retail branded packs available"
+      },
+      {
+        "badge": "Natural Collection",
+        "title": "Dhoop Cones",
+        "desc": "Natural dhoop cones in multiple fragrances including Pink Lotus, Rose, Guggul and Kasturi. No bamboo, no charcoal.",
+        "sizes": "1.5 inch cones",
+        "burn": "18 – 22 mins",
+        "pack": "Bulk export carton · Retail cone boxes available"
+      },
+      {
+        "badge": "Sacred Collection",
+        "title": "Sacred Hawan Kund",
+        "desc": "Pure cow dung hawan kund for authentic Vedic fire ceremonies. Used in Hindu temples worldwide. Heat-treated and biosecurity compliant for international import.",
+        "sizes": "Standard block",
+        "burn": "Ceremony use",
+        "burnLabelOverride": "Use:",
+        "pack": "Export master cartons"
+      },
+      {
+        "badge": "Natural Collection",
+        "title": "Handcrafted Incense Sticks",
+        "desc": "Hand-rolled incense sticks made using traditional Vrindavan methods. Each stick crafted individually with natural ingredients and essential oil grade fragrances.",
+        "sizes": "3 inch, 4 inch, 6 inch, 8 inch",
+        "burn": "25 – 60 mins",
+        "pack": "Bulk export carton · Retail branded packs available"
       }
     ]
   },
   "fragrances": {
-    "badge": "Sensory Spectrum",
-    "title": "Exquisite Fragrance Collection",
-    "subtitle": "Custom-blended by master perfumers for global wellness, meditation, spa, and aromatherapy markets.",
+    "badge": "Fragrance Library",
+    "title": "Our Fragrance Collection",
+    "subtitle": "All fragrances sourced from IFRA certified producers. Available across Natural and Sacred collections. Sample any fragrance — free, no commitment.",
     "sampleCta": "Request this Fragrance Sample",
     "items": [
-      { "name": "Royal Sandalwood", "note": "Deep, woody, creamy, meditative", "profile": "Best for luxury meditation & yoga studios" },
-      { "name": "Vrindavan Rose", "note": "Velvety damask rose & morning dew", "profile": "Best for boutique retail & home fragrance" },
-      { "name": "Mogra & White Jasmine", "note": "Intoxicating nocturnal floral blossom", "profile": "Best for spa relaxation & ambiance" },
-      { "name": "Oud & Amber Resin", "note": "Rich, smoky, resinous, opulent", "profile": "Best for premium gift sets & high-end hotels" },
-      { "name": "Sacred Guggal & Loban", "note": "Balsamic, purifying, grounding", "profile": "Best for ritual cleansing & wellness centers" },
-      { "name": "White Sage & Lavender", "note": "Herbaceous, calming, purifying", "profile": "Best for modern holistic & lifestyle stores" },
-      { "name": "Lemongrass & Citronella", "note": "Zesty, refreshing, invigorating", "profile": "Best for outdoor living & natural freshness" },
-      { "name": "Nag Champa Heritage", "note": "Traditional champaka floral & honey", "profile": "Best for classic export distribution" }
+      { "name": "Sacred Sandalwood", "note": "Warm, woody, grounding, calming", "profile": "Universal — UK, USA, UAE, Germany. Our most requested fragrance." },
+      { "name": "Temple Frankincense", "note": "Resinous, purifying, ancient", "profile": "Top seller in UK wellness and German bio stores." },
+      { "name": "Royal Oud", "note": "Deep, luxurious, woody", "profile": "Premium UAE and Gulf market fragrance. 9.2/10 quality score." },
+      { "name": "Lavender", "note": "Sweet, calming, floral", "profile": "Number one UK wellness fragrance. Ideal for yoga studios and spas." },
+      { "name": "Vrindavan Rose", "note": "Floral, warm, sacred", "profile": "Gift shops and boutique retail worldwide." },
+      { "name": "Patchouli", "note": "Earthy, sweet, grounding", "profile": "UK gift market and USA bohemian wellness stores." },
+      { "name": "Nag Champa", "note": "Champaca, vanilla, sandalwood", "profile": "Most recognized Indian fragrance globally." },
+      { "name": "Pink Lotus", "note": "Light, floral, uplifting", "profile": "Top cone fragrance. 9.5/10 quality score." }
     ]
   },
   "privateLabel": {
     "badge": "OEM & Private Label Partnership",
-    "title": "Build Your Own Global Incense Brand with Morvan Essence",
-    "desc": "We empower international wholesalers, retail chains, and wellness entrepreneurs to launch bespoke incense and dhoop product lines under their own brand identity. From custom formulations and length (3.5″ to 9″) to luxury branded packaging & barcode integration.",
+    "title": "Your Brand. Our Vrindavan Heritage.",
+    "desc": "We supply your brand, your packaging, your market — and handle production and export from Vrindavan. MOQ 500 kg. Custom fragrance blending available for Sacred Collection only.",
     "points": [
-      "Custom box design, embossing, foil stamping & multi-lingual labeling",
-      "Low minimum order quantities (MOQs) tailored for emerging and established brands",
-      "Exclusive fragrance creation by master perfumers",
-      "Strict quality assurance, batch testing, and secure export logistics"
+      "Custom branded packaging — kraft boxes, belly bands, retail sleeves",
+      "Low MOQs tailored for new and established brands",
+      "Custom fragrance blending available for Sacred Collection orders",
+      "Full export documentation — Certificate of Origin, Packing List, Bill of Lading"
     ],
     "cta": "Start Private Label Enquiry",
-    "fastTitle": "Private Label Inquiry Fast-Track",
+    "fastTitle": "Private Label Enquiry",
     "f1l": "Company / Brand Name",
     "f1p": "e.g. Lotus Wellness Co., USA",
     "f2l": "Business Email",
     "f2p": "contact@brand.com",
-    "f3l": "Estimated Annual Volume",
-    "f3p": "e.g. 50,000 units / year",
+    "f3l": "Estimated Annual Volume (kg)",
+    "f3p": "e.g. 500 kg / year",
     "fastCta": "Request OEM Consultation"
   },
   "exportSec": {
     "badge": "Global Logistics",
-    "title": "Seamless International Export Supply Chain",
-    "subtitle": "From our sourcing hub in Vrindavan, India to your warehouses across North America, Europe, the Middle East, and Asia.",
+    "title": "How We Export",
+    "subtitle": "FOB ICD Tughlakabad, New Delhi. HS Code 3307.41.00. UK DCTS 0% import duty. EU GSP 1.7%. 15–20 working days lead time.",
     "steps": [
-      { "title": "Inquiry & Sample Kit", "desc": "Receive tailored sample assortments across 3.5\", 6\", and 9\" sizes with custom fragrance strips." },
-      { "title": "Custom Formulation", "desc": "Finalize fragrance notes, packaging substrates, private label branding, and carton specifications." },
-      { "title": "Compliance & preparation", "desc": "Strict quality checks, moisture-resistant master carton sealing, and full export documentation." },
-      { "title": "Global Freight Delivery", "desc": "FOB / CIF shipments via sea or air freight with reliable tracking to your port of destination." }
+      { "title": "Send Enquiry", "desc": "Email exports@morvanessence.com or WhatsApp +91 97627 17978 with your product, quantity and destination country." },
+      { "title": "Proforma Invoice", "desc": "We send a detailed Proforma Invoice within 24 hours with FOB pricing, trade terms and payment details." },
+      { "title": "Production", "desc": "On 50% advance payment clearance, production begins. 15–20 working days lead time for loose packing." },
+      { "title": "Shipment", "desc": "Full document set provided — Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin." }
     ]
   },
   "quality": {
-    "badge": "Uncompromising Standards",
-    "title": "Quality Assurance & Export Compliance",
-    "desc": "Product specifications, fragrance details, packaging requirements, and available documentation can be reviewed with buyers during sampling and quotation.",
-    "cta": "Request Quality Dossier / MSDS",
+    "badge": "Morvan Quality Standard",
+    "title": "Quality You Can Verify",
+    "desc": "Every product is personally tested by our founder across 7 parameters before it carries the Morvan Essence name. Products scoring below 7/10 are rejected. Our catalog contains only 7.75 to 9.5/10 scored products.",
+    "cta": "Request Quality Dossier",
     "cards": [
-      { "title": "Product Specifications", "desc": "Discuss formats, fragrance profiles, burn characteristics, and packaging before sampling." },
-      { "title": "Documentation Review", "desc": "Available product and shipment documentation can be reviewed for your market requirements." },
-      { "title": "Packaging Options", "desc": "Explore retail, bulk, and private-label packaging formats suited to your channel." },
-      { "title": "Quality Conversation", "desc": "Align on your quality expectations, specifications, and approval process before preparation." }
+      { "title": "Burn Time Verified", "desc": "Stopwatch tested per size. Frankincense: 9.5/10. Pink Lotus Cone: 9.5/10. Royal Oud: 9.2/10. Lavender: 9.2/10." },
+      { "title": "White Ash Standard", "desc": "Pure white or grey ash only accepted. Black ash means charcoal contamination — rejected immediately." },
+      { "title": "Zero Bamboo Smoke", "desc": "Bamboo core burned separately before approval. Must produce zero additional smoke. Confirmed on all Natural Collection sticks." },
+      { "title": "IFRA Compliant Fragrances", "desc": "All fragrances sourced from IFRA certified producers. Compliance documentation available on request for serious buyers." }
     ]
   },
   "why": {
-    "badge": "The B2B Advantage",
-    "title": "Why Global Importers Choose Morvan Essence",
+    "badge": "Why Choose Us",
+    "title": "Why Morvan Essence",
     "cards": [
-      { "title": "Direct Export-Source Pricing", "desc": "Work directly with an India-based export partner to discuss product fit, packaging, order planning, and commercial requirements." },
-      { "title": "Flexible MOQ & Scale", "desc": "Whether you are a boutique wellness brand needing pilot batches or a nationwide retailer requiring container loads, our supply operations adapt seamlessly." },
-      { "title": "Dedicated Export Desk", "desc": "Build a clear export workflow around sampling, approvals, documentation, preparation planning, and shipment coordination." }
-    ]
-  },
-  "blog": {
-    "badge": "Insights & Journal",
-    "title": "The Morvan Journal",
-    "subtitle": "Stories from Vrindavan, fragrance education, and practical guidance for global incense buyers.",
-    "readMore": "Read Article",
-    "back": "Back to Journal",
-    "minRead": "min read",
-    "articles": [
-      {
-        "slug": "vrindavan-fragrance-heritage",
-        "title": "The Fragrance Heritage of Vrindavan: Where Incense Is a Way of Life",
-        "excerpt": "For centuries, the temple town of Vrindavan has perfumed its mornings with sandalwood, rose, and sacred resins. Discover how this living tradition shapes every product we export.",
-        "category": "Heritage",
-        "readTime": "5",
-        "content": [
-          "In Vrindavan, fragrance is not a luxury — it is part of the rhythm of daily life. Long before sunrise, the narrow lanes of this ancient temple town in Uttar Pradesh begin to fill with the sweet smoke of sandalwood, rose, and guggal resin. Devotees carry incense to the temples, flower sellers weave mogra garlands, and the air itself seems to remember five thousand years of ritual.",
-          "This is the landscape in which Morvan Essence was born. Our founders grew up watching artisans hand-roll incense sticks the way their grandparents did: a paste of wood powder, natural resins, and botanicals rolled onto a bamboo core, then dried slowly in the Indian sun. Nothing about the essential craft has changed — and that continuity is precisely what makes Vrindavan incense so prized by wellness buyers around the world.",
-          "What has changed is the discipline we bring to it. Traditional formulation knowledge is now paired with documented specifications, consistent batch records, considered packaging, and an export process designed for international retailers. The result is a product that carries the soul of Vrindavan while meeting the practical expectations of global trade.",
-          "For importers and private-label brands, this heritage is more than a story on a box. It is a genuine point of difference on the shelf: incense with a traceable origin, made in a town whose very name is synonymous with devotion and fragrance. When your customers light a Morvan Essence stick, they are participating in one of the oldest aromatic traditions on earth.",
-          "We invite you to experience it yourself. Our export sample kits include fragrance strips across our signature collection — from Royal Sandalwood to Vrindavan Rose — so your team can evaluate the character of true Vrindavan craftsmanship before your first order."
-        ]
-      },
-      {
-        "slug": "incense-vs-dhoop-guide",
-        "title": "Incense Sticks vs Dhoop Sticks: A Buyer's Guide for Importers",
-        "excerpt": "Bamboo-core or coreless? Burn time, fragrance throw, packaging, and shelf positioning — here is how to choose the right format for your market.",
-        "category": "Buyer Education",
-        "readTime": "6",
-        "content": [
-          "If you are building an incense range for retail or wellness channels, one of the first decisions you will face is format: traditional bamboo-core incense sticks, or coreless dhoop sticks? Both come from the same Indian tradition, but they behave differently, sell differently, and suit different customer segments.",
-          "Incense sticks — the familiar bamboo-core format — are the global standard. A thin bamboo sliver is coated with a fragrant paste of wood powders, resins, and oils. They are easy to light, burn evenly (typically 30 to 60 minutes in our 3.5-inch to 9-inch formats), and produce a moderate, steady fragrance throw. For supermarkets, gift shops, and first-time buyers, bamboo-core sticks are the safest and most versatile choice.",
-          "Dhoop sticks are coreless: solid cylinders of pure aromatic material with no bamboo inside. Because the entire stick is fragrant compound, they deliver a denser, more intense aroma and are often perceived as a more premium, traditional product. Burn times run longer — 45 to 75 minutes — and the richer smoke profile suits meditation studios, spas, and ritual use. Dhoop is also the format of choice for traditional formulations such as guggal, loban, and cow-dung-based pooja dhoop.",
-          "From a buying perspective, consider three factors. First, your channel: mainstream retail usually leads with incense sticks, while specialty wellness stores can carry both. Second, price positioning: dhoop commands a premium and works beautifully in gift sets. Third, logistics: both formats ship well in moisture-resistant master cartons, but dhoop benefits from sturdier inner packaging to protect the coreless sticks in transit.",
-          "At Morvan Essence we offer both formats across 3.5-inch, 6-inch, and 9-inch sizes, with the same fragrance library available in each. Our recommendation for new importers: open with two or three best-selling fragrances in bamboo-core sticks, then introduce dhoop as your premium second line. Request a sample kit and compare the burn side by side — the difference is immediately clear."
-        ]
-      },
-      {
-        "slug": "cow-dung-dhoop-wellness",
-        "title": "Cow-Dung Dhoop Explained: Ancient Purification for the Modern Wellness Market",
-        "excerpt": "Revered in Vedic tradition and increasingly sought after by wellness buyers, cow-dung-based dhoop is one of India's most distinctive aromatic products. Here is what importers should know.",
-        "category": "Product Education",
-        "readTime": "5",
-        "content": [
-          "To many Western buyers, the idea of incense made with cow dung comes as a surprise. In India, however, it is one of the oldest and most respected purification materials known. For thousands of years, dried cow dung from indigenous desi cows has been burned in homes and temples as part of Panchagavya tradition — valued for the clean, earthy, gently herbal smoke it produces.",
-          "Modern cow-dung dhoop is a refined product, far removed from its rustic origins. The dung is collected, sun-dried, and processed into a fine base, then blended with medicinal herbs, natural camphor, guggal resin, and aromatic wood powders. The finished sticks and cones burn with a warm, grounding fragrance that many customers describe as calming and clarifying — nothing like what the raw ingredient list might suggest.",
-          "Why is it gaining traction internationally? Three reasons. First, the wellness market's appetite for authentic, tradition-rooted products is stronger than ever. Second, cow-dung dhoop aligns with the growing interest in natural, minimally processed home fragrance. Third, it offers retailers a genuinely differentiated product — one with a compelling story that no synthetic air freshener can match.",
-          "For importers, positioning matters. Cow-dung dhoop performs best when presented honestly and elegantly: as a traditional Vedic purification incense, made from natural ingredients, with its heritage explained on the packaging. It finds ready audiences in yoga and meditation communities, Ayurvedic stores, and eco-conscious retail.",
-          "Morvan Essence sources and supplies cow-dung incense and dhoop in 3.5-inch and 6-inch sticks as well as cones, packed in export-grade master cartons. Usage guidance for your market can be discussed during sampling, and private-label packaging can present the tradition in the tone that suits your brand. Ask for a sample in your next enquiry — it is the product buyers remember."
-        ]
-      },
-      {
-        "slug": "sourcing-incense-from-india",
-        "title": "How to Source Incense from India: A Practical Playbook for Importers",
-        "excerpt": "Sampling, MOQs, private label, documentation, and freight — a step-by-step look at how a successful incense import program actually works.",
-        "category": "Export Insights",
-        "readTime": "6",
-        "content": [
-          "India supplies the majority of the world's incense, and for good reason: unmatched raw material access, generations of formulation knowledge, and highly competitive sourcing economics. But for a first-time importer, the path from enquiry to container can feel opaque. This playbook walks through the process the way we run it with our own buyers.",
-          "Step one: sample before you commit. Any credible export partner should offer a sample kit across formats (3.5-inch, 6-inch, 9-inch) and fragrances. Evaluate burn time, ash quality, fragrance throw cold and hot, and packaging finish. This is also the moment to test the supplier's communication — response speed during sampling predicts everything that follows.",
-          "Step two: align on specification and MOQ. Decide your fragrances, stick size, packaging format (hexagonal tubes, pillow packs, kraft boxes), and whether you want private labeling. MOQs in Indian incense are typically flexible; at Morvan Essence we tailor them for both emerging brands and container-scale retailers, so pilot orders are a realistic way to start.",
-          "Step three: documentation and compliance. Depending on your market you may need product specifications, MSDS, certificates of origin, and fumigation or phytosanitary documents. Discuss these during quotation, not after preparation — available documentation should be reviewed and agreed before the first carton is sealed.",
-          "Step four: preparation and freight. Standard preparation lead times run a few weeks depending on order size and customization. Shipments move FOB or CIF by sea for volume, or by air freight for urgent launches, with moisture-resistant master cartons protecting product in transit. A dedicated export desk that coordinates approvals, preparation, and shipping documents will save you weeks across a year of orders.",
-          "The export partners worth working with are the ones who make this process boring — clear quotes, honest timelines, responsive communication, and samples that match the shipment. That is the standard we hold ourselves to at Morvan Essence, and we would be glad to prove it with your first sample kit."
-        ]
-      },
-      {
-        "slug": "incense-sizes-guide",
-        "title": "3.5, 6 or 9 Inches? Choosing the Right Incense Size for Every Channel",
-        "excerpt": "Stick length drives burn time, price point, packaging footprint, and shelf placement. A practical breakdown of which size wins in which retail environment.",
-        "category": "Buyer Education",
-        "readTime": "4",
-        "content": [
-          "When buyers first review an incense catalogue, size looks like a minor detail. In practice, stick length determines burn time, unit price, packaging dimensions, and even which shelf your product ends up on. Choosing the right mix of 3.5-inch, 6-inch, and 9-inch formats is one of the quiet levers of a profitable incense range.",
-          "The 3.5-inch stick is the discovery format. With a burn time around 30 minutes, it suits trial packs, gift sets, hotel amenities, and travel retail. Lower price points make it easy for new customers to say yes, and compact packaging keeps shipping costs friendly. Many importers use 3.5-inch assortments as the entry door to their brand.",
-          "The 6-inch stick is the retail workhorse — the format most consumers picture when they think of incense. It offers the best balance of burn time and value, fits standard shelf packaging, and carries enough fragrance presence for daily home use. If you stock only one size, this is it. The 9-inch stick, meanwhile, is the premium statement: a long, meditative burn of an hour or more that appeals to yoga studios, temples, spas, and ritual buyers who equate length with luxury.",
-          "Our advice to importers: anchor your range with the 6-inch core line, flank it with 3.5-inch discovery packs to recruit new customers, and reserve 9-inch for your premium tier. Morvan Essence sample kits include all three sizes across your chosen fragrances, so you can validate burn, aroma throw, and packaging proportions before committing to preparation."
-        ]
-      },
-      {
-        "slug": "private-label-incense-launch",
-        "title": "From Idea to Shelf: How a Private-Label Incense Line Is Actually Built",
-        "excerpt": "Formulation, packaging, MOQs, and logistics — the real timeline behind launching your own branded incense range with an Indian export partner.",
-        "category": "Private Label",
-        "readTime": "5",
-        "content": [
-          "Private-label incense is one of the most accessible ways to launch a wellness brand: the sourcing expertise already exists in India, and your job is to wrap it in a brand your customers will love. But what actually happens between your first enquiry and a container of your branded product arriving at your warehouse?",
-          "It starts with fragrance. You will typically choose from the export partner's existing fragrance library — proven, stable profiles like sandalwood, rose, jasmine, or nag champa — or commission a custom blend for exclusivity. Sampling at this stage is essential: evaluate the fragrance cold on the stick, then burning, in the exact size you plan to sell.",
-          "Next comes the brand layer. Format (3.5, 6, or 9-inch), stick count per pack, and packaging style — hexagonal tubes, pillow packs, or kraft boxes — are decided together with label design, languages, and barcodes. A good export partner provides dielines and handles printing, so your artwork goes straight to preparation. This is where your product stops being incense and starts being your brand.",
-          "Then the commercial frame: minimum order quantities, pricing tiers, and lead times. MOQs for private-label incense are friendlier than most categories — pilot runs let you test your market before scaling. Documentation for your destination market, from product specifications to shipping papers, should be agreed before preparation begins.",
-          "Finally, preparation and freight: a few weeks of preparation, moisture-protected export cartons, and sea or air freight to your port. From first enquiry to first delivery, a well-run private-label launch typically takes two to three months. At Morvan Essence, our export desk walks you through every step — send a private-label enquiry and we will map out your launch plan together."
-        ]
-      }
-    ]
-  },
-  "vrin": {
-    "badge": "Sacred Origins",
-    "title": "The Living Spirit of Vrindavan",
-    "p1": "Five thousand temples. Endless lanes of marigold and sandalwood smoke. Vrindavan is not just where we make our incense — it is why it exists.",
-    "p2": "Every fragrance we craft begins here: in the dawn aartis, the flower markets, and the centuries-old craft of rolling scent into stillness.",
-    "videoCap": "Incense burning — the daily rhythm of Vrindavan",
-    "caps": ["Keshi Ghat on the Yamuna", "Radha Raman Temple courtyard", "Prem Mandir, Vrindavan", "Temple gate, c. 1860", "Sacred groves of Govardhan", "Deity shringar with fresh roses", "Evening darshan in temple lanes", "Sacred kund waters, Govardhan"]
-  },
-  "trust": {
-    "badge": "Specifications & Trust",
-    "title": "Everything a Buyer Checks First",
-    "certLine": "IEC Registered • MSME Udyam • GST Registered • Export Docs Available",
-    "items": [
-      { "label": "Product Formats", "value": "3.5″, 6″ & 9″ precision sizes" },
-      { "label": "Burn Time", "value": "30–75 min clean, even burn" },
-      { "label": "Ingredients", "value": "Natural botanicals, resins & essential oils" },
-      { "label": "Packaging", "value": "Retail, bulk & private-label ready" },
-      { "label": "MOQ & Lead Time", "value": "Flexible MOQs • 2–3 week preparation" },
-      { "label": "Export Terms", "value": "FOB / CIF • Sea & air freight" }
+      { "title": "Only Brand from Vrindavan", "desc": "We are the only curated export brand physically based in Vrindavan — Lord Krishna's sacred birthplace. No competitor can claim this authentic geographic and spiritual heritage." },
+      { "title": "Documented Quality", "desc": "Pink Lotus Cone 9.5/10. Frankincense 9.5/10. Royal Oud 9.2/10. Lavender 9.2/10. Real test scores, real methodology, available on request." },
+      { "title": "Complete Export Compliance", "desc": "IEC ESBPG1962E. GSTIN 09ESBPG1962E1ZW. MSME registered. LUT filed — zero export GST. UK DCTS 0% duty. EU GSP 1.7%. Certificate of Origin every shipment." }
     ]
   },
   "certs": {
     "badge": "Trust & Compliance",
-    "title": "Registered. Certified. Export-Ready.",
-    "subtitle": "Morvan Essence operates as a fully registered Indian export business. Verified certificate copies are shared with buyers during onboarding and due diligence.",
-    "note": "Click any certificate to view the official document. Original copies are shared with verified trade buyers during onboarding.",
+    "title": "Registered. Verified. Export-Ready.",
+    "subtitle": "Morvan Essence is a fully licensed Indian exporter. Verified certificate copies are shared with buyers during onboarding.",
+    "note": "Original certificates are shared with verified buyers during onboarding. Contact us to request any document.",
     "view": "View Certificate",
     "items": [
-      { "name": "IEC Certificate", "issuer": "DGFT, Government of India", "desc": "Import Export Code authorising Morvan Essence to legally export goods from India to international markets." },
-      { "name": "MSME Certificate", "issuer": "Ministry of MSME, Government of India", "desc": "Udyam-registered export enterprise, recognised under India's MSME framework." },
-      { "name": "GST Registration", "issuer": "GST Network, Government of India", "desc": "GST application filed and officially acknowledged (Form REG-02, ARN available) — GSTIN shared with buyers upon final approval." },
-      { "name": "Organic Quality Certificate", "issuer": "Global Inter Certification (GIC)", "desc": "Certified scope covering organic incense sticks, cones and dhoop made from natural resins, essential oils, herbs and flowers." }
+      { "name": "IEC Certificate", "issuer": "DGFT, Government of India", "desc": "IEC ESBPG1962E — Import Export Code authorising Morvan Essence to legally export goods from India to international markets. Permanent and active." },
+      { "name": "MSME Certificate", "issuer": "Ministry of MSME, Government of India", "desc": "Udyam registered export enterprise NIC 20238 — recognised under India's MSME framework." },
+      { "name": "GST Registration", "issuer": "GST Network, Government of India", "desc": "GSTIN 09ESBPG1962E1ZW — issued 29 August 2026 by Assistant Commissioner, Mathura Sector-3. LUT filed for zero export GST FY 2026-27." }
+    ]
+  },
+  "trust": {
+    "badge": "Specifications & Trust",
+    "title": "Everything a Buyer Checks First",
+    "certLine": "IEC: ESBPG1962E • MSME Udyam • GSTIN: 09ESBPG1962E1ZW • LUT Filed",
+    "items": [
+      { "label": "Product Formats", "value": "3 inch · 3.5 inch · 4 inch · 6 inch · 8 inch" },
+      { "label": "Burn Time", "value": "25–70 min clean, even burn" },
+      { "label": "Ingredients", "value": "100% natural botanicals, resins & essential oils" },
+      { "label": "Packaging", "value": "Retail, bulk & private-label ready" },
+      { "label": "MOQ & Lead Time", "value": "100 kg minimum · 15–20 working days" },
+      { "label": "Export Terms", "value": "FOB · ICD Tughlakabad, New Delhi" }
     ]
   },
   "contact": {
     "badge": "Direct Partnership Desk",
-    "title": "Connect with Our International Export Team",
-    "desc": "Ready to expand your wellness catalog with authentic Vrindavan incense and dhoop? Submit your enquiry below or reach out directly to our export directors.",
-    "note": "Prefer a direct conversation? Reach our export desk by email or WhatsApp — we respond within 24 hours.",
-    "emailLabel": "Email Us",
-    "waLabel": "WhatsApp / Call",
-    "locLabel": "Head Office",
-    "locValue": "Vrindavan, India",
-    "formTitle": "B2B Enquiry & Sample Request Form",
+    "title": "Start Your Wholesale Enquiry",
+    "desc": "We welcome wholesale buyers, distributors, yoga studios, wellness stores, Indian grocery importers and temple committees worldwide. Request a free sample — DHL shipped within 48 hours.",
+    "note": "Reach our export desk directly by email or WhatsApp. We respond within 24 hours.",
+    "emailLabel": "Export Email",
+    "waLabel": "WhatsApp",
+    "locLabel": "Address",
+    "locValue": "219 Gopinath Nagla, Vrindavan, Mathura, UP 281121, India",
+    "formTitle": "Send Enquiry",
     "enquiryType": "Enquiry Type",
     "businessType": "Business Type",
     "companyName": "Company Name *",
     "companyPh": "Your Company Name",
     "contactPerson": "Contact Person *",
-    "contactPh": "Full Name & Title",
+    "contactPh": "Your Name",
     "email": "Business Email *",
     "emailPh": "name@company.com",
-    "phone": "Phone / WhatsApp *",
-    "phonePh": "+1 (555) 000-0000",
-    "country": "Country / Destination *",
-    "countryPh": "e.g. United States, Germany, UAE",
-    "product": "Product / Fragrance Interest",
-    "productPh": "e.g. Sandalwood 9-inch sticks",
-    "message": "Message / Specific Requirements",
-    "messagePh": "Mention expected volume, packaging preferences, or delivery port...",
-    "submit": "Submit B2B Enquiry — Fast Response",
-    "submitting": "Transmitting Enquiry...",
-    "optSample": "Request Sample Kit",
-    "optQuote": "Request Price Quote",
-    "optDistributor": "Become a Distributor",
-    "optPrivate": "Private Label / OEM Enquiry",
+    "phone": "WhatsApp *",
+    "phonePh": "+1 555 000 0000",
+    "country": "Country *",
+    "countryPh": "e.g. United Kingdom, Germany, UAE",
+    "product": "Products of Interest",
+    "productPh": "e.g. Sacred Collection, Natural Dhoop, Hawan Kund",
+    "message": "Message",
+    "messagePh": "Tell us about your requirements — quantity, destination, packaging preferences...",
+    "submit": "Send Enquiry",
+    "submitting": "Sending...",
+    "optSample": "Free Sample Request",
+    "optQuote": "Wholesale Price Request",
+    "optDistributor": "Distributor Enquiry",
+    "optPrivate": "Private Label / OEM",
     "bizImporter": "Importer",
     "bizWholesaler": "Wholesaler",
     "bizDistributor": "Distributor",
-    "bizRetailer": "Retailer / Chain",
+    "bizRetailer": "Retailer",
     "bizPrivate": "Private Label Brand",
-    "toastRequired": "Please fill in all mandatory contact fields.",
-    "toastSuccess": "Enquiry submitted successfully! Our export desk will respond within 24 hours.",
-    "toastRef": "Reference ID",
-    "toastFail": "Failed to submit enquiry. Please check your network connection."
+    "toastRequired": "Please fill in all required fields.",
+    "toastSuccess": "Enquiry submitted! We will respond within 24 hours.",
+    "toastRef": "Reference",
+    "toastFail": "Something went wrong. Please email exports@morvanessence.com directly."
   },
   "modal": {
-    "titleSample": "Request Export Sample Kit",
-    "titleQuote": "Request B2B Price Quote",
-    "titleDistributor": "Distributor Partnership Enquiry",
-    "titlePrivate": "Private Label / OEM Consultation",
-    "desc": "Please fill in your business details. Our Vrindavan export desk will review and dispatch details within 24 hours.",
-    "company": "Company Name *",
-    "companyPh": "Company Name",
-    "contact": "Contact Person *",
-    "contactPh": "Your Name & Title",
+    "titleSample": "Request Free Sample",
+    "titleQuote": "Request Wholesale Price",
+    "titleDistributor": "Distributor Enquiry",
+    "titlePrivate": "Private Label Enquiry",
+    "desc": "Fill in your details and we will respond within 24 hours with pricing and availability.",
+    "company": "Company *",
+    "companyPh": "Company name",
+    "contact": "Your Name *",
+    "contactPh": "Contact person",
     "email": "Business Email *",
-    "phone": "Phone / WhatsApp *",
+    "phone": "WhatsApp *",
     "country": "Country *",
-    "countryPh": "Country",
-    "product": "Product / Fragrance",
-    "productPh": "Product Interest",
-    "message": "Message / Notes",
-    "messagePh": "Volume requirements, shipping port, or custom labeling requests...",
-    "submit": "Submit Enquiry",
-    "submitting": "Submitting..."
+    "countryPh": "Your country",
+    "product": "Products of Interest",
+    "productPh": "Sacred Collection, Natural Dhoop, Hawan Kund...",
+    "message": "Message",
+    "messagePh": "Your requirements, target market, quantity...",
+    "submit": "Send Enquiry",
+    "submitting": "Sending..."
   },
   "footer": {
-    "desc": "Authentic Indian incense and dhoop export brand inspired by the spiritual heritage of Vrindavan. Crafted for international importers, wholesalers, and private-label brands worldwide.",
-    "catTitle": "Catalogue",
-    "cat1": "Incense Sticks (3.5″-9″)",
-    "cat2": "Dhoop Sticks (Coreless)",
-    "cat3": "Cow-Dung Incense",
+    "desc": "Curated exporter and brand of sacred fragrances from Vrindavan, India. 100% natural, bambooless incense, dhoop and hawan kund for wholesale buyers worldwide.",
+    "catTitle": "Products",
+    "cat1": "Natural Incense Sticks",
+    "cat2": "Bambooless Dhoop Sticks",
+    "cat3": "Sacred Cow Dung Dhoop",
     "cat4": "Fragrance Library",
-    "servTitle": "B2B Services",
+    "servTitle": "Services",
     "serv1": "Private Label & OEM",
-    "serv2": "Global Supply Logistics",
-    "serv3": "Quality Dossier & MSDS",
-    "serv4": "Request Sample Kit",
-    "hqTitle": "Export Headquarters",
-    "hq1": "India-based export partner, rooted in Vrindavan.",
-    "hq2": "Use the enquiry form to begin a buyer conversation.",
-    "rights": "Morvan Essence Export Pvt. Ltd. All rights reserved.",
-    "terms": "Export Terms & Conditions",
-    "msds": "MSDS & Compliance Policy",
+    "serv2": "Global Supply & Export",
+    "serv3": "Quality Dossier",
+    "serv4": "Free Sample Request",
+    "hqTitle": "Contact",
+    "hq1": "219 Gopinath Nagla, Vrindavan, Mathura, UP 281121, India",
+    "hq2": "IEC: ESBPG1962E · GSTIN: 09ESBPG1962E1ZW",
+    "rights": "Morvan Essence. All rights reserved.",
+    "terms": "Export Terms",
+    "msds": "Safety Data Sheets",
     "privacy": "Privacy Policy"
+  },
+  "vrin": {
+    "badge": "Sacred Origins",
+    "title": "The Living Spirit of Vrindavan",
+    "p1": "Five thousand temples. Endless lanes of marigold and sandalwood smoke. Vrindavan is not just where we source our incense — it is why it exists.",
+    "p2": "Every fragrance we export begins here: in the dawn aartis, the flower markets, and the centuries-old tradition of sacred scent.",
+    "videoCap": "Sacred incense — the daily rhythm of Vrindavan",
+    "caps": ["Keshi Ghat on the Yamuna", "Radha Raman Temple courtyard", "Prem Mandir, Vrindavan", "Temple gate, c. 1860", "Sacred groves of Govardhan", "Deity shringar with fresh roses", "Evening darshan in temple lanes", "Sacred kund waters, Govardhan"]
+  },
+  "journal": {
+    "badge": "From Our Export Desk",
+    "title": "The Morvan Essence Journal",
+    "subtitle": "Market insights, fragrance guides, and export knowledge for international incense buyers.",
+    "readMore": "Read Article",
+    "articles": [
+      {
+        "title": "Why Bambooless Dhoop is the Fastest Growing Category in UK Wellness Retail",
+        "excerpt": "UK wellness buyers are moving away from bamboo-core incense toward bambooless dhoop. Here is what is driving the shift and what it means for importers.",
+        "date": "August 2026",
+        "tag": "Market Insight",
+        "content": [
+          "The UK natural wellness market has shifted meaningfully over the past two years. Buyers who once ordered bamboo-core incense sticks by the pallet are now actively asking for bambooless alternatives — and the reasons are both practical and philosophical.",
+          "The practical case is simple: bamboo burns. When a bamboo-core stick burns down, the core produces its own smoke profile — often harsher and less consistent than the masala coating. For buyers positioning products as clean, low-smoke, and natural, this is a problem. Bambooless dhoop eliminates the variable entirely. What burns is only the formulation.",
+          "The philosophical case connects to the broader clean-living movement. Wellness consumers are reading ingredient lists, asking questions about binders and fillers, and choosing products where every component is intentional. A bambooless stick is a more honest product — there is nothing in it that does not belong.",
+          "From a sourcing perspective, bambooless dhoop from India has historically been harder to find at consistent quality. Most established Indian exporters built their businesses on bamboo-core sticks. The bambooless category is newer, less commoditised, and — for buyers willing to do the sourcing work — less competitive.",
+          "At Morvan Essence, all dhoop sticks in our Natural Collection are bambooless. Our 3-inch, 4-inch, and 6-inch formats are available across our full fragrance range. If you are an importer looking to add a bambooless line to your catalogue, we would welcome a sample conversation."
+        ]
+      },
+      {
+        "title": "Cow Dung Dhoop — The Most Underserved Product in International Incense Export",
+        "excerpt": "Authentic cow dung dhoop from Vrindavan is almost impossible to source in branded, export-ready form. Here is why that is an opportunity for serious importers.",
+        "date": "August 2026",
+        "tag": "Product Insight",
+        "content": [
+          "If you search for authentic cow dung dhoop sticks from a branded, export-ready Indian supplier — you will find almost nothing. This is not because demand does not exist. It is because the category has been largely ignored by professional exporters.",
+          "Cow dung dhoop — made from Panchagavya elements including cow dung, cow urine, milk, curd, and ghee combined with medicinal herbs — has been a central part of Indian Vedic tradition for thousands of years. It is burned in temples for air purification, in homes for spiritual cleansing, and in havan ceremonies as an offering.",
+          "The global Hindu diaspora — estimated at over 30 million people across the UK, USA, Australia, Canada, and the Caribbean — practices these traditions actively. Hindu temples in the UK alone number over 400. Every one of them uses dhoop and hawan products regularly.",
+          "The biosecurity question is the one importers ask first. The answer is straightforward: properly heat-treated cow dung products are compliant with UK, USA, and Australian import requirements. Phytosanitary certificates are available on request. The documentation exists. The barrier is not regulatory — it is sourcing.",
+          "Morvan Essence sources authentic cow dung dhoop from Vrindavan. Our Sacred Collection is heat-treated, fully biosecurity compliant, and available in branded export packaging. If you are an importer serving Hindu community stores, temple committees, or wellness retailers, this is a product your customers are actively looking for."
+        ]
+      },
+      {
+        "title": "How to Source Natural Incense from India — A Buyer's Practical Guide",
+        "excerpt": "What to check, what to ask, and what documentation to expect when sourcing natural incense from an Indian exporter for the first time.",
+        "date": "July 2026",
+        "tag": "Buyer Guide",
+        "content": [
+          "Sourcing natural incense from India for the first time involves a learning curve — not because the process is complicated, but because the quality signals are less obvious than in other product categories. This guide covers what to check, what to ask, and what documentation to expect.",
+          "Start with the product itself. Request samples before any commercial conversation. When samples arrive, burn one stick completely and observe three things: ash color, smoke profile, and fragrance authenticity. White or grey ash signals clean ingredients. Black ash indicates charcoal. Thin white smoke suggests a natural formulation. Heavy dark smoke suggests synthetic binders or charcoal additives.",
+          "Ask about ingredient grade. Natural incense can be made with essential oil grade fragrance or powder fragrance. Essential oil grade is more expensive, more authentic, and more consistent. Powder fragrance is cheaper but produces a softer, less true fragrance profile. Ask specifically which grade your supplier uses.",
+          "On the compliance side, request the supplier's IEC number — this is India's Import Export Code and is mandatory for all legal Indian exporters. Ask for their GST registration. For specific markets, understand the documentation requirements: UK buyers benefit from a Certificate of Origin that enables 0% import duty under the UK DCTS scheme.",
+          "Finally, clarify trade terms before any commercial agreement. FOB pricing means the Indian exporter delivers goods to the port in India — all freight and insurance from that point are your responsibility. Make sure your logistics partner is briefed on HS Code 3307.41.00 for incense products."
+        ]
+      },
+      {
+        "title": "The Vrindavan Advantage — Why Origin Matters in Premium Incense",
+        "excerpt": "In wellness and spiritual retail, where a product comes from matters as much as what it contains. Here is why Vrindavan is the most powerful origin story in Indian incense.",
+        "date": "July 2026",
+        "tag": "Brand Story",
+        "content": [
+          "In premium wellness retail, provenance is a product feature. Where something comes from — and the story that place carries — directly influences how a buyer positions it and what price point they can sustain.",
+          "For incense and dhoop, no origin in India carries more weight than Vrindavan. The city is the birthplace of Lord Krishna, home to five thousand temples, and the centre of India's most active sacred fragrance tradition. Incense is not a product category here — it is a daily act of devotion.",
+          "Western wellness buyers increasingly seek products with authentic cultural roots. The market for generic incense is crowded and price-driven. The market for incense with a genuine, specific, verifiable origin story is less crowded and more defensible. Vrindavan gives both — a place with global spiritual recognition and a fragrance tradition that predates the commercial incense industry by centuries.",
+          "For importers and private-label brands, this origin advantage is transferable. A product positioned as Sacred Sandalwood from Vrindavan, India commands a different retail price point than Sandalwood Incense Sticks from a generic Indian factory. The product inside may be similar — the story is not.",
+          "Morvan Essence is physically based in Vrindavan. Our address is 219 Gopinath Nagla, Gopi Nath Bazar — minutes from the ghats of the Yamuna river. This is not a marketing claim. It is our postcode."
+        ]
+      }
+    ]
   }
 }
+
