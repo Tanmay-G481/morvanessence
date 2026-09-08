@@ -71,8 +71,7 @@ const FRAGRANCE_IMAGES = [
 const CERT_DOCS = [
   { img: "/certificates/iec.jpg", pdf: "/certificates/iec.pdf" },
   { img: "/certificates/udyam.jpg", pdf: "/certificates/udyam.pdf" },
-  { img: "/certificates/gst.jpg", pdf: "/certificates/gst.pdf" },
-  { img: "/certificates/organic.jpg", pdf: "/certificates/organic.pdf" }
+  { img: "/certificates/gst.jpg", pdf: "/certificates/gst.pdf" }
 ];
 
 const VRINDAVAN_IMAGES = [
@@ -87,9 +86,12 @@ const VRINDAVAN_IMAGES = [
 ];
 
 const PRODUCT_IMAGES = [
-  "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=800&q=85",
   "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
-  "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85"
+  "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?crop=entropy&cs=srgb&fm=jpg&q=85"
 ];
 
 export const LanguageSwitcher = ({ className }) => {
@@ -133,7 +135,7 @@ function HomePage() {
     phone_whatsapp: "",
     country: "United States",
     business_type: "importer",
-    product_interest: "Organic Incense Sticks - Sandalwood (9-inch)",
+    product_interest: "",
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -210,7 +212,7 @@ function HomePage() {
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
         <div className="max-w-[88rem] mx-auto px-6 h-20 flex items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-2.5 group shrink-0" data-testid="brand-logo-link">
-            <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 xl:w-11 xl:h-11 rounded-full object-cover shadow-md border border-[#E6DFC9] group-hover:scale-105 transition-transform" />
+            <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 xl:w-11 xl:h-11 object-contain group-hover:scale-105 transition-transform" />
             <div>
               <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#33442C] whitespace-nowrap">MORVAN ESSENCE</span>
               <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
@@ -326,7 +328,7 @@ function HomePage() {
                 size="lg"
                 variant="outline"
                 className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 h-14 backdrop-blur-sm transition-all"
-                onClick={() => window.open(`https://wa.me/917060374484?text=${encodeURIComponent(t("hero.waDistributor"))}`, "_blank")}
+                onClick={() => window.open(`https://wa.me/919762717978?text=${encodeURIComponent(t("hero.waDistributor"))}`, "_blank")}
                 data-testid="hero-distributor-btn"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
@@ -535,7 +537,7 @@ function HomePage() {
               <div key={idx} className="bg-white rounded-3xl p-8 border border-[#E6DFC9] shadow-sm flex flex-col justify-between transition-all hover:shadow-md" data-testid={`product-card-${idx + 1}`}>
                 <div>
                   <div className="h-60 rounded-2xl overflow-hidden mb-6 relative">
-                    <img src={PRODUCT_IMAGES[idx]} alt={`${p.title} — Morvan Essence export product`} className="w-full h-full object-cover" />
+                    <img src={PRODUCT_IMAGES[idx % PRODUCT_IMAGES.length]} alt={`${p.title} — Morvan Essence export product`} className="w-full h-full object-cover" />
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-[#5F7D53]">
                       {p.badge}
                     </div>
@@ -566,6 +568,14 @@ function HomePage() {
                 >
                   {t("products.cta")}
                 </Button>
+                {p.badge === "Sacred Collection" && (
+                  <button
+                    className="w-full text-xs text-[#CDA94E] font-medium mt-2 py-1.5 flex items-center justify-center gap-1.5 hover:text-[#33442C] transition-colors"
+                    onClick={() => handleOpenEnquiry("quote", p.title + " — Custom Blend")}
+                  >
+                    ✦ Custom fragrance blending available for bulk orders
+                  </button>
+                )}
               </div>
             ))}
           </div>
@@ -804,22 +814,22 @@ function HomePage() {
               <div className="pt-6 border-t border-white/15 space-y-5" data-testid="contact-details-block">
                 <p className="text-sm text-white/65 leading-relaxed">{t("contact.note")}</p>
                 <div className="space-y-4">
-                  <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-4 group" data-testid="contact-email-link">
+                  <a href="mailto:exports@morvanessence.com" className="flex items-center gap-4 group" data-testid="contact-email-link">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
                       <Mail className="w-4.5 h-4.5 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.emailLabel")}</p>
-                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">tanmaygulati78@gmail.com</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">exports@morvanessence.com</p>
                     </div>
                   </a>
-                  <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
+                  <a href="https://wa.me/919762717978" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
                       <Phone className="w-4.5 h-4.5 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.waLabel")}</p>
-                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">+91 70603 74484</p>
+                      <p className="text-sm text-white font-medium group-hover:text-[#CDA94E] transition-colors">+91 97627 17978</p>
                     </div>
                   </a>
                   <div className="flex items-center gap-4" data-testid="contact-location">
@@ -929,7 +939,7 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-                <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 rounded-full object-cover border border-white/20" />
+                <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 object-contain" />
                 <span className="font-serif text-2xl tracking-wide font-bold text-white">MORVAN ESSENCE</span>
               </div>
               <p className="text-sm text-[#E6DFC9]/60 max-w-sm leading-relaxed">{t("footer.desc")}</p>
@@ -959,11 +969,11 @@ function HomePage() {
             <div className="md:col-span-3 space-y-3">
               <p className="text-xs uppercase tracking-[0.2em] font-semibold text-white">{t("footer.hqTitle")}</p>
               <p className="text-sm text-[#E6DFC9]/60">{t("footer.hq1")}</p>
-              <a href="mailto:tanmaygulati78@gmail.com" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
-                <Mail className="w-3.5 h-3.5 text-[#EAD18F]" /> tanmaygulati78@gmail.com
+              <a href="mailto:exports@morvanessence.com" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
+                <Mail className="w-3.5 h-3.5 text-[#EAD18F]" /> exports@morvanessence.com
               </a>
-              <a href="https://wa.me/917060374484" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
-                <Phone className="w-3.5 h-3.5 text-[#EAD18F]" /> +91 70603 74484
+              <a href="https://wa.me/919762717978" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-[#E6DFC9]/70 hover:text-white transition-colors">
+                <Phone className="w-3.5 h-3.5 text-[#EAD18F]" /> +91 97627 17978
               </a>
               <p className="text-sm text-[#E6DFC9]/60">{t("footer.hq2")}</p>
             </div>
@@ -1036,7 +1046,7 @@ function HomePage() {
 
       {/* FLOATING WHATSAPP BUTTON */}
       <a
-        href={`https://wa.me/917060374484?text=${encodeURIComponent(t("waGeneral"))}`}
+        href={`https://wa.me/919762717978?text=${encodeURIComponent(t("waGeneral"))}`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 group flex items-center gap-2 rtl:right-auto rtl:left-6"
@@ -1066,3 +1076,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
