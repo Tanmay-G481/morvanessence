@@ -36,17 +36,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { toast, Toaster } from "sonner";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "";
-const API = `${BACKEND_URL}/api`;
-
 const LANGUAGES = [
-  { code: "en", label: "English" },
-  { code: "hi", label: "हिन्दी" },
-  { code: "ar", label: "العربية" },
-  { code: "fr", label: "Français" },
-  { code: "de", label: "Deutsch" },
-  { code: "es", label: "Español" },
-  { code: "nl", label: "Nederlands" }
+  { code: "en", label: "English" }
 ];
 
 export const BLOG_IMAGES = [
@@ -85,12 +76,9 @@ const VRINDAVAN_IMAGES = [
 ];
 
 const PRODUCT_IMAGES = [
-  "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=800&q=85",
-  "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
   "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85",
-  "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?crop=entropy&cs=srgb&fm=jpg&q=85",
-  "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=srgb&fm=jpg&q=85",
-  "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?crop=entropy&cs=srgb&fm=jpg&q=85"
+  "https://images.unsplash.com/photo-1628709353367-35f0bb07413d?crop=entropy&cs=srgb&fm=jpg&q=85",
+  "https://images.unsplash.com/photo-1640775670963-7d5d67de6bcc?crop=entropy&cs=srgb&fm=jpg&q=85"
 ];
 
 export const LanguageSwitcher = ({ className }) => {
@@ -132,7 +120,7 @@ function HomePage() {
     contact_person: "",
     business_email: "",
     phone_whatsapp: "",
-    country: "United States",
+    country: "",
     business_type: "importer",
     product_interest: "",
     message: ""
@@ -164,7 +152,6 @@ function HomePage() {
     setEnquiryModalOpen(true);
   };
 
-
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     if (!formData.company_name || !formData.contact_person || !formData.business_email || !formData.phone_whatsapp) {
@@ -191,9 +178,7 @@ function HomePage() {
       });
 
       if (response.ok) {
-        toast.success("Enquiry submitted! We will respond within 24 hours.", {
-          description: "Check your email for confirmation."
-        });
+        toast.success("Enquiry submitted! We will respond within 24 hours.");
         setEnquiryModalOpen(false);
         setFormData({
           enquiry_type: "sample",
@@ -207,7 +192,7 @@ function HomePage() {
           message: ""
         });
       } else {
-        throw new Error("Form submission failed");
+        throw new Error("Failed");
       }
     } catch (err) {
       console.error(err);
@@ -231,7 +216,7 @@ function HomePage() {
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FAF7EF]/90 border-b border-[#E6DFC9]">
         <div className="max-w-[88rem] mx-auto px-6 h-20 flex items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-2.5 group shrink-0" data-testid="brand-logo-link">
-            <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 xl:w-11 xl:h-11 object-contain group-hover:scale-105 transition-transform" />
+            <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 xl:w-11 xl:h-11 rounded-full object-cover shadow-md border border-[#E6DFC9] group-hover:scale-105 transition-transform" />
             <div>
               <span className="font-serif text-base xl:text-xl tracking-wide font-bold text-[#33442C] whitespace-nowrap">MORVAN ESSENCE</span>
               <span className="hidden 2xl:block text-[10px] tracking-[0.25em] uppercase text-[#6E7A60] font-sans">{t("nav.brandTag")}</span>
@@ -580,21 +565,23 @@ function HomePage() {
                   </div>
                 </div>
 
-                <Button
-                  className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white rounded-full h-12"
-                  onClick={() => handleOpenEnquiry("sample", p.title)}
-                  data-testid={`product-${idx + 1}-sample-btn`}
-                >
-                  {t("products.cta")}
-                </Button>
-                {p.badge === "Sacred Collection" && (
-                  <button
-                    className="w-full text-xs text-[#CDA94E] font-medium mt-2 py-1.5 flex items-center justify-center gap-1.5 hover:text-[#33442C] transition-colors"
-                    onClick={() => handleOpenEnquiry("quote", p.title + " — Custom Blend")}
+                <div className="space-y-2">
+                  <Button
+                    className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white rounded-full h-12"
+                    onClick={() => handleOpenEnquiry("sample", p.title)}
+                    data-testid={`product-${idx + 1}-sample-btn`}
                   >
-                    ✦ Custom fragrance blending available for bulk orders
-                  </button>
-                )}
+                    {t("products.cta")}
+                  </Button>
+                  {p.badge === "Sacred Collection" && (
+                    <button
+                      className="w-full text-xs text-[#CDA94E] font-medium py-1.5 flex items-center justify-center gap-1 hover:text-[#33442C] transition-colors"
+                      onClick={() => handleOpenEnquiry("quote", p.title + " — Custom Blend")}
+                    >
+                      ✦ Custom fragrance blending available for bulk orders
+                    </button>
+                  )}
+                </div>
               </div>
             ))}
           </div>
@@ -765,9 +752,9 @@ function HomePage() {
             <p className="text-white/70 text-base">{t("certs.subtitle")}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {certItems.map((c, idx) => {
-              const Icon = [FileBadge, Landmark, BadgeCheck, LeafIcon][idx];
+              const Icon = [FileBadge, Landmark, BadgeCheck][idx];
               return (
                 <div key={idx} className="rounded-3xl bg-white/[0.06] border border-[#CDA94E]/25 overflow-hidden backdrop-blur-sm hover:border-[#CDA94E]/60 hover:bg-white/[0.09] transition-all flex flex-col" data-testid={`cert-card-${idx}`}>
                   <a href={CERT_DOCS[idx].pdf} target="_blank" rel="noopener noreferrer" className="block h-44 overflow-hidden bg-white/95 relative group" data-testid={`cert-preview-${idx}`}>
@@ -781,7 +768,7 @@ function HomePage() {
                   <div className="p-6 flex flex-col flex-1">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-9 h-9 rounded-full bg-[#EAD18F]/15 flex items-center justify-center shrink-0">
-                        <Icon className="w-4.5 h-4.5 text-[#EAD18F]" />
+                        <Icon className="w-4 h-4 text-[#EAD18F]" />
                       </div>
                       <h3 className="font-serif text-lg font-medium text-white leading-snug">{c.name}</h3>
                     </div>
@@ -835,7 +822,7 @@ function HomePage() {
                 <div className="space-y-4">
                   <a href="mailto:exports@morvanessence.com" className="flex items-center gap-4 group" data-testid="contact-email-link">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
-                      <Mail className="w-4.5 h-4.5 text-[#EAD18F]" />
+                      <Mail className="w-4 h-4 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.emailLabel")}</p>
@@ -844,7 +831,7 @@ function HomePage() {
                   </a>
                   <a href="https://wa.me/919762717978" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group" data-testid="contact-whatsapp-link">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#CDA94E]/25 transition-colors shrink-0">
-                      <Phone className="w-4.5 h-4.5 text-[#EAD18F]" />
+                      <Phone className="w-4 h-4 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.waLabel")}</p>
@@ -853,7 +840,7 @@ function HomePage() {
                   </a>
                   <div className="flex items-center gap-4" data-testid="contact-location">
                     <div className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-                      <MapPin className="w-4.5 h-4.5 text-[#EAD18F]" />
+                      <MapPin className="w-4 h-4 text-[#EAD18F]" />
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.2em] text-white/50">{t("contact.locLabel")}</p>
@@ -871,12 +858,7 @@ function HomePage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.enquiryType")}</label>
-                    <select
-                      className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium"
-                      value={formData.enquiry_type}
-                      onChange={(e) => setFormData({ ...formData, enquiry_type: e.target.value })}
-                      data-testid="form-enquiry-type"
-                    >
+                    <select className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium" value={formData.enquiry_type} onChange={(e) => setFormData({ ...formData, enquiry_type: e.target.value })} data-testid="form-enquiry-type">
                       <option value="sample">{t("contact.optSample")}</option>
                       <option value="quote">{t("contact.optQuote")}</option>
                       <option value="distributor">{t("contact.optDistributor")}</option>
@@ -885,12 +867,7 @@ function HomePage() {
                   </div>
                   <div>
                     <label className="block text-xs uppercase tracking-wider text-[#6E7A60] mb-1.5 font-medium">{t("contact.businessType")}</label>
-                    <select
-                      className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium"
-                      value={formData.business_type}
-                      onChange={(e) => setFormData({ ...formData, business_type: e.target.value })}
-                      data-testid="form-business-type"
-                    >
+                    <select className="w-full h-12 rounded-xl border border-[#E6DFC9] bg-[#FAF7EF] px-3 text-sm font-medium" value={formData.business_type} onChange={(e) => setFormData({ ...formData, business_type: e.target.value })} data-testid="form-business-type">
                       <option value="importer">{t("contact.bizImporter")}</option>
                       <option value="wholesaler">{t("contact.bizWholesaler")}</option>
                       <option value="distributor">{t("contact.bizDistributor")}</option>
@@ -938,12 +915,7 @@ function HomePage() {
                   <Textarea placeholder={t("contact.messagePh")} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="rounded-xl bg-[#FAF7EF] min-h-[100px]" data-testid="form-message" />
                 </div>
 
-                <Button
-                  type="submit"
-                  className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-14 rounded-xl font-semibold shadow-md"
-                  disabled={isSubmitting}
-                  data-testid="form-submit-btn"
-                >
+                <Button type="submit" className="w-full bg-[#5F7D53] hover:bg-[#4C6642] text-white h-14 rounded-xl font-semibold shadow-md" disabled={isSubmitting} data-testid="form-submit-btn">
                   {isSubmitting ? t("contact.submitting") : t("contact.submit")}
                 </Button>
               </form>
@@ -958,7 +930,7 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-                <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 object-contain" />
+                <img src="/images/logo-mark.png" alt="Morvan Essence logo" className="w-10 h-10 rounded-full object-cover border border-white/20" />
                 <span className="font-serif text-2xl tracking-wide font-bold text-white">MORVAN ESSENCE</span>
               </div>
               <p className="text-sm text-[#E6DFC9]/60 max-w-sm leading-relaxed">{t("footer.desc")}</p>
@@ -1095,4 +1067,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
