@@ -35,13 +35,18 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { toast, Toaster } from "sonner";
-import axios from "axios";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "";
 const API = `${BACKEND_URL}/api`;
 
 const LANGUAGES = [
-  { code: "en", label: "English" }
+  { code: "en", label: "English" },
+  { code: "hi", label: "हिन्दी" },
+  { code: "ar", label: "العربية" },
+  { code: "fr", label: "Français" },
+  { code: "de", label: "Deutsch" },
+  { code: "es", label: "Español" },
+  { code: "nl", label: "Nederlands" }
 ];
 
 export const BLOG_IMAGES = [
@@ -163,30 +168,50 @@ function HomePage() {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     if (!formData.company_name || !formData.contact_person || !formData.business_email || !formData.phone_whatsapp) {
-      toast.error(t("contact.toastRequired"));
+      toast.error("Please fill in all required fields.");
       return;
     }
     setIsSubmitting(true);
     try {
-      const res = await axios.post(`${API}/enquiries`, formData);
-      toast.success(t("contact.toastSuccess"), {
-        description: `${t("contact.toastRef")}: ${res.data.id.substring(0, 8)}`
+      const netlifyData = new FormData();
+      netlifyData.append("form-name", "morvan-enquiry");
+      netlifyData.append("enquiry_type", formData.enquiry_type);
+      netlifyData.append("company_name", formData.company_name);
+      netlifyData.append("contact_person", formData.contact_person);
+      netlifyData.append("business_email", formData.business_email);
+      netlifyData.append("phone_whatsapp", formData.phone_whatsapp);
+      netlifyData.append("country", formData.country);
+      netlifyData.append("business_type", formData.business_type);
+      netlifyData.append("product_interest", formData.product_interest);
+      netlifyData.append("message", formData.message);
+
+      const response = await fetch("/", {
+        method: "POST",
+        body: netlifyData,
       });
-      setEnquiryModalOpen(false);
-      setFormData({
-        enquiry_type: "sample",
-        company_name: "",
-        contact_person: "",
-        business_email: "",
-        phone_whatsapp: "",
-        country: "",
-        business_type: "importer",
-        product_interest: "",
-        message: ""
-      });
+
+      if (response.ok) {
+        toast.success("Enquiry submitted! We will respond within 24 hours.", {
+          description: "Check your email for confirmation."
+        });
+        setEnquiryModalOpen(false);
+        setFormData({
+          enquiry_type: "sample",
+          company_name: "",
+          contact_person: "",
+          business_email: "",
+          phone_whatsapp: "",
+          country: "",
+          business_type: "importer",
+          product_interest: "",
+          message: ""
+        });
+      } else {
+        throw new Error("Form submission failed");
+      }
     } catch (err) {
       console.error(err);
-      toast.error(t("contact.toastFail"));
+      toast.error("Something went wrong. Please email exports@morvanessence.com directly.");
     } finally {
       setIsSubmitting(false);
     }
