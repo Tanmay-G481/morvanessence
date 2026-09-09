@@ -41,13 +41,7 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "";
 const API = `${BACKEND_URL}/api`;
 
 const LANGUAGES = [
-  { code: "en", label: "English" },
-  { code: "hi", label: "हिन्दी" },
-  { code: "ar", label: "العربية" },
-  { code: "fr", label: "Français" },
-  { code: "de", label: "Deutsch" },
-  { code: "es", label: "Español" },
-  { code: "nl", label: "Nederlands" }
+  { code: "en", label: "English" }
 ];
 
 export const BLOG_IMAGES = [
