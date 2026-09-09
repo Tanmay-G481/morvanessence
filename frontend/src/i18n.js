@@ -20,7 +20,7 @@ i18n.use(initReactI18next).init({
     es: { translation: es },
     nl: { translation: nl },
   },
-  lng: stored || "en",
+  lng: (stored && ["en","hi","ar","fr","de","es","nl"].includes(stored)) ? stored : "en",
   fallbackLng: "en",
   interpolation: { escapeValue: false },
   returnObjects: true,
